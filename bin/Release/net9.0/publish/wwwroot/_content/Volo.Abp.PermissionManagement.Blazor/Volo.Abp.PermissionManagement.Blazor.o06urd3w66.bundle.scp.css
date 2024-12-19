@@ -1,0 +1,32 @@
+/* _content/Volo.Abp.PermissionManagement.Blazor/Components/PermissionManagementModal.razor.rz.scp.css */
+fieldset legend[b-b72bdr86bg] {
+    float: none;
+    width: auto;
+}
+
+.lpx-scroll-pills-container ul[b-b72bdr86bg] {
+    display: block;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.lpx-scroll-pills-container .tab-content[b-b72bdr86bg] {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.lpx-scroll-pills-container ul li[b-b72bdr86bg] {
+    border: 1px solid #e8eef3;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.lpx-scroll-pills-container ul li a.active[b-b72bdr86bg] {
+    color: #fff !important;
+    border-color: #6c5dd3 !important;
+    background-color: #6c5dd3 !important;
+}
+
+.lpx-theme-dark .lpx-scroll-pills-container ul li[b-b72bdr86bg] {
+    border: 1px solid #23262a;
+}

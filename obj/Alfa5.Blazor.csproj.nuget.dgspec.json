@@ -1,0 +1,815 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Blazor.csproj": {}
+  },
+  "projects": {
+    "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Application.Contracts\\Alfa5.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Application.Contracts\\Alfa5.Application.Contracts.csproj",
+        "projectName": "Alfa5.Application.Contracts",
+        "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Application.Contracts\\Alfa5.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Dev\\Alfa5\\Alfa5\\NuGet.Config",
+          "C:\\Users\\Vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.abp.io/5ff67233-4e05-4f13-b752-2610bc79f1e3/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Domain.Shared\\Alfa5.Domain.Shared.csproj": {
+                "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Domain.Shared\\Alfa5.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Volo.Abp.Account.Pro.Admin.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Account.Pro.Public.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.AuditLogging.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.FeatureManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Gdpr.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Identity.Pro.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.LanguageManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.OpenIddict.Pro.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.PermissionManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.SettingManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.TextTemplateManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Chat.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.CmsKit.Pro.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.FileManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Saas.Host.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor.Client\\Alfa5.Blazor.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor.Client\\Alfa5.Blazor.Client.csproj",
+        "projectName": "Alfa5.Blazor.Client",
+        "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor.Client\\Alfa5.Blazor.Client.csproj",
+        "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Dev\\Alfa5\\Alfa5\\NuGet.Config",
+          "C:\\Users\\Vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.abp.io/5ff67233-4e05-4f13-b752-2610bc79f1e3/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.HttpApi.Client\\Alfa5.HttpApi.Client.csproj": {
+                "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.HttpApi.Client\\Alfa5.HttpApi.Client.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Blazorise.Bootstrap5": {
+              "target": "Package",
+              "version": "[1.6.2, )"
+            },
+            "Blazorise.Components": {
+              "target": "Package",
+              "version": "[1.6.2, )"
+            },
+            "Blazorise.Icons.FontAwesome": {
+              "target": "Package",
+              "version": "[1.6.2, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.Sdk.WebAssembly.Pack": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )",
+              "autoReferenced": true
+            },
+            "Volo.Abp.Account.Pro.Admin.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXTheme": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Volo.Abp.AuditLogging.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Autofac.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.FeatureManagement.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Gdpr.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Identity.Pro.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.LanguageManagement.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.OpenIddict.Pro.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.SettingManagement.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.TextTemplateManagement.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Chat.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.CmsKit.Pro.Admin.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.FileManagement.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Saas.Host.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[9.0.0, 9.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Blazor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Blazor.csproj",
+        "projectName": "Alfa5.Blazor",
+        "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Blazor.csproj",
+        "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Dev\\Alfa5\\Alfa5\\NuGet.Config",
+          "C:\\Users\\Vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.abp.io/5ff67233-4e05-4f13-b752-2610bc79f1e3/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor.Client\\Alfa5.Blazor.Client.csproj": {
+                "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor.Client\\Alfa5.Blazor.Client.csproj"
+              },
+              "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.HttpApi.Client\\Alfa5.HttpApi.Client.csproj": {
+                "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.HttpApi.Client\\Alfa5.HttpApi.Client.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "AspNetCore.HealthChecks.UI.InMemory.Storage": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Blazorise.Bootstrap5": {
+              "target": "Package",
+              "version": "[1.6.2, )"
+            },
+            "Blazorise.Icons.FontAwesome": {
+              "target": "Package",
+              "version": "[1.6.2, )"
+            },
+            "DistributedLock.Redis": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Volo.Abp.Account.Pro.Admin.Blazor.Server": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Account.Pro.Public.Blazor.Server": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Account.Pro.Public.Web.Impersonation": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.AspNetCore.Components.Server.LeptonXTheme": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Volo.Abp.AspNetCore.Mvc.Client": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonX": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Volo.Abp.AspNetCore.Serilog": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.AuditLogging.Blazor.Server": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.DistributedLocking": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Gdpr.Blazor.Server": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Http.Client.IdentityModel.Web": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Http.Client.Web": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Identity.Pro.Blazor.Server": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.LanguageManagement.Blazor.Server": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.OpenIddict.Pro.Blazor.Server": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Studio.Client.AspNetCore": {
+              "target": "Package",
+              "version": "[0.9.15, )"
+            },
+            "Volo.Abp.Swashbuckle": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.TextTemplateManagement.Blazor.Server": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Chat.Blazor.Server": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Chat.SignalR": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.CmsKit.Pro.Admin.Blazor.Server": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.FileManagement.Blazor.Server": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Saas.Host.Blazor.Server": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Domain.Shared\\Alfa5.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Domain.Shared\\Alfa5.Domain.Shared.csproj",
+        "projectName": "Alfa5.Domain.Shared",
+        "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Domain.Shared\\Alfa5.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Dev\\Alfa5\\Alfa5\\NuGet.Config",
+          "C:\\Users\\Vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.abp.io/5ff67233-4e05-4f13-b752-2610bc79f1e3/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.FileProviders.Embedded": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.AuditLogging.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.BackgroundJobs.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.BlobStoring.Database.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.FeatureManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Gdpr.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.GlobalFeatures": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Identity.Pro.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.LanguageManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.OpenIddict.Pro.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.SettingManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.TextTemplateManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Chat.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.CmsKit.Pro.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.FileManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Saas.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.HttpApi.Client\\Alfa5.HttpApi.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.HttpApi.Client\\Alfa5.HttpApi.Client.csproj",
+        "projectName": "Alfa5.HttpApi.Client",
+        "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.HttpApi.Client\\Alfa5.HttpApi.Client.csproj",
+        "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.HttpApi.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Dev\\Alfa5\\Alfa5\\NuGet.Config",
+          "C:\\Users\\Vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.abp.io/5ff67233-4e05-4f13-b752-2610bc79f1e3/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Application.Contracts\\Alfa5.Application.Contracts.csproj": {
+                "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Application.Contracts\\Alfa5.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Volo.Abp.Account.Pro.Admin.HttpApi.Client": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Account.Pro.Public.HttpApi.Client": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.AuditLogging.HttpApi.Client": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.FeatureManagement.HttpApi.Client": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Gdpr.HttpApi.Client": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Identity.Pro.HttpApi.Client": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.LanguageManagement.HttpApi.Client": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.OpenIddict.Pro.HttpApi.Client": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.PermissionManagement.HttpApi.Client": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.SettingManagement.HttpApi.Client": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.TextTemplateManagement.HttpApi.Client": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Chat.HttpApi.Client": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.CmsKit.Pro.HttpApi.Client": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.FileManagement.HttpApi.Client": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Saas.Host.HttpApi.Client": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

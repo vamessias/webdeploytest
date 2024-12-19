@@ -1,0 +1,22 @@
+@import '_content/Excubo.Blazor.TreeViews/Excubo.Blazor.TreeViews.bundle.scp.css';
+@import '_content/Volo.Abp.PermissionManagement.Blazor/Volo.Abp.PermissionManagement.Blazor.o06urd3w66.bundle.scp.css';
+@import '_content/Volo.CmsKit.Pro.Admin.Blazor/Volo.CmsKit.Pro.Admin.Blazor.mhtfhxs0bj.bundle.scp.css';
+
+/* /Pages/Index.razor.rz.scp.css */
+/* Getting-Started */
+.card-bg-image[b-s6vqkeywc6] {
+    pointer-events: none;
+    position: absolute;
+    width: 630px;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.starting-content[b-s6vqkeywc6] {
+    position: relative;
+    z-index: 2;
+}
+/* Getting-Started End */
+
+/* Write here your styles for the Index page */
