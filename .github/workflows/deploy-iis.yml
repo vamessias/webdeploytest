@@ -18,6 +18,12 @@ jobs:
       with:
         dotnet-version: '9.0'
 
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build project
+      run: dotnet build --configuration Release
+
     - name: Publish application
       run: dotnet publish -c Release -o ./publish
 
