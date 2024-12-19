@@ -18,9 +18,11 @@ jobs:
       with:
         dotnet-version: '9.0'
     
-    - name: Add NuGet source for ABP
-      run: dotnet nuget add source https://nuget.abp.io/v3/index.json --name ABP
+    - name: Remove ABP NuGet source if exists
+      run: dotnet nuget remove source ABP || echo "Source ABP not found"
 
+    - name: Add ABP NuGet source
+      run: dotnet nuget add source https://nuget.abp.io/v3/index.json --name ABP
 
     - name: Restore dependencies
       run: dotnet restore
