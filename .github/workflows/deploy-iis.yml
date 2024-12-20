@@ -24,7 +24,7 @@ jobs:
         if ($?) { Write-Host "Source ABP removed." } else { Write-Host "Source ABP not found." }
 
     - name: Add ABP NuGet source
-      run: dotnet nuget add source https://nuget.abp.io/ --name ABP --username vmessias --password Chourico051425!
+      run: dotnet nuget add source https://nuget.abp.io/5ff67233-4e05-4f13-b752-2610bc79f1e3/v3/index.json --name ABP --username Chrisalves --password Desenvolvedor01@
 
     - name: Restore dependencies
       run: dotnet restore
