@@ -19823,8 +19823,8 @@
       "AspNetCore.HealthChecks.UI.InMemory.Storage >= 8.0.1",
       "Blazorise.Bootstrap5 >= 1.6.2",
       "Blazorise.Icons.FontAwesome >= 1.6.2",
-      "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Blazor.Client.csproj",
-      "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.HttpApi.Client.csproj",
+      "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Blazor.Client.csproj",
+      "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.HttpApi.Client.csproj",
       "DistributedLock.Redis >= 1.0.3",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 9.0.0",
       "Microsoft.AspNetCore.DataProtection.StackExchangeRedis >= 9.0.0",
@@ -19893,11 +19893,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Blazor.Client.csproj": {
-              "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Blazor.Client.csproj"
+            "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Blazor.Client.csproj": {
+              "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Blazor.Client.csproj"
             },
-            "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.HttpApi.Client.csproj": {
-              "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.HttpApi.Client.csproj"
+            "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.HttpApi.Client.csproj": {
+              "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.HttpApi.Client.csproj"
             }
           }
         }
@@ -20110,8 +20110,8 @@
     {
       "code": "NU1105",
       "level": "Error",
-      "message": "Não é possível encontrar as informações do projeto para 'C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Blazor.Client.csproj'. Se você está usando o Visual Studio, isso pode ocorrer porque o projeto não está carregado ou não faz parte da solução atual. Portanto, execute uma restauração usando a linha de comando. Do contrário, o arquivo de projeto pode ser inválido ou pode haver destinos obrigatórios para a restauração ausentes.",
-      "libraryId": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Blazor.Client.csproj",
+      "message": "Não é possível encontrar as informações do projeto para 'C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Blazor.Client.csproj'. Se você está usando o Visual Studio, isso pode ocorrer porque o projeto não está carregado ou não faz parte da solução atual. Portanto, execute uma restauração usando a linha de comando. Do contrário, o arquivo de projeto pode ser inválido ou pode haver destinos obrigatórios para a restauração ausentes.",
+      "libraryId": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Blazor.Client.csproj",
       "targetGraphs": [
         "net9.0"
       ]
@@ -20119,8 +20119,8 @@
     {
       "code": "NU1105",
       "level": "Error",
-      "message": "Não é possível encontrar as informações do projeto para 'C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.HttpApi.Client.csproj'. Se você está usando o Visual Studio, isso pode ocorrer porque o projeto não está carregado ou não faz parte da solução atual. Portanto, execute uma restauração usando a linha de comando. Do contrário, o arquivo de projeto pode ser inválido ou pode haver destinos obrigatórios para a restauração ausentes.",
-      "libraryId": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.HttpApi.Client.csproj",
+      "message": "Não é possível encontrar as informações do projeto para 'C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.HttpApi.Client.csproj'. Se você está usando o Visual Studio, isso pode ocorrer porque o projeto não está carregado ou não faz parte da solução atual. Portanto, execute uma restauração usando a linha de comando. Do contrário, o arquivo de projeto pode ser inválido ou pode haver destinos obrigatórios para a restauração ausentes.",
+      "libraryId": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.HttpApi.Client.csproj",
       "targetGraphs": [
         "net9.0"
       ]

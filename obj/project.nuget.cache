@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Dwq/R4jNOIE=",
+  "dgSpecHash": "WxIF+3fF9v8=",
   "success": false,
   "projectFilePath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Blazor.csproj",
   "expectedPackageFiles": [
@@ -420,8 +420,8 @@
     {
       "code": "NU1105",
       "level": "Error",
-      "message": "Não é possível encontrar as informações do projeto para 'C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Blazor.Client.csproj'. Se você está usando o Visual Studio, isso pode ocorrer porque o projeto não está carregado ou não faz parte da solução atual. Portanto, execute uma restauração usando a linha de comando. Do contrário, o arquivo de projeto pode ser inválido ou pode haver destinos obrigatórios para a restauração ausentes.",
-      "libraryId": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Blazor.Client.csproj",
+      "message": "Não é possível encontrar as informações do projeto para 'C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Blazor.Client.csproj'. Se você está usando o Visual Studio, isso pode ocorrer porque o projeto não está carregado ou não faz parte da solução atual. Portanto, execute uma restauração usando a linha de comando. Do contrário, o arquivo de projeto pode ser inválido ou pode haver destinos obrigatórios para a restauração ausentes.",
+      "libraryId": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Blazor.Client.csproj",
       "targetGraphs": [
         "net9.0"
       ]
@@ -429,8 +429,8 @@
     {
       "code": "NU1105",
       "level": "Error",
-      "message": "Não é possível encontrar as informações do projeto para 'C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.HttpApi.Client.csproj'. Se você está usando o Visual Studio, isso pode ocorrer porque o projeto não está carregado ou não faz parte da solução atual. Portanto, execute uma restauração usando a linha de comando. Do contrário, o arquivo de projeto pode ser inválido ou pode haver destinos obrigatórios para a restauração ausentes.",
-      "libraryId": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.HttpApi.Client.csproj",
+      "message": "Não é possível encontrar as informações do projeto para 'C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.HttpApi.Client.csproj'. Se você está usando o Visual Studio, isso pode ocorrer porque o projeto não está carregado ou não faz parte da solução atual. Portanto, execute uma restauração usando a linha de comando. Do contrário, o arquivo de projeto pode ser inválido ou pode haver destinos obrigatórios para a restauração ausentes.",
+      "libraryId": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.HttpApi.Client.csproj",
       "targetGraphs": [
         "net9.0"
       ]

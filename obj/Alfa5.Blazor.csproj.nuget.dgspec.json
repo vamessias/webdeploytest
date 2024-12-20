@@ -35,11 +35,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Blazor.Client.csproj": {
-                "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Blazor.Client.csproj"
+              "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Blazor.Client.csproj": {
+                "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Blazor.Client.csproj"
               },
-              "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.HttpApi.Client.csproj": {
-                "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.HttpApi.Client.csproj"
+              "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.HttpApi.Client.csproj": {
+                "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.HttpApi.Client.csproj"
               }
             }
           }
