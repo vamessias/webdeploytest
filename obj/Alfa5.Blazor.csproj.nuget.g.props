@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">False</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Vinicius\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.12.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.12.1</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\Vinicius\.nuget\packages\" />
@@ -228,10 +228,9 @@
     <Import Project="$(NuGetPackageRoot)volo.abp.blazoriseui\9.0.1\buildTransitive\Volo.Abp.BlazoriseUI.props" Condition="Exists('$(NuGetPackageRoot)volo.abp.blazoriseui\9.0.1\buildTransitive\Volo.Abp.BlazoriseUI.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.charts\1.6.2\buildTransitive\Blazorise.Charts.props" Condition="Exists('$(NuGetPackageRoot)blazorise.charts\1.6.2\buildTransitive\Blazorise.Charts.props')" />
     <Import Project="$(NuGetPackageRoot)volo.saas.host.blazor\9.0.1\buildTransitive\Volo.Saas.Host.Blazor.props" Condition="Exists('$(NuGetPackageRoot)volo.saas.host.blazor\9.0.1\buildTransitive\Volo.Saas.Host.Blazor.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.authentication\9.0.0\buildTransitive\Microsoft.AspNetCore.Components.WebAssembly.Authentication.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.authentication\9.0.0\buildTransitive\Microsoft.AspNetCore.Components.WebAssembly.Authentication.props')" />
-    <Import Project="$(NuGetPackageRoot)volo.abp.aspnetcore.components.webassembly.theming\9.0.1\buildTransitive\Volo.Abp.AspNetCore.Components.WebAssembly.Theming.props" Condition="Exists('$(NuGetPackageRoot)volo.abp.aspnetcore.components.webassembly.theming\9.0.1\buildTransitive\Volo.Abp.AspNetCore.Components.WebAssembly.Theming.props')" />
     <Import Project="$(NuGetPackageRoot)excubo.blazor.treeviews\4.0.15\buildTransitive\Excubo.Blazor.TreeViews.props" Condition="Exists('$(NuGetPackageRoot)excubo.blazor.treeviews\4.0.15\buildTransitive\Excubo.Blazor.TreeViews.props')" />
     <Import Project="$(NuGetPackageRoot)volo.filemanagement.blazor\9.0.1\buildTransitive\Volo.FileManagement.Blazor.props" Condition="Exists('$(NuGetPackageRoot)volo.filemanagement.blazor\9.0.1\buildTransitive\Volo.FileManagement.Blazor.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.authentication\9.0.0\buildTransitive\Microsoft.AspNetCore.Components.WebAssembly.Authentication.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.authentication\9.0.0\buildTransitive\Microsoft.AspNetCore.Components.WebAssembly.Authentication.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.treeview\1.6.2\buildTransitive\Blazorise.TreeView.props" Condition="Exists('$(NuGetPackageRoot)blazorise.treeview\1.6.2\buildTransitive\Blazorise.TreeView.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.markdown\1.6.2\buildTransitive\Blazorise.Markdown.props" Condition="Exists('$(NuGetPackageRoot)blazorise.markdown\1.6.2\buildTransitive\Blazorise.Markdown.props')" />
     <Import Project="$(NuGetPackageRoot)volo.cmskit.pro.admin.blazor\9.0.1\buildTransitive\Volo.CmsKit.Pro.Admin.Blazor.props" Condition="Exists('$(NuGetPackageRoot)volo.cmskit.pro.admin.blazor\9.0.1\buildTransitive\Volo.CmsKit.Pro.Admin.Blazor.props')" />
@@ -239,8 +238,8 @@
     <Import Project="$(NuGetPackageRoot)volo.abp.permissionmanagement.blazor\9.0.1\buildTransitive\Volo.Abp.PermissionManagement.Blazor.props" Condition="Exists('$(NuGetPackageRoot)volo.abp.permissionmanagement.blazor\9.0.1\buildTransitive\Volo.Abp.PermissionManagement.Blazor.props')" />
     <Import Project="$(NuGetPackageRoot)volo.abp.auditlogging.blazor\9.0.1\buildTransitive\Volo.Abp.AuditLogging.Blazor.props" Condition="Exists('$(NuGetPackageRoot)volo.abp.auditlogging.blazor\9.0.1\buildTransitive\Volo.Abp.AuditLogging.Blazor.props')" />
     <Import Project="$(NuGetPackageRoot)volo.abp.aspnetcore.mvc.ui.theme.leptonx\4.0.1\buildTransitive\Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonX.props" Condition="Exists('$(NuGetPackageRoot)volo.abp.aspnetcore.mvc.ui.theme.leptonx\4.0.1\buildTransitive\Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonX.props')" />
+    <Import Project="$(NuGetPackageRoot)volo.abp.aspnetcore.components.webassembly.theming\9.0.1\buildTransitive\Volo.Abp.AspNetCore.Components.WebAssembly.Theming.props" Condition="Exists('$(NuGetPackageRoot)volo.abp.aspnetcore.components.webassembly.theming\9.0.1\buildTransitive\Volo.Abp.AspNetCore.Components.WebAssembly.Theming.props')" />
     <Import Project="$(NuGetPackageRoot)volo.abp.aspnetcore.components.web.leptonxtheme\4.0.1\buildTransitive\Volo.Abp.AspNetCore.Components.Web.LeptonXTheme.props" Condition="Exists('$(NuGetPackageRoot)volo.abp.aspnetcore.components.web.leptonxtheme\4.0.1\buildTransitive\Volo.Abp.AspNetCore.Components.Web.LeptonXTheme.props')" />
-    <Import Project="$(NuGetPackageRoot)volo.abp.aspnetcore.components.webassembly.leptonxtheme\4.0.1\buildTransitive\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXTheme.props" Condition="Exists('$(NuGetPackageRoot)volo.abp.aspnetcore.components.webassembly.leptonxtheme\4.0.1\buildTransitive\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXTheme.props')" />
     <Import Project="$(NuGetPackageRoot)volo.abp.aspnetcore.components.server.leptonxtheme\4.0.1\buildTransitive\Volo.Abp.AspNetCore.Components.Server.LeptonXTheme.props" Condition="Exists('$(NuGetPackageRoot)volo.abp.aspnetcore.components.server.leptonxtheme\4.0.1\buildTransitive\Volo.Abp.AspNetCore.Components.Server.LeptonXTheme.props')" />
     <Import Project="$(NuGetPackageRoot)volo.abp.account.pro.public.blazor.shared\9.0.1\buildTransitive\Volo.Abp.Account.Pro.Public.Blazor.Shared.props" Condition="Exists('$(NuGetPackageRoot)volo.abp.account.pro.public.blazor.shared\9.0.1\buildTransitive\Volo.Abp.Account.Pro.Public.Blazor.Shared.props')" />
     <Import Project="$(NuGetPackageRoot)volo.abp.account.pro.admin.blazor\9.0.1\buildTransitive\Volo.Abp.Account.Pro.Admin.Blazor.props" Condition="Exists('$(NuGetPackageRoot)volo.abp.account.pro.admin.blazor\9.0.1\buildTransitive\Volo.Abp.Account.Pro.Admin.Blazor.props')" />
@@ -252,6 +251,5 @@
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\Vinicius\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\Vinicius\.nuget\packages\microsoft.extensions.apidescription.server\6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_Server Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Server)' == '' ">C:\Users\Vinicius\.nuget\packages\microsoft.aspnetcore.components.webassembly.server\9.0.0</PkgMicrosoft_AspNetCore_Components_WebAssembly_Server>
-    <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">C:\Users\Vinicius\.nuget\packages\microsoft.aspnetcore.components.webassembly.devserver\9.0.0</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>
   </PropertyGroup>
 </Project>

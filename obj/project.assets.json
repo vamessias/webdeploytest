@@ -1143,12 +1143,6 @@
           "buildMultiTargeting/Microsoft.AspNetCore.Components.WebAssembly.Authentication.props": {}
         }
       },
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/9.0.0": {
-        "type": "package",
-        "build": {
-          "build/_._": {}
-        }
-      },
       "Microsoft.AspNetCore.Components.WebAssembly.Server/9.0.0": {
         "type": "package",
         "compile": {
@@ -3937,48 +3931,6 @@
           }
         }
       },
-      "Volo.Abp.Account.Pro.Admin.Blazor.WebAssembly/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Account.Pro.Admin.Blazor": "9.0.1",
-          "Volo.Abp.Account.Pro.Admin.HttpApi.Client": "9.0.1",
-          "Volo.Abp.SettingManagement.Blazor.WebAssembly": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.Account.Pro.Admin.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.Account.Pro.Admin.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "contentFiles": {
-          "contentFiles/any/any/_._": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          }
-        }
-      },
-      "Volo.Abp.Account.Pro.Admin.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Account.Pro.Admin.Application.Contracts": "9.0.1",
-          "Volo.Abp.Http.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.Account.Pro.Admin.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.Account.Pro.Admin.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Volo.Abp.Account.Pro.Public.Application.Contracts/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -4052,23 +4004,6 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/Volo.Abp.Account.Pro.Public.Blazor.Shared.props": {}
-        }
-      },
-      "Volo.Abp.Account.Pro.Public.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Account.Pro.Public.Application.Contracts": "9.0.1",
-          "Volo.Abp.Http.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.Account.Pro.Public.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.Account.Pro.Public.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Volo.Abp.Account.Pro.Public.Web.Impersonation/9.0.1": {
@@ -4426,30 +4361,6 @@
           "lib/net9.0/Volo.Abp.AspNetCore.Components.WebAssembly.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXTheme/4.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.AspNetCore.Components.Web.LeptonXTheme": "4.0.1",
-          "Volo.Abp.AspNetCore.Components.WebAssembly.Theming": "9.0.1",
-          "Volo.Abp.Http.Client.IdentityModel.WebAssembly": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXTheme.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXTheme.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXTheme.props": {}
-        },
-        "buildMultiTargeting": {
-          "buildMultiTargeting/Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXTheme.props": {}
         }
       },
       "Volo.Abp.AspNetCore.Components.WebAssembly.Theming/9.0.1": {
@@ -4973,31 +4884,6 @@
           }
         }
       },
-      "Volo.Abp.AuditLogging.Blazor.WebAssembly/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.AspNetCore.Components.WebAssembly.Theming": "9.0.1",
-          "Volo.Abp.AuditLogging.Blazor": "9.0.1",
-          "Volo.Abp.AuditLogging.HttpApi.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.AuditLogging.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.AuditLogging.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "contentFiles": {
-          "contentFiles/any/any/_._": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          }
-        }
-      },
       "Volo.Abp.AuditLogging.Domain.Shared/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -5013,23 +4899,6 @@
         "runtime": {
           "lib/net9.0/Volo.Abp.AuditLogging.Domain.Shared.dll": {
             "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Volo.Abp.AuditLogging.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.AuditLogging.Application.Contracts": "9.0.1",
-          "Volo.Abp.Http.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.AuditLogging.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.AuditLogging.HttpApi.Client.dll": {
-            "related": ".xml"
           }
         }
       },
@@ -5090,23 +4959,6 @@
           }
         }
       },
-      "Volo.Abp.Autofac.WebAssembly/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.AspNetCore.Components.WebAssembly": "9.0.1",
-          "Volo.Abp.Autofac": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.Autofac.WebAssembly.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.Autofac.WebAssembly.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Volo.Abp.AutoMapper/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -5139,22 +4991,6 @@
         },
         "runtime": {
           "lib/net9.0/Volo.Abp.BackgroundJobs.Abstractions.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Volo.Abp.BackgroundJobs.Domain.Shared/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Core": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.BackgroundJobs.Domain.Shared.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.BackgroundJobs.Domain.Shared.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -5203,22 +5039,6 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/Volo.Abp.BlazoriseUI.props": {}
-        }
-      },
-      "Volo.Abp.BlobStoring.Database.Domain.Shared/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Validation": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.BlobStoring.Database.Domain.Shared.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.BlobStoring.Database.Domain.Shared.dll": {
-            "related": ".pdb;.xml"
-          }
         }
       },
       "Volo.Abp.Caching/9.0.1": {
@@ -5611,24 +5431,6 @@
           }
         }
       },
-      "Volo.Abp.FeatureManagement.Blazor.WebAssembly/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.AspNetCore.Components.WebAssembly.Theming": "9.0.1",
-          "Volo.Abp.FeatureManagement.Blazor": "9.0.1",
-          "Volo.Abp.FeatureManagement.HttpApi.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.FeatureManagement.Blazor.WebAssembly.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.FeatureManagement.Blazor.WebAssembly.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Volo.Abp.FeatureManagement.Domain.Shared/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -5643,23 +5445,6 @@
         },
         "runtime": {
           "lib/net9.0/Volo.Abp.FeatureManagement.Domain.Shared.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Volo.Abp.FeatureManagement.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.FeatureManagement.Application.Contracts": "9.0.1",
-          "Volo.Abp.Http.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.FeatureManagement.HttpApi.Client.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.FeatureManagement.HttpApi.Client.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -5751,31 +5536,6 @@
           }
         }
       },
-      "Volo.Abp.Gdpr.Blazor.WebAssembly/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.AspNetCore.Components.WebAssembly.Theming": "9.0.1",
-          "Volo.Abp.Gdpr.Blazor": "9.0.1",
-          "Volo.Abp.Gdpr.HttpApi.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.Gdpr.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.Gdpr.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "contentFiles": {
-          "contentFiles/any/any/_._": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          }
-        }
-      },
       "Volo.Abp.Gdpr.Domain.Shared/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -5789,23 +5549,6 @@
         },
         "runtime": {
           "lib/net9.0/Volo.Abp.Gdpr.Domain.Shared.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Volo.Abp.Gdpr.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Gdpr.Application.Contracts": "9.0.1",
-          "Volo.Abp.Http.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.Gdpr.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.Gdpr.HttpApi.Client.dll": {
             "related": ".xml"
           }
         }
@@ -5945,24 +5688,6 @@
           }
         }
       },
-      "Volo.Abp.Http.Client.IdentityModel.WebAssembly/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Components.WebAssembly.Authentication": "9.0.0",
-          "Volo.Abp.AspNetCore.Components.WebAssembly": "9.0.1",
-          "Volo.Abp.Http.Client.IdentityModel": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.Http.Client.IdentityModel.WebAssembly.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.Http.Client.IdentityModel.WebAssembly.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Volo.Abp.Http.Client.Web/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -6083,32 +5808,6 @@
           }
         }
       },
-      "Volo.Abp.Identity.Pro.Blazor.WebAssembly/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Identity.Pro.Blazor": "9.0.1",
-          "Volo.Abp.Identity.Pro.HttpApi.Client": "9.0.1",
-          "Volo.Abp.PermissionManagement.Blazor.WebAssembly": "9.0.1",
-          "Volo.Abp.SettingManagement.Blazor.WebAssembly": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.Identity.Pro.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.Identity.Pro.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "contentFiles": {
-          "contentFiles/any/any/_._": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          }
-        }
-      },
       "Volo.Abp.Identity.Pro.Domain.Shared/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -6123,23 +5822,6 @@
         },
         "runtime": {
           "lib/net9.0/Volo.Abp.Identity.Pro.Domain.Shared.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Volo.Abp.Identity.Pro.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Http.Client": "9.0.1",
-          "Volo.Abp.Identity.Pro.Application.Contracts": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.Identity.Pro.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.Identity.Pro.HttpApi.Client.dll": {
             "related": ".xml"
           }
         }
@@ -6282,31 +5964,6 @@
           }
         }
       },
-      "Volo.Abp.LanguageManagement.Blazor.WebAssembly/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.AspNetCore.Components.WebAssembly.Theming": "9.0.1",
-          "Volo.Abp.LanguageManagement.Blazor": "9.0.1",
-          "Volo.Abp.LanguageManagement.HttpApi.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.LanguageManagement.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.LanguageManagement.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "contentFiles": {
-          "contentFiles/any/any/_._": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          }
-        }
-      },
       "Volo.Abp.LanguageManagement.Domain.Shared/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -6322,23 +5979,6 @@
         },
         "runtime": {
           "lib/net9.0/Volo.Abp.LanguageManagement.Domain.Shared.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Volo.Abp.LanguageManagement.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Http.Client": "9.0.1",
-          "Volo.Abp.LanguageManagement.Application.Contracts": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.LanguageManagement.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.LanguageManagement.HttpApi.Client.dll": {
             "related": ".xml"
           }
         }
@@ -6570,32 +6210,6 @@
           }
         }
       },
-      "Volo.Abp.OpenIddict.Pro.Blazor.WebAssembly/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.AuditLogging.Blazor.WebAssembly": "9.0.1",
-          "Volo.Abp.OpenIddict.Pro.Blazor": "9.0.1",
-          "Volo.Abp.OpenIddict.Pro.HttpApi.Client": "9.0.1",
-          "Volo.Abp.PermissionManagement.Blazor.WebAssembly": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.OpenIddict.Pro.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.OpenIddict.Pro.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "contentFiles": {
-          "contentFiles/any/any/_._": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          }
-        }
-      },
       "Volo.Abp.OpenIddict.Pro.Domain.Shared/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -6609,23 +6223,6 @@
         },
         "runtime": {
           "lib/net9.0/Volo.Abp.OpenIddict.Pro.Domain.Shared.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Volo.Abp.OpenIddict.Pro.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Http.Client": "9.0.1",
-          "Volo.Abp.OpenIddict.Pro.Application.Contracts": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.OpenIddict.Pro.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.OpenIddict.Pro.HttpApi.Client.dll": {
             "related": ".xml"
           }
         }
@@ -6703,24 +6300,6 @@
           }
         }
       },
-      "Volo.Abp.PermissionManagement.Blazor.WebAssembly/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.AspNetCore.Components.WebAssembly.Theming": "9.0.1",
-          "Volo.Abp.PermissionManagement.Blazor": "9.0.1",
-          "Volo.Abp.PermissionManagement.HttpApi.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.PermissionManagement.Blazor.WebAssembly.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.PermissionManagement.Blazor.WebAssembly.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Volo.Abp.PermissionManagement.Domain.Shared/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -6734,23 +6313,6 @@
         },
         "runtime": {
           "lib/net9.0/Volo.Abp.PermissionManagement.Domain.Shared.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Volo.Abp.PermissionManagement.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Http.Client": "9.0.1",
-          "Volo.Abp.PermissionManagement.Application.Contracts": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.PermissionManagement.HttpApi.Client.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.PermissionManagement.HttpApi.Client.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -6871,24 +6433,6 @@
           }
         }
       },
-      "Volo.Abp.SettingManagement.Blazor.WebAssembly/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.AspNetCore.Components.WebAssembly.Theming": "9.0.1",
-          "Volo.Abp.SettingManagement.Blazor": "9.0.1",
-          "Volo.Abp.SettingManagement.HttpApi.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.SettingManagement.Blazor.WebAssembly.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.SettingManagement.Blazor.WebAssembly.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Volo.Abp.SettingManagement.Domain/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -6924,23 +6468,6 @@
         },
         "runtime": {
           "lib/net9.0/Volo.Abp.SettingManagement.Domain.Shared.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Volo.Abp.SettingManagement.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Http.Client": "9.0.1",
-          "Volo.Abp.SettingManagement.Application.Contracts": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.SettingManagement.HttpApi.Client.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.SettingManagement.HttpApi.Client.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -7120,31 +6647,6 @@
           }
         }
       },
-      "Volo.Abp.TextTemplateManagement.Blazor.WebAssembly/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.AspNetCore.Components.WebAssembly.Theming": "9.0.1",
-          "Volo.Abp.TextTemplateManagement.Blazor": "9.0.1",
-          "Volo.Abp.TextTemplateManagement.HttpApi.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.TextTemplateManagement.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.TextTemplateManagement.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "contentFiles": {
-          "contentFiles/any/any/_._": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          }
-        }
-      },
       "Volo.Abp.TextTemplateManagement.Domain.Shared/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -7159,23 +6661,6 @@
         },
         "runtime": {
           "lib/net9.0/Volo.Abp.TextTemplateManagement.Domain.Shared.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Volo.Abp.TextTemplateManagement.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Http.Client": "9.0.1",
-          "Volo.Abp.TextTemplateManagement.Application.Contracts": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.TextTemplateManagement.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.TextTemplateManagement.HttpApi.Client.dll": {
             "related": ".xml"
           }
         }
@@ -7475,32 +6960,6 @@
           }
         }
       },
-      "Volo.Chat.Blazor.WebAssembly/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Components.WebAssembly.Authentication": "9.0.0",
-          "Volo.Abp.AspNetCore.Components.WebAssembly.Theming": "9.0.1",
-          "Volo.Chat.Blazor": "9.0.1",
-          "Volo.Chat.HttpApi.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Chat.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Chat.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "contentFiles": {
-          "contentFiles/any/any/_._": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          }
-        }
-      },
       "Volo.Chat.Domain.Shared/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -7515,23 +6974,6 @@
         },
         "runtime": {
           "lib/net9.0/Volo.Chat.Domain.Shared.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Volo.Chat.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Http.Client": "9.0.1",
-          "Volo.Chat.Application.Contracts": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Chat.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Chat.HttpApi.Client.dll": {
             "related": ".xml"
           }
         }
@@ -7580,40 +7022,6 @@
           }
         }
       },
-      "Volo.CmsKit.Admin.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.CmsKit.Admin.Application.Contracts": "9.0.1",
-          "Volo.CmsKit.Common.HttpApi.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.CmsKit.Admin.HttpApi.Client.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.CmsKit.Admin.HttpApi.Client.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Volo.CmsKit.Application.Contracts/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.CmsKit.Admin.Application.Contracts": "9.0.1",
-          "Volo.CmsKit.Public.Application.Contracts": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.CmsKit.Application.Contracts.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.CmsKit.Application.Contracts.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Volo.CmsKit.Common.Application.Contracts/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -7633,23 +7041,6 @@
           }
         }
       },
-      "Volo.CmsKit.Common.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Http.Client": "9.0.1",
-          "Volo.CmsKit.Common.Application.Contracts": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.CmsKit.Common.HttpApi.Client.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.CmsKit.Common.HttpApi.Client.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Volo.CmsKit.Domain.Shared/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -7665,24 +7056,6 @@
         },
         "runtime": {
           "lib/net9.0/Volo.CmsKit.Domain.Shared.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Volo.CmsKit.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.CmsKit.Admin.HttpApi.Client": "9.0.1",
-          "Volo.CmsKit.Application.Contracts": "9.0.1",
-          "Volo.CmsKit.Public.HttpApi.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.CmsKit.HttpApi.Client.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.CmsKit.HttpApi.Client.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -7769,67 +7142,6 @@
           }
         }
       },
-      "Volo.CmsKit.Pro.Admin.Blazor.WebAssembly/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.SettingManagement.Blazor.WebAssembly": "9.0.1",
-          "Volo.CmsKit.Pro.Admin.Blazor": "9.0.1",
-          "Volo.CmsKit.Pro.Admin.HttpApi.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.CmsKit.Pro.Admin.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.CmsKit.Pro.Admin.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "contentFiles": {
-          "contentFiles/any/any/_._": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          }
-        }
-      },
-      "Volo.CmsKit.Pro.Admin.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.CmsKit.Admin.HttpApi.Client": "9.0.1",
-          "Volo.CmsKit.Pro.Admin.Application.Contracts": "9.0.1",
-          "Volo.CmsKit.Pro.Common.HttpApi.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.CmsKit.Pro.Admin.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.CmsKit.Pro.Admin.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Volo.CmsKit.Pro.Application.Contracts/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.CmsKit.Application.Contracts": "9.0.1",
-          "Volo.CmsKit.Pro.Admin.Application.Contracts": "9.0.1",
-          "Volo.CmsKit.Pro.Public.Application.Contracts": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.CmsKit.Pro.Application.Contracts.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.CmsKit.Pro.Application.Contracts.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Volo.CmsKit.Pro.Common.Application.Contracts/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -7843,23 +7155,6 @@
         },
         "runtime": {
           "lib/net9.0/Volo.CmsKit.Pro.Common.Application.Contracts.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Volo.CmsKit.Pro.Common.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.CmsKit.Common.HttpApi.Client": "9.0.1",
-          "Volo.CmsKit.Pro.Common.Application.Contracts": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.CmsKit.Pro.Common.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.CmsKit.Pro.Common.HttpApi.Client.dll": {
             "related": ".xml"
           }
         }
@@ -7880,95 +7175,6 @@
         "runtime": {
           "lib/net9.0/Volo.CmsKit.Pro.Domain.Shared.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "Volo.CmsKit.Pro.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.CmsKit.HttpApi.Client": "9.0.1",
-          "Volo.CmsKit.Pro.Admin.HttpApi.Client": "9.0.1",
-          "Volo.CmsKit.Pro.Application.Contracts": "9.0.1",
-          "Volo.CmsKit.Pro.Public.HttpApi.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.CmsKit.Pro.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.CmsKit.Pro.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Volo.CmsKit.Pro.Public.Application.Contracts/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Caching": "9.0.1",
-          "Volo.CmsKit.Pro.Common.Application.Contracts": "9.0.1",
-          "Volo.CmsKit.Public.Application.Contracts": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.CmsKit.Pro.Public.Application.Contracts.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.CmsKit.Pro.Public.Application.Contracts.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Volo.CmsKit.Pro.Public.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.CmsKit.Pro.Common.HttpApi.Client": "9.0.1",
-          "Volo.CmsKit.Pro.Public.Application.Contracts": "9.0.1",
-          "Volo.CmsKit.Public.HttpApi.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.CmsKit.Pro.Public.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.CmsKit.Pro.Public.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Volo.CmsKit.Public.Application.Contracts/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.EventBus": "9.0.1",
-          "Volo.CmsKit.Common.Application.Contracts": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.CmsKit.Public.Application.Contracts.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.CmsKit.Public.Application.Contracts.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Volo.CmsKit.Public.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.CmsKit.Common.HttpApi.Client": "9.0.1",
-          "Volo.CmsKit.Public.Application.Contracts": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.CmsKit.Public.HttpApi.Client.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.CmsKit.Public.HttpApi.Client.dll": {
-            "related": ".pdb;.xml"
           }
         }
       },
@@ -8048,31 +7254,6 @@
           }
         }
       },
-      "Volo.FileManagement.Blazor.WebAssembly/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.AspNetCore.Components.WebAssembly.Theming": "9.0.1",
-          "Volo.FileManagement.Blazor": "9.0.1",
-          "Volo.FileManagement.HttpApi.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.FileManagement.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.FileManagement.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "contentFiles": {
-          "contentFiles/any/any/_._": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          }
-        }
-      },
       "Volo.FileManagement.Domain.Shared/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -8087,23 +7268,6 @@
         },
         "runtime": {
           "lib/net9.0/Volo.FileManagement.Domain.Shared.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Volo.FileManagement.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Http.Client": "9.0.1",
-          "Volo.FileManagement.Application.Contracts": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.FileManagement.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.FileManagement.HttpApi.Client.dll": {
             "related": ".xml"
           }
         }
@@ -8238,49 +7402,6 @@
           }
         }
       },
-      "Volo.Saas.Host.Blazor.WebAssembly/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.FeatureManagement.Blazor.WebAssembly": "9.0.1",
-          "Volo.Saas.Host.Blazor": "9.0.1",
-          "Volo.Saas.Host.HttpApi.Client": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Saas.Host.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Saas.Host.Blazor.WebAssembly.dll": {
-            "related": ".xml"
-          }
-        },
-        "contentFiles": {
-          "contentFiles/any/any/_._": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          }
-        }
-      },
-      "Volo.Saas.Host.HttpApi.Client/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.FeatureManagement.HttpApi.Client": "9.0.1",
-          "Volo.Abp.Http.Client": "9.0.1",
-          "Volo.Saas.Host.Application.Contracts": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Saas.Host.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Saas.Host.HttpApi.Client.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "YamlDotNet/15.1.2": {
         "type": "package",
         "compile": {
@@ -8301,124 +7422,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Zxcvbn.dll": {}
-        }
-      },
-      "Alfa5.Application.Contracts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "Alfa5.Domain.Shared": "1.0.0",
-          "Volo.Abp.Account.Pro.Admin.Application.Contracts": "9.0.1",
-          "Volo.Abp.Account.Pro.Public.Application.Contracts": "9.0.1",
-          "Volo.Abp.AuditLogging.Application.Contracts": "9.0.1",
-          "Volo.Abp.FeatureManagement.Application.Contracts": "9.0.1",
-          "Volo.Abp.Gdpr.Application.Contracts": "9.0.1",
-          "Volo.Abp.Identity.Pro.Application.Contracts": "9.0.1",
-          "Volo.Abp.LanguageManagement.Application.Contracts": "9.0.1",
-          "Volo.Abp.OpenIddict.Pro.Application.Contracts": "9.0.1",
-          "Volo.Abp.PermissionManagement.Application.Contracts": "9.0.1",
-          "Volo.Abp.SettingManagement.Application.Contracts": "9.0.1",
-          "Volo.Abp.TextTemplateManagement.Application.Contracts": "9.0.1",
-          "Volo.Chat.Application.Contracts": "9.0.1",
-          "Volo.CmsKit.Pro.Application.Contracts": "9.0.1",
-          "Volo.FileManagement.Application.Contracts": "9.0.1",
-          "Volo.Saas.Host.Application.Contracts": "9.0.1"
-        },
-        "compile": {
-          "bin/placeholder/Alfa5.Application.Contracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Alfa5.Application.Contracts.dll": {}
-        }
-      },
-      "Alfa5.Blazor.Client/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "Alfa5.HttpApi.Client": "1.0.0",
-          "Blazorise.Bootstrap5": "1.6.2",
-          "Blazorise.Components": "1.6.2",
-          "Blazorise.Icons.FontAwesome": "1.6.2",
-          "Microsoft.AspNetCore.Components.WebAssembly": "9.0.0",
-          "Microsoft.AspNetCore.Components.WebAssembly.DevServer": "9.0.0",
-          "Volo.Abp.Account.Pro.Admin.Blazor.WebAssembly": "9.0.1",
-          "Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXTheme": "4.0.1",
-          "Volo.Abp.AuditLogging.Blazor.WebAssembly": "9.0.1",
-          "Volo.Abp.Autofac.WebAssembly": "9.0.1",
-          "Volo.Abp.FeatureManagement.Blazor.WebAssembly": "9.0.1",
-          "Volo.Abp.Gdpr.Blazor.WebAssembly": "9.0.1",
-          "Volo.Abp.Identity.Pro.Blazor.WebAssembly": "9.0.1",
-          "Volo.Abp.LanguageManagement.Blazor.WebAssembly": "9.0.1",
-          "Volo.Abp.OpenIddict.Pro.Blazor.WebAssembly": "9.0.1",
-          "Volo.Abp.SettingManagement.Blazor.WebAssembly": "9.0.1",
-          "Volo.Abp.TextTemplateManagement.Blazor.WebAssembly": "9.0.1",
-          "Volo.Chat.Blazor.WebAssembly": "9.0.1",
-          "Volo.CmsKit.Pro.Admin.Blazor.WebAssembly": "9.0.1",
-          "Volo.FileManagement.Blazor.WebAssembly": "9.0.1",
-          "Volo.Saas.Host.Blazor.WebAssembly": "9.0.1"
-        },
-        "compile": {
-          "bin/placeholder/Alfa5.Blazor.Client.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Alfa5.Blazor.Client.dll": {}
-        }
-      },
-      "Alfa5.Domain.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "Microsoft.Extensions.FileProviders.Embedded": "9.0.0",
-          "Volo.Abp.AuditLogging.Domain.Shared": "9.0.1",
-          "Volo.Abp.BackgroundJobs.Domain.Shared": "9.0.1",
-          "Volo.Abp.BlobStoring.Database.Domain.Shared": "9.0.1",
-          "Volo.Abp.FeatureManagement.Domain.Shared": "9.0.1",
-          "Volo.Abp.Gdpr.Domain.Shared": "9.0.1",
-          "Volo.Abp.GlobalFeatures": "9.0.1",
-          "Volo.Abp.Identity.Pro.Domain.Shared": "9.0.1",
-          "Volo.Abp.LanguageManagement.Domain.Shared": "9.0.1",
-          "Volo.Abp.OpenIddict.Pro.Domain.Shared": "9.0.1",
-          "Volo.Abp.PermissionManagement.Domain.Shared": "9.0.1",
-          "Volo.Abp.SettingManagement.Domain.Shared": "9.0.1",
-          "Volo.Abp.TextTemplateManagement.Domain.Shared": "9.0.1",
-          "Volo.Chat.Domain.Shared": "9.0.1",
-          "Volo.CmsKit.Pro.Domain.Shared": "9.0.1",
-          "Volo.FileManagement.Domain.Shared": "9.0.1",
-          "Volo.Saas.Domain.Shared": "9.0.1"
-        },
-        "compile": {
-          "bin/placeholder/Alfa5.Domain.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Alfa5.Domain.Shared.dll": {}
-        }
-      },
-      "Alfa5.HttpApi.Client/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "Alfa5.Application.Contracts": "1.0.0",
-          "Volo.Abp.Account.Pro.Admin.HttpApi.Client": "9.0.1",
-          "Volo.Abp.Account.Pro.Public.HttpApi.Client": "9.0.1",
-          "Volo.Abp.AuditLogging.HttpApi.Client": "9.0.1",
-          "Volo.Abp.FeatureManagement.HttpApi.Client": "9.0.1",
-          "Volo.Abp.Gdpr.HttpApi.Client": "9.0.1",
-          "Volo.Abp.Identity.Pro.HttpApi.Client": "9.0.1",
-          "Volo.Abp.LanguageManagement.HttpApi.Client": "9.0.1",
-          "Volo.Abp.OpenIddict.Pro.HttpApi.Client": "9.0.1",
-          "Volo.Abp.PermissionManagement.HttpApi.Client": "9.0.1",
-          "Volo.Abp.SettingManagement.HttpApi.Client": "9.0.1",
-          "Volo.Abp.TextTemplateManagement.HttpApi.Client": "9.0.1",
-          "Volo.Chat.HttpApi.Client": "9.0.1",
-          "Volo.CmsKit.Pro.HttpApi.Client": "9.0.1",
-          "Volo.FileManagement.HttpApi.Client": "9.0.1",
-          "Volo.Saas.Host.HttpApi.Client": "9.0.1"
-        },
-        "compile": {
-          "bin/placeholder/Alfa5.HttpApi.Client.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Alfa5.HttpApi.Client.dll": {}
         }
       }
     }
@@ -9748,174 +8751,6 @@
         "microsoft.aspnetcore.components.webassembly.authentication.9.0.0.nupkg.sha512",
         "microsoft.aspnetcore.components.webassembly.authentication.nuspec",
         "staticwebassets/AuthenticationService.js"
-      ]
-    },
-    "Microsoft.AspNetCore.Components.WebAssembly.DevServer/9.0.0": {
-      "sha512": "k0i95CLhe9h6pfQUCvOksSY3Kz7ukxWLrXrADfrYzlvawCyO8oq+bviOTevNl2cS8RA8hmyWK0we3bZ1BNtCoA==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.components.webassembly.devserver/9.0.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets",
-        "microsoft.aspnetcore.components.webassembly.devserver.9.0.0.nupkg.sha512",
-        "microsoft.aspnetcore.components.webassembly.devserver.nuspec",
-        "tools/ARM64/aspnetcorev2_inprocess.dll",
-        "tools/BlazorDebugProxy/BrowserDebugHost.dll",
-        "tools/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json",
-        "tools/BlazorDebugProxy/BrowserDebugProxy.dll",
-        "tools/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.Scripting.dll",
-        "tools/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll",
-        "tools/BlazorDebugProxy/Microsoft.CodeAnalysis.Scripting.dll",
-        "tools/BlazorDebugProxy/Microsoft.CodeAnalysis.dll",
-        "tools/BlazorDebugProxy/Microsoft.FileFormats.dll",
-        "tools/BlazorDebugProxy/Microsoft.NET.WebAssembly.Webcil.dll",
-        "tools/BlazorDebugProxy/Microsoft.SymbolStore.dll",
-        "tools/BlazorDebugProxy/Newtonsoft.Json.dll",
-        "tools/Microsoft.AspNetCore.Antiforgery.dll",
-        "tools/Microsoft.AspNetCore.Antiforgery.xml",
-        "tools/Microsoft.AspNetCore.Authentication.Abstractions.dll",
-        "tools/Microsoft.AspNetCore.Authentication.Abstractions.xml",
-        "tools/Microsoft.AspNetCore.Authentication.Core.dll",
-        "tools/Microsoft.AspNetCore.Authentication.Core.xml",
-        "tools/Microsoft.AspNetCore.Authentication.dll",
-        "tools/Microsoft.AspNetCore.Authentication.xml",
-        "tools/Microsoft.AspNetCore.Authorization.Policy.dll",
-        "tools/Microsoft.AspNetCore.Authorization.Policy.xml",
-        "tools/Microsoft.AspNetCore.Authorization.dll",
-        "tools/Microsoft.AspNetCore.Authorization.xml",
-        "tools/Microsoft.AspNetCore.Components.Authorization.dll",
-        "tools/Microsoft.AspNetCore.Components.Authorization.xml",
-        "tools/Microsoft.AspNetCore.Components.Endpoints.dll",
-        "tools/Microsoft.AspNetCore.Components.Endpoints.xml",
-        "tools/Microsoft.AspNetCore.Components.Forms.dll",
-        "tools/Microsoft.AspNetCore.Components.Forms.xml",
-        "tools/Microsoft.AspNetCore.Components.Web.dll",
-        "tools/Microsoft.AspNetCore.Components.Web.xml",
-        "tools/Microsoft.AspNetCore.Components.WebAssembly.Server.dll",
-        "tools/Microsoft.AspNetCore.Components.WebAssembly.Server.xml",
-        "tools/Microsoft.AspNetCore.Components.dll",
-        "tools/Microsoft.AspNetCore.Components.xml",
-        "tools/Microsoft.AspNetCore.Connections.Abstractions.dll",
-        "tools/Microsoft.AspNetCore.Connections.Abstractions.xml",
-        "tools/Microsoft.AspNetCore.Cryptography.Internal.dll",
-        "tools/Microsoft.AspNetCore.Cryptography.Internal.xml",
-        "tools/Microsoft.AspNetCore.DataProtection.Abstractions.dll",
-        "tools/Microsoft.AspNetCore.DataProtection.Abstractions.xml",
-        "tools/Microsoft.AspNetCore.DataProtection.Extensions.dll",
-        "tools/Microsoft.AspNetCore.DataProtection.Extensions.xml",
-        "tools/Microsoft.AspNetCore.DataProtection.dll",
-        "tools/Microsoft.AspNetCore.DataProtection.xml",
-        "tools/Microsoft.AspNetCore.Diagnostics.Abstractions.dll",
-        "tools/Microsoft.AspNetCore.Diagnostics.Abstractions.xml",
-        "tools/Microsoft.AspNetCore.Diagnostics.dll",
-        "tools/Microsoft.AspNetCore.Diagnostics.xml",
-        "tools/Microsoft.AspNetCore.HostFiltering.dll",
-        "tools/Microsoft.AspNetCore.HostFiltering.xml",
-        "tools/Microsoft.AspNetCore.Hosting.Abstractions.dll",
-        "tools/Microsoft.AspNetCore.Hosting.Abstractions.xml",
-        "tools/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll",
-        "tools/Microsoft.AspNetCore.Hosting.Server.Abstractions.xml",
-        "tools/Microsoft.AspNetCore.Hosting.dll",
-        "tools/Microsoft.AspNetCore.Hosting.xml",
-        "tools/Microsoft.AspNetCore.Html.Abstractions.dll",
-        "tools/Microsoft.AspNetCore.Html.Abstractions.xml",
-        "tools/Microsoft.AspNetCore.Http.Abstractions.dll",
-        "tools/Microsoft.AspNetCore.Http.Abstractions.xml",
-        "tools/Microsoft.AspNetCore.Http.Extensions.dll",
-        "tools/Microsoft.AspNetCore.Http.Extensions.xml",
-        "tools/Microsoft.AspNetCore.Http.Features.dll",
-        "tools/Microsoft.AspNetCore.Http.Features.xml",
-        "tools/Microsoft.AspNetCore.Http.dll",
-        "tools/Microsoft.AspNetCore.Http.xml",
-        "tools/Microsoft.AspNetCore.HttpOverrides.dll",
-        "tools/Microsoft.AspNetCore.HttpOverrides.xml",
-        "tools/Microsoft.AspNetCore.Metadata.dll",
-        "tools/Microsoft.AspNetCore.Metadata.xml",
-        "tools/Microsoft.AspNetCore.Routing.Abstractions.dll",
-        "tools/Microsoft.AspNetCore.Routing.Abstractions.xml",
-        "tools/Microsoft.AspNetCore.Routing.dll",
-        "tools/Microsoft.AspNetCore.Routing.xml",
-        "tools/Microsoft.AspNetCore.Server.HttpSys.dll",
-        "tools/Microsoft.AspNetCore.Server.HttpSys.xml",
-        "tools/Microsoft.AspNetCore.Server.IIS.dll",
-        "tools/Microsoft.AspNetCore.Server.IIS.xml",
-        "tools/Microsoft.AspNetCore.Server.IISIntegration.dll",
-        "tools/Microsoft.AspNetCore.Server.IISIntegration.xml",
-        "tools/Microsoft.AspNetCore.Server.Kestrel.Core.dll",
-        "tools/Microsoft.AspNetCore.Server.Kestrel.Core.xml",
-        "tools/Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll",
-        "tools/Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.xml",
-        "tools/Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll",
-        "tools/Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.xml",
-        "tools/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll",
-        "tools/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.xml",
-        "tools/Microsoft.AspNetCore.Server.Kestrel.dll",
-        "tools/Microsoft.AspNetCore.Server.Kestrel.xml",
-        "tools/Microsoft.AspNetCore.StaticAssets.dll",
-        "tools/Microsoft.AspNetCore.StaticAssets.xml",
-        "tools/Microsoft.AspNetCore.StaticFiles.dll",
-        "tools/Microsoft.AspNetCore.StaticFiles.xml",
-        "tools/Microsoft.AspNetCore.WebUtilities.dll",
-        "tools/Microsoft.AspNetCore.WebUtilities.xml",
-        "tools/Microsoft.AspNetCore.dll",
-        "tools/Microsoft.AspNetCore.xml",
-        "tools/Microsoft.Extensions.Configuration.Abstractions.dll",
-        "tools/Microsoft.Extensions.Configuration.Binder.dll",
-        "tools/Microsoft.Extensions.Configuration.CommandLine.dll",
-        "tools/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
-        "tools/Microsoft.Extensions.Configuration.FileExtensions.dll",
-        "tools/Microsoft.Extensions.Configuration.Json.dll",
-        "tools/Microsoft.Extensions.Configuration.UserSecrets.dll",
-        "tools/Microsoft.Extensions.Configuration.dll",
-        "tools/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "tools/Microsoft.Extensions.DependencyInjection.dll",
-        "tools/Microsoft.Extensions.Diagnostics.Abstractions.dll",
-        "tools/Microsoft.Extensions.Diagnostics.dll",
-        "tools/Microsoft.Extensions.Features.dll",
-        "tools/Microsoft.Extensions.Features.xml",
-        "tools/Microsoft.Extensions.FileProviders.Abstractions.dll",
-        "tools/Microsoft.Extensions.FileProviders.Composite.dll",
-        "tools/Microsoft.Extensions.FileProviders.Embedded.dll",
-        "tools/Microsoft.Extensions.FileProviders.Embedded.xml",
-        "tools/Microsoft.Extensions.FileProviders.Physical.dll",
-        "tools/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "tools/Microsoft.Extensions.Hosting.Abstractions.dll",
-        "tools/Microsoft.Extensions.Hosting.dll",
-        "tools/Microsoft.Extensions.Logging.Abstractions.dll",
-        "tools/Microsoft.Extensions.Logging.Configuration.dll",
-        "tools/Microsoft.Extensions.Logging.Console.dll",
-        "tools/Microsoft.Extensions.Logging.Debug.dll",
-        "tools/Microsoft.Extensions.Logging.EventLog.dll",
-        "tools/Microsoft.Extensions.Logging.EventSource.dll",
-        "tools/Microsoft.Extensions.Logging.dll",
-        "tools/Microsoft.Extensions.ObjectPool.dll",
-        "tools/Microsoft.Extensions.ObjectPool.xml",
-        "tools/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
-        "tools/Microsoft.Extensions.Options.dll",
-        "tools/Microsoft.Extensions.Primitives.dll",
-        "tools/Microsoft.Extensions.WebEncoders.dll",
-        "tools/Microsoft.Extensions.WebEncoders.xml",
-        "tools/Microsoft.JSInterop.dll",
-        "tools/Microsoft.JSInterop.xml",
-        "tools/Microsoft.Net.Http.Headers.dll",
-        "tools/Microsoft.Net.Http.Headers.xml",
-        "tools/System.Diagnostics.EventLog.dll",
-        "tools/System.Security.Cryptography.Pkcs.dll",
-        "tools/System.Security.Cryptography.Xml.dll",
-        "tools/blazor-devserver.deps.json",
-        "tools/blazor-devserver.dll",
-        "tools/blazor-devserver.exe",
-        "tools/blazor-devserver.runtimeconfig.json",
-        "tools/blazor-devserver.xml",
-        "tools/runtimes/win/lib/net9.0/System.Diagnostics.EventLog.Messages.dll",
-        "tools/runtimes/win/lib/net9.0/System.Diagnostics.EventLog.dll",
-        "tools/runtimes/win/lib/net9.0/System.Security.Cryptography.Pkcs.dll",
-        "tools/x64/aspnetcorev2_inprocess.dll",
-        "tools/x86/aspnetcorev2_inprocess.dll"
       ]
     },
     "Microsoft.AspNetCore.Components.WebAssembly.Server/9.0.0": {
@@ -15316,41 +14151,6 @@
         "volo.abp.account.pro.admin.blazor.server.nuspec"
       ]
     },
-    "Volo.Abp.Account.Pro.Admin.Blazor.WebAssembly/9.0.1": {
-      "sha512": "rZonUkUzcFOmGIL1Bd5jguEdszPouSaCnBF4Zc6Hs2BJPhN7tBReUKVJ0yew8GpVKcE/s9z3rXTeRNJuUeUeZA==",
-      "type": "package",
-      "path": "volo.abp.account.pro.admin.blazor.webassembly/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.Abp.Account.Pro.Admin.Blazor.WebAssembly.abppkg",
-        "content/Volo.Abp.Account.Pro.Admin.Blazor.WebAssembly.abppkg.analyze.json",
-        "contentFiles/any/net9.0/Volo.Abp.Account.Pro.Admin.Blazor.WebAssembly.abppkg.analyze.json",
-        "lib/net9.0/Volo.Abp.Account.Pro.Admin.Blazor.WebAssembly.dll",
-        "lib/net9.0/Volo.Abp.Account.Pro.Admin.Blazor.WebAssembly.xml",
-        "volo.abp.account.pro.admin.blazor.webassembly.9.0.1.nupkg.sha512",
-        "volo.abp.account.pro.admin.blazor.webassembly.nuspec"
-      ]
-    },
-    "Volo.Abp.Account.Pro.Admin.HttpApi.Client/9.0.1": {
-      "sha512": "269hBnV4bX9JFjVp7kYf/85VNQhz8Q/5e7IpIv4sknHrVx2sNjz1hubrkpSb0dB+LbnPyZ9fai4bLB1SVYOVYg==",
-      "type": "package",
-      "path": "volo.abp.account.pro.admin.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.Abp.Account.Pro.Admin.HttpApi.Client.abppkg",
-        "content/Volo.Abp.Account.Pro.Admin.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.Abp.Account.Pro.Admin.HttpApi.Client.dll",
-        "lib/net8.0/Volo.Abp.Account.Pro.Admin.HttpApi.Client.xml",
-        "lib/net9.0/Volo.Abp.Account.Pro.Admin.HttpApi.Client.dll",
-        "lib/net9.0/Volo.Abp.Account.Pro.Admin.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.Abp.Account.Pro.Admin.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.Abp.Account.Pro.Admin.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.Abp.Account.Pro.Admin.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.Abp.Account.Pro.Admin.HttpApi.Client.xml",
-        "volo.abp.account.pro.admin.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.abp.account.pro.admin.httpapi.client.nuspec"
-      ]
-    },
     "Volo.Abp.Account.Pro.Public.Application.Contracts/9.0.1": {
       "sha512": "nN4Lb0xmxkZycG/7OT/s8xyP2qmM19aZn5QFD2lIfHOn3AFCVorRwoRvUXQ0GgFs4ewHgFfHDQcxMNRVtT+RfA==",
       "type": "package",
@@ -15405,26 +14205,6 @@
         "staticwebassets/Volo.Abp.Account.Pro.Public.Blazor.Shared.bt59d6l1jm.bundle.scp.css",
         "volo.abp.account.pro.public.blazor.shared.9.0.1.nupkg.sha512",
         "volo.abp.account.pro.public.blazor.shared.nuspec"
-      ]
-    },
-    "Volo.Abp.Account.Pro.Public.HttpApi.Client/9.0.1": {
-      "sha512": "e+cOhaRnJ+ySPKDO0qKwPuHcPfUPFizD0MnZuRt9Gftb6C6DElaXjVpQvmFcAPohEzC1LObAtlPwBCSRf1fcBw==",
-      "type": "package",
-      "path": "volo.abp.account.pro.public.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.Abp.Account.Pro.Public.HttpApi.Client.abppkg",
-        "content/Volo.Abp.Account.Pro.Public.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.Abp.Account.Pro.Public.HttpApi.Client.dll",
-        "lib/net8.0/Volo.Abp.Account.Pro.Public.HttpApi.Client.xml",
-        "lib/net9.0/Volo.Abp.Account.Pro.Public.HttpApi.Client.dll",
-        "lib/net9.0/Volo.Abp.Account.Pro.Public.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.Abp.Account.Pro.Public.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.Abp.Account.Pro.Public.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.Abp.Account.Pro.Public.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.Abp.Account.Pro.Public.HttpApi.Client.xml",
-        "volo.abp.account.pro.public.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.abp.account.pro.public.httpapi.client.nuspec"
       ]
     },
     "Volo.Abp.Account.Pro.Public.Web.Impersonation/9.0.1": {
@@ -17479,25 +16259,6 @@
         "volo.abp.aspnetcore.components.webassembly.nuspec"
       ]
     },
-    "Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXTheme/4.0.1": {
-      "sha512": "RZOzWATh94k++QBhL2szhZmlkwi92mw7mCFRWwz2iTExpR3FDNRv7WayDPk95H0TPhH4NAzikGzRO/iHNVMqdw==",
-      "type": "package",
-      "path": "volo.abp.aspnetcore.components.webassembly.leptonxtheme/4.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-        "build/Microsoft.AspNetCore.StaticWebAssets.props",
-        "build/Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXTheme.props",
-        "buildMultiTargeting/Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXTheme.props",
-        "buildTransitive/Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXTheme.props",
-        "icon.png",
-        "lib/net9.0/Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXTheme.dll",
-        "lib/net9.0/Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXTheme.xml",
-        "staticwebassets/scripts/leptonx-blazor-compatibility.js",
-        "volo.abp.aspnetcore.components.webassembly.leptonxtheme.4.0.1.nupkg.sha512",
-        "volo.abp.aspnetcore.components.webassembly.leptonxtheme.nuspec"
-      ]
-    },
     "Volo.Abp.AspNetCore.Components.WebAssembly.Theming/9.0.1": {
       "sha512": "XJOywOrTFzVeWHoJmBmg0MeMc3Y/2By5aVfMDcH/UDVNfxTgWTK3PNVbJJ12nyu4/3tJGge26kC20phtWrPkVQ==",
       "type": "package",
@@ -18208,21 +16969,6 @@
         "volo.abp.auditlogging.blazor.server.nuspec"
       ]
     },
-    "Volo.Abp.AuditLogging.Blazor.WebAssembly/9.0.1": {
-      "sha512": "Vbw5pcvHnyREcSzEN/gytGTzFTG9AbBbjb+UqY/K4AraauT1m3MxQ9OE+RSmV+8mOUs3UvHFqHaFD1tt5S58cw==",
-      "type": "package",
-      "path": "volo.abp.auditlogging.blazor.webassembly/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.Abp.AuditLogging.Blazor.WebAssembly.abppkg",
-        "content/Volo.Abp.AuditLogging.Blazor.WebAssembly.abppkg.analyze.json",
-        "contentFiles/any/net9.0/Volo.Abp.AuditLogging.Blazor.WebAssembly.abppkg.analyze.json",
-        "lib/net9.0/Volo.Abp.AuditLogging.Blazor.WebAssembly.dll",
-        "lib/net9.0/Volo.Abp.AuditLogging.Blazor.WebAssembly.xml",
-        "volo.abp.auditlogging.blazor.webassembly.9.0.1.nupkg.sha512",
-        "volo.abp.auditlogging.blazor.webassembly.nuspec"
-      ]
-    },
     "Volo.Abp.AuditLogging.Domain.Shared/9.0.1": {
       "sha512": "QVu7f7PDi9AAV/sVEArFmBquqgVnnQcDiiJjopb05JZhBXMOJrKAIcYsqzyPpUhl+0qyie74GR5tj3l3kC616Q==",
       "type": "package",
@@ -18247,26 +16993,6 @@
         "lib/netstandard2.1/Volo.Abp.AuditLogging.Domain.Shared.xml",
         "volo.abp.auditlogging.domain.shared.9.0.1.nupkg.sha512",
         "volo.abp.auditlogging.domain.shared.nuspec"
-      ]
-    },
-    "Volo.Abp.AuditLogging.HttpApi.Client/9.0.1": {
-      "sha512": "UPIMnwuq3KGT1SJ22t4z8cbOGhto6b9skxxIeBMC7RCPUyLNXmJHCletW0ugeIy/9gyBcICYhpYNojZubcKqog==",
-      "type": "package",
-      "path": "volo.abp.auditlogging.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.Abp.AuditLogging.HttpApi.Client.abppkg",
-        "content/Volo.Abp.AuditLogging.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.Abp.AuditLogging.HttpApi.Client.dll",
-        "lib/net8.0/Volo.Abp.AuditLogging.HttpApi.Client.xml",
-        "lib/net9.0/Volo.Abp.AuditLogging.HttpApi.Client.dll",
-        "lib/net9.0/Volo.Abp.AuditLogging.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.Abp.AuditLogging.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.Abp.AuditLogging.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.Abp.AuditLogging.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.Abp.AuditLogging.HttpApi.Client.xml",
-        "volo.abp.auditlogging.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.abp.auditlogging.httpapi.client.nuspec"
       ]
     },
     "Volo.Abp.Authorization/9.0.1": {
@@ -18346,22 +17072,6 @@
         "volo.abp.autofac.nuspec"
       ]
     },
-    "Volo.Abp.Autofac.WebAssembly/9.0.1": {
-      "sha512": "sHRupyn6Kd2Asim6NMPu5TveMRRGTosK1iVI/hrZrb8y9OJFZ5vQznl7ofVGnxAeN1hwwPDvgtrljU0N56nj6Q==",
-      "type": "package",
-      "path": "volo.abp.autofac.webassembly/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.Abp.Autofac.WebAssembly.abppkg",
-        "lib/net9.0/Volo.Abp.Autofac.WebAssembly.dll",
-        "lib/net9.0/Volo.Abp.Autofac.WebAssembly.pdb",
-        "lib/net9.0/Volo.Abp.Autofac.WebAssembly.xml",
-        "volo.abp.autofac.webassembly.9.0.1.nupkg.sha512",
-        "volo.abp.autofac.webassembly.nuspec"
-      ]
-    },
     "Volo.Abp.AutoMapper/9.0.1": {
       "sha512": "OswcMN8oUPGYPpyS6uPmfNpdzt/4WJQyIEENW2/A1kgqfSXCNxIgz5sFCkOSRtBYdBSNqNiFbMNQ89dPKI4/qQ==",
       "type": "package",
@@ -18403,32 +17113,6 @@
         "lib/netstandard2.1/Volo.Abp.BackgroundJobs.Abstractions.xml",
         "volo.abp.backgroundjobs.abstractions.9.0.1.nupkg.sha512",
         "volo.abp.backgroundjobs.abstractions.nuspec"
-      ]
-    },
-    "Volo.Abp.BackgroundJobs.Domain.Shared/9.0.1": {
-      "sha512": "nfYVBhZSsNNLNuKMvVrMYIxJWJxLnUqGa7+UngIktqdn/MDMNuTxokWcMv1rleiCzFlWZHV5ciVHotC/fH5qOQ==",
-      "type": "package",
-      "path": "volo.abp.backgroundjobs.domain.shared/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.Abp.BackgroundJobs.Domain.Shared.abppkg",
-        "content/Volo.Abp.BackgroundJobs.Domain.Shared.abppkg.analyze.json",
-        "lib/net8.0/Volo.Abp.BackgroundJobs.Domain.Shared.dll",
-        "lib/net8.0/Volo.Abp.BackgroundJobs.Domain.Shared.pdb",
-        "lib/net8.0/Volo.Abp.BackgroundJobs.Domain.Shared.xml",
-        "lib/net9.0/Volo.Abp.BackgroundJobs.Domain.Shared.dll",
-        "lib/net9.0/Volo.Abp.BackgroundJobs.Domain.Shared.pdb",
-        "lib/net9.0/Volo.Abp.BackgroundJobs.Domain.Shared.xml",
-        "lib/netstandard2.0/Volo.Abp.BackgroundJobs.Domain.Shared.dll",
-        "lib/netstandard2.0/Volo.Abp.BackgroundJobs.Domain.Shared.pdb",
-        "lib/netstandard2.0/Volo.Abp.BackgroundJobs.Domain.Shared.xml",
-        "lib/netstandard2.1/Volo.Abp.BackgroundJobs.Domain.Shared.dll",
-        "lib/netstandard2.1/Volo.Abp.BackgroundJobs.Domain.Shared.pdb",
-        "lib/netstandard2.1/Volo.Abp.BackgroundJobs.Domain.Shared.xml",
-        "volo.abp.backgroundjobs.domain.shared.9.0.1.nupkg.sha512",
-        "volo.abp.backgroundjobs.domain.shared.nuspec"
       ]
     },
     "Volo.Abp.BackgroundWorkers/9.0.1": {
@@ -18476,32 +17160,6 @@
         "staticwebassets/volo.abp.blazoriseui.css",
         "volo.abp.blazoriseui.9.0.1.nupkg.sha512",
         "volo.abp.blazoriseui.nuspec"
-      ]
-    },
-    "Volo.Abp.BlobStoring.Database.Domain.Shared/9.0.1": {
-      "sha512": "b3/vBhzb1p/UddU9qWO59cTeSAth92dRgFbP2Ga6Ot0VR6ttQXUZk7CKapaGCE1L2pE0TeAdi7RgZZbWmnXT/Q==",
-      "type": "package",
-      "path": "volo.abp.blobstoring.database.domain.shared/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.Abp.BlobStoring.Database.Domain.Shared.abppkg",
-        "content/Volo.Abp.BlobStoring.Database.Domain.Shared.abppkg.analyze.json",
-        "lib/net8.0/Volo.Abp.BlobStoring.Database.Domain.Shared.dll",
-        "lib/net8.0/Volo.Abp.BlobStoring.Database.Domain.Shared.pdb",
-        "lib/net8.0/Volo.Abp.BlobStoring.Database.Domain.Shared.xml",
-        "lib/net9.0/Volo.Abp.BlobStoring.Database.Domain.Shared.dll",
-        "lib/net9.0/Volo.Abp.BlobStoring.Database.Domain.Shared.pdb",
-        "lib/net9.0/Volo.Abp.BlobStoring.Database.Domain.Shared.xml",
-        "lib/netstandard2.0/Volo.Abp.BlobStoring.Database.Domain.Shared.dll",
-        "lib/netstandard2.0/Volo.Abp.BlobStoring.Database.Domain.Shared.pdb",
-        "lib/netstandard2.0/Volo.Abp.BlobStoring.Database.Domain.Shared.xml",
-        "lib/netstandard2.1/Volo.Abp.BlobStoring.Database.Domain.Shared.dll",
-        "lib/netstandard2.1/Volo.Abp.BlobStoring.Database.Domain.Shared.pdb",
-        "lib/netstandard2.1/Volo.Abp.BlobStoring.Database.Domain.Shared.xml",
-        "volo.abp.blobstoring.database.domain.shared.9.0.1.nupkg.sha512",
-        "volo.abp.blobstoring.database.domain.shared.nuspec"
       ]
     },
     "Volo.Abp.Caching/9.0.1": {
@@ -18972,22 +17630,6 @@
         "volo.abp.featuremanagement.blazor.server.nuspec"
       ]
     },
-    "Volo.Abp.FeatureManagement.Blazor.WebAssembly/9.0.1": {
-      "sha512": "ggXLjRteI3/6Zknfny8+9/u1zV2WP54juZ8L4zpuxYhiaO/MEgAyy8JOmrxxWcu1FShegFkJhyou4TNK8URsJw==",
-      "type": "package",
-      "path": "volo.abp.featuremanagement.blazor.webassembly/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.Abp.FeatureManagement.Blazor.WebAssembly.abppkg",
-        "lib/net9.0/Volo.Abp.FeatureManagement.Blazor.WebAssembly.dll",
-        "lib/net9.0/Volo.Abp.FeatureManagement.Blazor.WebAssembly.pdb",
-        "lib/net9.0/Volo.Abp.FeatureManagement.Blazor.WebAssembly.xml",
-        "volo.abp.featuremanagement.blazor.webassembly.9.0.1.nupkg.sha512",
-        "volo.abp.featuremanagement.blazor.webassembly.nuspec"
-      ]
-    },
     "Volo.Abp.FeatureManagement.Domain.Shared/9.0.1": {
       "sha512": "Z1+EJpOpg+FXeDuNzt1T5D33WjgjBjSOT1sN8uKU3llyKNqjZfgXg/cdnGR1wpCO/NHAT0rAz7SocGhO+zUTxA==",
       "type": "package",
@@ -19012,32 +17654,6 @@
         "lib/netstandard2.1/Volo.Abp.FeatureManagement.Domain.Shared.xml",
         "volo.abp.featuremanagement.domain.shared.9.0.1.nupkg.sha512",
         "volo.abp.featuremanagement.domain.shared.nuspec"
-      ]
-    },
-    "Volo.Abp.FeatureManagement.HttpApi.Client/9.0.1": {
-      "sha512": "FTK11Ui0RIx1PpoJjKNnMRhZX39JQ0h8FSXCsW3CQtGfhxuMA3/Pq8zotPl70/BUonn3DGV6GqywFGwnyh3V0A==",
-      "type": "package",
-      "path": "volo.abp.featuremanagement.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.Abp.FeatureManagement.HttpApi.Client.abppkg",
-        "content/Volo.Abp.FeatureManagement.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.Abp.FeatureManagement.HttpApi.Client.dll",
-        "lib/net8.0/Volo.Abp.FeatureManagement.HttpApi.Client.pdb",
-        "lib/net8.0/Volo.Abp.FeatureManagement.HttpApi.Client.xml",
-        "lib/net9.0/Volo.Abp.FeatureManagement.HttpApi.Client.dll",
-        "lib/net9.0/Volo.Abp.FeatureManagement.HttpApi.Client.pdb",
-        "lib/net9.0/Volo.Abp.FeatureManagement.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.Abp.FeatureManagement.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.Abp.FeatureManagement.HttpApi.Client.pdb",
-        "lib/netstandard2.0/Volo.Abp.FeatureManagement.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.Abp.FeatureManagement.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.Abp.FeatureManagement.HttpApi.Client.pdb",
-        "lib/netstandard2.1/Volo.Abp.FeatureManagement.HttpApi.Client.xml",
-        "volo.abp.featuremanagement.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.abp.featuremanagement.httpapi.client.nuspec"
       ]
     },
     "Volo.Abp.Features/9.0.1": {
@@ -19116,21 +17732,6 @@
         "volo.abp.gdpr.blazor.server.nuspec"
       ]
     },
-    "Volo.Abp.Gdpr.Blazor.WebAssembly/9.0.1": {
-      "sha512": "lQ9u8X3SVdqFww5cNi2hIP0VXQqu48ljsB50wqWD9DftjLfwgmt4RV7D8Li7/Htx2pk/jcwujzUlTf2VYW3Iww==",
-      "type": "package",
-      "path": "volo.abp.gdpr.blazor.webassembly/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.Abp.Gdpr.Blazor.WebAssembly.abppkg",
-        "content/Volo.Abp.Gdpr.Blazor.WebAssembly.abppkg.analyze.json",
-        "contentFiles/any/net9.0/Volo.Abp.Gdpr.Blazor.WebAssembly.abppkg.analyze.json",
-        "lib/net9.0/Volo.Abp.Gdpr.Blazor.WebAssembly.dll",
-        "lib/net9.0/Volo.Abp.Gdpr.Blazor.WebAssembly.xml",
-        "volo.abp.gdpr.blazor.webassembly.9.0.1.nupkg.sha512",
-        "volo.abp.gdpr.blazor.webassembly.nuspec"
-      ]
-    },
     "Volo.Abp.Gdpr.Domain.Shared/9.0.1": {
       "sha512": "JVLGL+tTY6WFDq13ldooXOj/0TN2wd7X9fdaJ2fZXNxtKRxbLuZZF3KV7F0mCScQThxaseoq7Ozisl0LbYehBA==",
       "type": "package",
@@ -19149,26 +17750,6 @@
         "lib/netstandard2.1/Volo.Abp.Gdpr.Domain.Shared.xml",
         "volo.abp.gdpr.domain.shared.9.0.1.nupkg.sha512",
         "volo.abp.gdpr.domain.shared.nuspec"
-      ]
-    },
-    "Volo.Abp.Gdpr.HttpApi.Client/9.0.1": {
-      "sha512": "JW3St8PqJivP3yFz0vEQTGGTuRk9MPcPCUCkpC2GUHYj+OzsBE5iuhRL/jsAbdchLYESMKJjd1Mw5bDDrTjKUw==",
-      "type": "package",
-      "path": "volo.abp.gdpr.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.Abp.Gdpr.HttpApi.Client.abppkg",
-        "content/Volo.Abp.Gdpr.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.Abp.Gdpr.HttpApi.Client.dll",
-        "lib/net8.0/Volo.Abp.Gdpr.HttpApi.Client.xml",
-        "lib/net9.0/Volo.Abp.Gdpr.HttpApi.Client.dll",
-        "lib/net9.0/Volo.Abp.Gdpr.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.Abp.Gdpr.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.Abp.Gdpr.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.Abp.Gdpr.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.Abp.Gdpr.HttpApi.Client.xml",
-        "volo.abp.gdpr.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.abp.gdpr.httpapi.client.nuspec"
       ]
     },
     "Volo.Abp.GlobalFeatures/9.0.1": {
@@ -19344,22 +17925,6 @@
         "volo.abp.http.client.identitymodel.web.nuspec"
       ]
     },
-    "Volo.Abp.Http.Client.IdentityModel.WebAssembly/9.0.1": {
-      "sha512": "S4m3uUAtZkYJVXRcRc3CqSTR1IxjJBjNZVaDYrZjraj+gKVpEi3H2a5kpScZtlXDXiY11sisOnZHlRUPBKWddA==",
-      "type": "package",
-      "path": "volo.abp.http.client.identitymodel.webassembly/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.Abp.Http.Client.IdentityModel.WebAssembly.abppkg",
-        "lib/net9.0/Volo.Abp.Http.Client.IdentityModel.WebAssembly.dll",
-        "lib/net9.0/Volo.Abp.Http.Client.IdentityModel.WebAssembly.pdb",
-        "lib/net9.0/Volo.Abp.Http.Client.IdentityModel.WebAssembly.xml",
-        "volo.abp.http.client.identitymodel.webassembly.9.0.1.nupkg.sha512",
-        "volo.abp.http.client.identitymodel.webassembly.nuspec"
-      ]
-    },
     "Volo.Abp.Http.Client.Web/9.0.1": {
       "sha512": "vCih1abPEN5oFjyrlufL06cfsDap6V1AbZ9t6EdYZy+P/Wjf4+Xxqb5LFPGw3m3ym+queoOCRS0gDmqoDMNZPQ==",
       "type": "package",
@@ -19454,21 +18019,6 @@
         "volo.abp.identity.pro.blazor.server.nuspec"
       ]
     },
-    "Volo.Abp.Identity.Pro.Blazor.WebAssembly/9.0.1": {
-      "sha512": "vYEyUaP78q3yCZhSBMw5twv7jFVMWKS1qReDK9JSjUdV4LnnnMnoTKCMeLwpVHUVIzwYrCbhFxYVCDuKASEbkg==",
-      "type": "package",
-      "path": "volo.abp.identity.pro.blazor.webassembly/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.Abp.Identity.Pro.Blazor.WebAssembly.abppkg",
-        "content/Volo.Abp.Identity.Pro.Blazor.WebAssembly.abppkg.analyze.json",
-        "contentFiles/any/net9.0/Volo.Abp.Identity.Pro.Blazor.WebAssembly.abppkg.analyze.json",
-        "lib/net9.0/Volo.Abp.Identity.Pro.Blazor.WebAssembly.dll",
-        "lib/net9.0/Volo.Abp.Identity.Pro.Blazor.WebAssembly.xml",
-        "volo.abp.identity.pro.blazor.webassembly.9.0.1.nupkg.sha512",
-        "volo.abp.identity.pro.blazor.webassembly.nuspec"
-      ]
-    },
     "Volo.Abp.Identity.Pro.Domain.Shared/9.0.1": {
       "sha512": "JGKrQ0gGI92g4sk4sSSQ6gK7+Sv+ePimZnEBOGy8JlkLGraWfJdubnl+mDktaM120DLPQ5KsHQveePwcRrKYTw==",
       "type": "package",
@@ -19487,26 +18037,6 @@
         "lib/netstandard2.1/Volo.Abp.Identity.Pro.Domain.Shared.xml",
         "volo.abp.identity.pro.domain.shared.9.0.1.nupkg.sha512",
         "volo.abp.identity.pro.domain.shared.nuspec"
-      ]
-    },
-    "Volo.Abp.Identity.Pro.HttpApi.Client/9.0.1": {
-      "sha512": "0HD8b2RCZkWXw/zKknCPrqRoOhRZ3GdXZTHeiHi0m8XKATSBAllhostMN/NeLSsRDFg1OKZ2Io1tCHrRissjnQ==",
-      "type": "package",
-      "path": "volo.abp.identity.pro.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.Abp.Identity.Pro.HttpApi.Client.abppkg",
-        "content/Volo.Abp.Identity.Pro.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.Abp.Identity.Pro.HttpApi.Client.dll",
-        "lib/net8.0/Volo.Abp.Identity.Pro.HttpApi.Client.xml",
-        "lib/net9.0/Volo.Abp.Identity.Pro.HttpApi.Client.dll",
-        "lib/net9.0/Volo.Abp.Identity.Pro.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.Abp.Identity.Pro.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.Abp.Identity.Pro.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.Abp.Identity.Pro.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.Abp.Identity.Pro.HttpApi.Client.xml",
-        "volo.abp.identity.pro.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.abp.identity.pro.httpapi.client.nuspec"
       ]
     },
     "Volo.Abp.IdentityModel/9.0.1": {
@@ -19662,21 +18192,6 @@
         "volo.abp.languagemanagement.blazor.server.nuspec"
       ]
     },
-    "Volo.Abp.LanguageManagement.Blazor.WebAssembly/9.0.1": {
-      "sha512": "Ua7/PRAbovPUkU/+WFjqxtZJY//XpZP1hyIGclH5s9xvIuukjyj3Zr4FPlfBpkbnUatiWl44S83/2k7MezbhKg==",
-      "type": "package",
-      "path": "volo.abp.languagemanagement.blazor.webassembly/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.Abp.LanguageManagement.Blazor.WebAssembly.abppkg",
-        "content/Volo.Abp.LanguageManagement.Blazor.WebAssembly.abppkg.analyze.json",
-        "contentFiles/any/net9.0/Volo.Abp.LanguageManagement.Blazor.WebAssembly.abppkg.analyze.json",
-        "lib/net9.0/Volo.Abp.LanguageManagement.Blazor.WebAssembly.dll",
-        "lib/net9.0/Volo.Abp.LanguageManagement.Blazor.WebAssembly.xml",
-        "volo.abp.languagemanagement.blazor.webassembly.9.0.1.nupkg.sha512",
-        "volo.abp.languagemanagement.blazor.webassembly.nuspec"
-      ]
-    },
     "Volo.Abp.LanguageManagement.Domain.Shared/9.0.1": {
       "sha512": "/vbu6LNRo5s2vZoWn/TlFRkTNiKJHtVfvur+bDUyxCVDlpfB4NVGiOTvCgWjOEtK0Rr/5cpo4nTEFbBr5SdEdA==",
       "type": "package",
@@ -19695,26 +18210,6 @@
         "lib/netstandard2.1/Volo.Abp.LanguageManagement.Domain.Shared.xml",
         "volo.abp.languagemanagement.domain.shared.9.0.1.nupkg.sha512",
         "volo.abp.languagemanagement.domain.shared.nuspec"
-      ]
-    },
-    "Volo.Abp.LanguageManagement.HttpApi.Client/9.0.1": {
-      "sha512": "rkmRartBdvs1XbmYsfzKfNNZQozs2FO/8RIPd/Y6AJSYSqhtkBXYAVJZOkqT/pnlvyIro+UCP/d6lC7wonf7cQ==",
-      "type": "package",
-      "path": "volo.abp.languagemanagement.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.Abp.LanguageManagement.HttpApi.Client.abppkg",
-        "content/Volo.Abp.LanguageManagement.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.Abp.LanguageManagement.HttpApi.Client.dll",
-        "lib/net8.0/Volo.Abp.LanguageManagement.HttpApi.Client.xml",
-        "lib/net9.0/Volo.Abp.LanguageManagement.HttpApi.Client.dll",
-        "lib/net9.0/Volo.Abp.LanguageManagement.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.Abp.LanguageManagement.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.Abp.LanguageManagement.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.Abp.LanguageManagement.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.Abp.LanguageManagement.HttpApi.Client.xml",
-        "volo.abp.languagemanagement.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.abp.languagemanagement.httpapi.client.nuspec"
       ]
     },
     "Volo.Abp.Ldap.Abstractions/9.0.1": {
@@ -19997,21 +18492,6 @@
         "volo.abp.openiddict.pro.blazor.server.nuspec"
       ]
     },
-    "Volo.Abp.OpenIddict.Pro.Blazor.WebAssembly/9.0.1": {
-      "sha512": "uo+CWpsJ20kfbVqdCSnXqTSfbn1Tbaf+Kv7SSZs0ywNjSLtqOMy7cGZaMXTxZqaP9vHqABfPjVaOeaR6JUPosQ==",
-      "type": "package",
-      "path": "volo.abp.openiddict.pro.blazor.webassembly/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.Abp.OpenIddict.Pro.Blazor.WebAssembly.abppkg",
-        "content/Volo.Abp.OpenIddict.Pro.Blazor.WebAssembly.abppkg.analyze.json",
-        "contentFiles/any/net9.0/Volo.Abp.OpenIddict.Pro.Blazor.WebAssembly.abppkg.analyze.json",
-        "lib/net9.0/Volo.Abp.OpenIddict.Pro.Blazor.WebAssembly.dll",
-        "lib/net9.0/Volo.Abp.OpenIddict.Pro.Blazor.WebAssembly.xml",
-        "volo.abp.openiddict.pro.blazor.webassembly.9.0.1.nupkg.sha512",
-        "volo.abp.openiddict.pro.blazor.webassembly.nuspec"
-      ]
-    },
     "Volo.Abp.OpenIddict.Pro.Domain.Shared/9.0.1": {
       "sha512": "AVrq6WeZNt4kexIFeJ4EXCxAM1P054UxjAKhB885RtjTGL97cl0SsJ0F0LeEQYDRq74OQpUgWrm/w2uKaYcRhQ==",
       "type": "package",
@@ -20030,26 +18510,6 @@
         "lib/netstandard2.1/Volo.Abp.OpenIddict.Pro.Domain.Shared.xml",
         "volo.abp.openiddict.pro.domain.shared.9.0.1.nupkg.sha512",
         "volo.abp.openiddict.pro.domain.shared.nuspec"
-      ]
-    },
-    "Volo.Abp.OpenIddict.Pro.HttpApi.Client/9.0.1": {
-      "sha512": "tV7RyGFI9piFA4cY9qOLdn4c1XBgSOrv7cV+dVr63kapfh3snEXrPrNRyoyh7we/aWR2C8hROrFwN3fg0ZA9Pg==",
-      "type": "package",
-      "path": "volo.abp.openiddict.pro.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.Abp.OpenIddict.Pro.HttpApi.Client.abppkg",
-        "content/Volo.Abp.OpenIddict.Pro.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.Abp.OpenIddict.Pro.HttpApi.Client.dll",
-        "lib/net8.0/Volo.Abp.OpenIddict.Pro.HttpApi.Client.xml",
-        "lib/net9.0/Volo.Abp.OpenIddict.Pro.HttpApi.Client.dll",
-        "lib/net9.0/Volo.Abp.OpenIddict.Pro.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.Abp.OpenIddict.Pro.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.Abp.OpenIddict.Pro.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.Abp.OpenIddict.Pro.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.Abp.OpenIddict.Pro.HttpApi.Client.xml",
-        "volo.abp.openiddict.pro.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.abp.openiddict.pro.httpapi.client.nuspec"
       ]
     },
     "Volo.Abp.PermissionManagement.Application.Contracts/9.0.1": {
@@ -20120,22 +18580,6 @@
         "volo.abp.permissionmanagement.blazor.server.nuspec"
       ]
     },
-    "Volo.Abp.PermissionManagement.Blazor.WebAssembly/9.0.1": {
-      "sha512": "teYhDfKbh1ow3XmooAn4xZ2DEZ/YG2ooVuWaiq5oNQ6xoUgdp986SYkN9kJsldirVb3g7uSBQOYQfv2iHvf2Xg==",
-      "type": "package",
-      "path": "volo.abp.permissionmanagement.blazor.webassembly/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.Abp.PermissionManagement.Blazor.WebAssembly.abppkg",
-        "lib/net9.0/Volo.Abp.PermissionManagement.Blazor.WebAssembly.dll",
-        "lib/net9.0/Volo.Abp.PermissionManagement.Blazor.WebAssembly.pdb",
-        "lib/net9.0/Volo.Abp.PermissionManagement.Blazor.WebAssembly.xml",
-        "volo.abp.permissionmanagement.blazor.webassembly.9.0.1.nupkg.sha512",
-        "volo.abp.permissionmanagement.blazor.webassembly.nuspec"
-      ]
-    },
     "Volo.Abp.PermissionManagement.Domain.Shared/9.0.1": {
       "sha512": "FtA7JQcpbpPxv958UpOn+8P+Vzj4Nx6ZuOYa9xSzWIm1lAR6H1Vc70umT93E4i6qoIuWWP0UNaBp3nNBo6Tvng==",
       "type": "package",
@@ -20160,32 +18604,6 @@
         "lib/netstandard2.1/Volo.Abp.PermissionManagement.Domain.Shared.xml",
         "volo.abp.permissionmanagement.domain.shared.9.0.1.nupkg.sha512",
         "volo.abp.permissionmanagement.domain.shared.nuspec"
-      ]
-    },
-    "Volo.Abp.PermissionManagement.HttpApi.Client/9.0.1": {
-      "sha512": "3VG9wv1ud/frQBEi0QlIqzkGKhQcxs0n8sNK6U35yP2XKDs33UZmj72oEyZPjQhcJ+MPkAxjp3vLcXY1T8CVuw==",
-      "type": "package",
-      "path": "volo.abp.permissionmanagement.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.Abp.PermissionManagement.HttpApi.Client.abppkg",
-        "content/Volo.Abp.PermissionManagement.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.Abp.PermissionManagement.HttpApi.Client.dll",
-        "lib/net8.0/Volo.Abp.PermissionManagement.HttpApi.Client.pdb",
-        "lib/net8.0/Volo.Abp.PermissionManagement.HttpApi.Client.xml",
-        "lib/net9.0/Volo.Abp.PermissionManagement.HttpApi.Client.dll",
-        "lib/net9.0/Volo.Abp.PermissionManagement.HttpApi.Client.pdb",
-        "lib/net9.0/Volo.Abp.PermissionManagement.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.Abp.PermissionManagement.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.Abp.PermissionManagement.HttpApi.Client.pdb",
-        "lib/netstandard2.0/Volo.Abp.PermissionManagement.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.Abp.PermissionManagement.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.Abp.PermissionManagement.HttpApi.Client.pdb",
-        "lib/netstandard2.1/Volo.Abp.PermissionManagement.HttpApi.Client.xml",
-        "volo.abp.permissionmanagement.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.abp.permissionmanagement.httpapi.client.nuspec"
       ]
     },
     "Volo.Abp.RemoteServices/9.0.1": {
@@ -20328,22 +18746,6 @@
         "volo.abp.settingmanagement.blazor.server.nuspec"
       ]
     },
-    "Volo.Abp.SettingManagement.Blazor.WebAssembly/9.0.1": {
-      "sha512": "XrDRH+gpicd6t70mzhvcZ9agFP02waM/Q+wFu0x4/P9qHG5uxvrUTNvYq5uoYwQ5471+qLa+FOYCYu4x0zl8ew==",
-      "type": "package",
-      "path": "volo.abp.settingmanagement.blazor.webassembly/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.Abp.SettingManagement.Blazor.WebAssembly.abppkg",
-        "lib/net9.0/Volo.Abp.SettingManagement.Blazor.WebAssembly.dll",
-        "lib/net9.0/Volo.Abp.SettingManagement.Blazor.WebAssembly.pdb",
-        "lib/net9.0/Volo.Abp.SettingManagement.Blazor.WebAssembly.xml",
-        "volo.abp.settingmanagement.blazor.webassembly.9.0.1.nupkg.sha512",
-        "volo.abp.settingmanagement.blazor.webassembly.nuspec"
-      ]
-    },
     "Volo.Abp.SettingManagement.Domain/9.0.1": {
       "sha512": "sOll1pYmSTbSyhfE9qZ8e7gGBXx9x6PJDyk25hEzQQRNYES6npChbETHY9A4BcmtRLJklnA4S6VXv+MkVhbUmg==",
       "type": "package",
@@ -20394,32 +18796,6 @@
         "lib/netstandard2.1/Volo.Abp.SettingManagement.Domain.Shared.xml",
         "volo.abp.settingmanagement.domain.shared.9.0.1.nupkg.sha512",
         "volo.abp.settingmanagement.domain.shared.nuspec"
-      ]
-    },
-    "Volo.Abp.SettingManagement.HttpApi.Client/9.0.1": {
-      "sha512": "Am4nNDd6vUBAYfyR6hznnxKXpxOyWQb6GCnHrNX73Ppfj8Nz4oaCyJPuumvd32UnRL1GtX7UFy7uM0sCDpNFlg==",
-      "type": "package",
-      "path": "volo.abp.settingmanagement.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.Abp.SettingManagement.HttpApi.Client.abppkg",
-        "content/Volo.Abp.SettingManagement.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.Abp.SettingManagement.HttpApi.Client.dll",
-        "lib/net8.0/Volo.Abp.SettingManagement.HttpApi.Client.pdb",
-        "lib/net8.0/Volo.Abp.SettingManagement.HttpApi.Client.xml",
-        "lib/net9.0/Volo.Abp.SettingManagement.HttpApi.Client.dll",
-        "lib/net9.0/Volo.Abp.SettingManagement.HttpApi.Client.pdb",
-        "lib/net9.0/Volo.Abp.SettingManagement.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.Abp.SettingManagement.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.Abp.SettingManagement.HttpApi.Client.pdb",
-        "lib/netstandard2.0/Volo.Abp.SettingManagement.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.Abp.SettingManagement.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.Abp.SettingManagement.HttpApi.Client.pdb",
-        "lib/netstandard2.1/Volo.Abp.SettingManagement.HttpApi.Client.xml",
-        "volo.abp.settingmanagement.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.abp.settingmanagement.httpapi.client.nuspec"
       ]
     },
     "Volo.Abp.Settings/9.0.1": {
@@ -20583,21 +18959,6 @@
         "volo.abp.texttemplatemanagement.blazor.server.nuspec"
       ]
     },
-    "Volo.Abp.TextTemplateManagement.Blazor.WebAssembly/9.0.1": {
-      "sha512": "OG19GCR7HxazsEMjXwdjP8JsNgT0O6Me/h/+zcuNoJrDcvWkCh6glL2x78yNC7Ggho20pcfiL1DTaG6bnnn8Pw==",
-      "type": "package",
-      "path": "volo.abp.texttemplatemanagement.blazor.webassembly/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.Abp.TextTemplateManagement.Blazor.WebAssembly.abppkg",
-        "content/Volo.Abp.TextTemplateManagement.Blazor.WebAssembly.abppkg.analyze.json",
-        "contentFiles/any/net9.0/Volo.Abp.TextTemplateManagement.Blazor.WebAssembly.abppkg.analyze.json",
-        "lib/net9.0/Volo.Abp.TextTemplateManagement.Blazor.WebAssembly.dll",
-        "lib/net9.0/Volo.Abp.TextTemplateManagement.Blazor.WebAssembly.xml",
-        "volo.abp.texttemplatemanagement.blazor.webassembly.9.0.1.nupkg.sha512",
-        "volo.abp.texttemplatemanagement.blazor.webassembly.nuspec"
-      ]
-    },
     "Volo.Abp.TextTemplateManagement.Domain.Shared/9.0.1": {
       "sha512": "IdPLeuxhYoUO1iQGnH42IiaTx9VjGysED+Uqs04VRkZiuWoesierEyR5OWQ5rrO4OO+uLC9Znp6GkIwmwZ/knw==",
       "type": "package",
@@ -20616,26 +18977,6 @@
         "lib/netstandard2.1/Volo.Abp.TextTemplateManagement.Domain.Shared.xml",
         "volo.abp.texttemplatemanagement.domain.shared.9.0.1.nupkg.sha512",
         "volo.abp.texttemplatemanagement.domain.shared.nuspec"
-      ]
-    },
-    "Volo.Abp.TextTemplateManagement.HttpApi.Client/9.0.1": {
-      "sha512": "G741+m7M8TV4yBWuT8Z1biXOiovTT2YPsDIEn+k0nncH/UzJ19fMgelk6mqFF4WNFbDiw+UuXcIe6iO5zpNj8w==",
-      "type": "package",
-      "path": "volo.abp.texttemplatemanagement.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.Abp.TextTemplateManagement.HttpApi.Client.abppkg",
-        "content/Volo.Abp.TextTemplateManagement.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.Abp.TextTemplateManagement.HttpApi.Client.dll",
-        "lib/net8.0/Volo.Abp.TextTemplateManagement.HttpApi.Client.xml",
-        "lib/net9.0/Volo.Abp.TextTemplateManagement.HttpApi.Client.dll",
-        "lib/net9.0/Volo.Abp.TextTemplateManagement.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.Abp.TextTemplateManagement.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.Abp.TextTemplateManagement.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.Abp.TextTemplateManagement.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.Abp.TextTemplateManagement.HttpApi.Client.xml",
-        "volo.abp.texttemplatemanagement.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.abp.texttemplatemanagement.httpapi.client.nuspec"
       ]
     },
     "Volo.Abp.TextTemplating/9.0.1": {
@@ -21033,21 +19374,6 @@
         "volo.chat.blazor.server.nuspec"
       ]
     },
-    "Volo.Chat.Blazor.WebAssembly/9.0.1": {
-      "sha512": "usYKZIs04t2wj/DL/CqJvcJUALYUR2D5prgUC8rJTAKltGiPNMcPH29LoTs0B+noieg2Ew6hl2YIOQgG3s8LPA==",
-      "type": "package",
-      "path": "volo.chat.blazor.webassembly/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.Chat.Blazor.WebAssembly.abppkg",
-        "content/Volo.Chat.Blazor.WebAssembly.abppkg.analyze.json",
-        "contentFiles/any/net9.0/Volo.Chat.Blazor.WebAssembly.abppkg.analyze.json",
-        "lib/net9.0/Volo.Chat.Blazor.WebAssembly.dll",
-        "lib/net9.0/Volo.Chat.Blazor.WebAssembly.xml",
-        "volo.chat.blazor.webassembly.9.0.1.nupkg.sha512",
-        "volo.chat.blazor.webassembly.nuspec"
-      ]
-    },
     "Volo.Chat.Domain.Shared/9.0.1": {
       "sha512": "kfKsKnX1ypb2oFK8YoZ/c7LyW5QIiNyMwkHQusasWtReG+8WyGQZnlhO7mVVJsZwQrsHhcWgBXwC9GBiL7OKyA==",
       "type": "package",
@@ -21066,26 +19392,6 @@
         "lib/netstandard2.1/Volo.Chat.Domain.Shared.xml",
         "volo.chat.domain.shared.9.0.1.nupkg.sha512",
         "volo.chat.domain.shared.nuspec"
-      ]
-    },
-    "Volo.Chat.HttpApi.Client/9.0.1": {
-      "sha512": "LnLKHZmJ4wEOl3GXC6eeLRRUxPn7yKrH7eixTcxvEBmIyhu++IQ4fTfNuGbQ7+5Ie/LSnyBBHMZ30tEAyqj91g==",
-      "type": "package",
-      "path": "volo.chat.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.Chat.HttpApi.Client.abppkg",
-        "content/Volo.Chat.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.Chat.HttpApi.Client.dll",
-        "lib/net8.0/Volo.Chat.HttpApi.Client.xml",
-        "lib/net9.0/Volo.Chat.HttpApi.Client.dll",
-        "lib/net9.0/Volo.Chat.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.Chat.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.Chat.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.Chat.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.Chat.HttpApi.Client.xml",
-        "volo.chat.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.chat.httpapi.client.nuspec"
       ]
     },
     "Volo.Chat.SignalR/9.0.1": {
@@ -21129,58 +19435,6 @@
         "volo.cmskit.admin.application.contracts.nuspec"
       ]
     },
-    "Volo.CmsKit.Admin.HttpApi.Client/9.0.1": {
-      "sha512": "WxjfSaVAFbEo3jdqhQPtp2yI1f3VOlwc/MSC+uA+78xHDcCzwMmG7kaeJFQd84mJpmZuCk9dczJwfYFOaGvoEw==",
-      "type": "package",
-      "path": "volo.cmskit.admin.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.CmsKit.Admin.HttpApi.Client.abppkg",
-        "content/Volo.CmsKit.Admin.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.CmsKit.Admin.HttpApi.Client.dll",
-        "lib/net8.0/Volo.CmsKit.Admin.HttpApi.Client.pdb",
-        "lib/net8.0/Volo.CmsKit.Admin.HttpApi.Client.xml",
-        "lib/net9.0/Volo.CmsKit.Admin.HttpApi.Client.dll",
-        "lib/net9.0/Volo.CmsKit.Admin.HttpApi.Client.pdb",
-        "lib/net9.0/Volo.CmsKit.Admin.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.CmsKit.Admin.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.CmsKit.Admin.HttpApi.Client.pdb",
-        "lib/netstandard2.0/Volo.CmsKit.Admin.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.CmsKit.Admin.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.CmsKit.Admin.HttpApi.Client.pdb",
-        "lib/netstandard2.1/Volo.CmsKit.Admin.HttpApi.Client.xml",
-        "volo.cmskit.admin.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.cmskit.admin.httpapi.client.nuspec"
-      ]
-    },
-    "Volo.CmsKit.Application.Contracts/9.0.1": {
-      "sha512": "ouozo9SN/NI9pSZtJa9wG69tXpTXUnwdwVb8POxJgnHiRZplu/4giHNmyGnp8eObTm9gdH2/CNd+4avLwVTZVA==",
-      "type": "package",
-      "path": "volo.cmskit.application.contracts/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.CmsKit.Application.Contracts.abppkg",
-        "content/Volo.CmsKit.Application.Contracts.abppkg.analyze.json",
-        "lib/net8.0/Volo.CmsKit.Application.Contracts.dll",
-        "lib/net8.0/Volo.CmsKit.Application.Contracts.pdb",
-        "lib/net8.0/Volo.CmsKit.Application.Contracts.xml",
-        "lib/net9.0/Volo.CmsKit.Application.Contracts.dll",
-        "lib/net9.0/Volo.CmsKit.Application.Contracts.pdb",
-        "lib/net9.0/Volo.CmsKit.Application.Contracts.xml",
-        "lib/netstandard2.0/Volo.CmsKit.Application.Contracts.dll",
-        "lib/netstandard2.0/Volo.CmsKit.Application.Contracts.pdb",
-        "lib/netstandard2.0/Volo.CmsKit.Application.Contracts.xml",
-        "lib/netstandard2.1/Volo.CmsKit.Application.Contracts.dll",
-        "lib/netstandard2.1/Volo.CmsKit.Application.Contracts.pdb",
-        "lib/netstandard2.1/Volo.CmsKit.Application.Contracts.xml",
-        "volo.cmskit.application.contracts.9.0.1.nupkg.sha512",
-        "volo.cmskit.application.contracts.nuspec"
-      ]
-    },
     "Volo.CmsKit.Common.Application.Contracts/9.0.1": {
       "sha512": "mMOhTLci1YaS89CkIdFIqM8RYWkmM016yZN5lC86VHb7JnBci+g9FDjEgkrALzNFEpdnrETkyOlm6TayIbEl2w==",
       "type": "package",
@@ -21207,32 +19461,6 @@
         "volo.cmskit.common.application.contracts.nuspec"
       ]
     },
-    "Volo.CmsKit.Common.HttpApi.Client/9.0.1": {
-      "sha512": "BTErOi/8vlLjOYAtCwn18WRVuEbDYGFtp7T32lWC3xPUXb0iKWmnNQ0Msi4KrNPlmEBzRzQO4WxmBiSSxQoBBA==",
-      "type": "package",
-      "path": "volo.cmskit.common.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.CmsKit.Common.HttpApi.Client.abppkg",
-        "content/Volo.CmsKit.Common.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.CmsKit.Common.HttpApi.Client.dll",
-        "lib/net8.0/Volo.CmsKit.Common.HttpApi.Client.pdb",
-        "lib/net8.0/Volo.CmsKit.Common.HttpApi.Client.xml",
-        "lib/net9.0/Volo.CmsKit.Common.HttpApi.Client.dll",
-        "lib/net9.0/Volo.CmsKit.Common.HttpApi.Client.pdb",
-        "lib/net9.0/Volo.CmsKit.Common.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.CmsKit.Common.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.CmsKit.Common.HttpApi.Client.pdb",
-        "lib/netstandard2.0/Volo.CmsKit.Common.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.CmsKit.Common.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.CmsKit.Common.HttpApi.Client.pdb",
-        "lib/netstandard2.1/Volo.CmsKit.Common.HttpApi.Client.xml",
-        "volo.cmskit.common.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.cmskit.common.httpapi.client.nuspec"
-      ]
-    },
     "Volo.CmsKit.Domain.Shared/9.0.1": {
       "sha512": "k1hoEOnRr8HaMxCw5gEYtdOSmmtYLVY/469u/81W8D06Iljv+p3Y19H3X3F0qqoynZJ9yr9iwwC6n30UouR6hQ==",
       "type": "package",
@@ -21257,32 +19485,6 @@
         "lib/netstandard2.1/Volo.CmsKit.Domain.Shared.xml",
         "volo.cmskit.domain.shared.9.0.1.nupkg.sha512",
         "volo.cmskit.domain.shared.nuspec"
-      ]
-    },
-    "Volo.CmsKit.HttpApi.Client/9.0.1": {
-      "sha512": "mpkNGojZ3SVC7YmOluPt35iZD1wOp1G0yeKdxtURrLYAHuWbzR441wmc2thOu1Ik1Km+Igkny6lUfEDGwsIKhw==",
-      "type": "package",
-      "path": "volo.cmskit.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.CmsKit.HttpApi.Client.abppkg",
-        "content/Volo.CmsKit.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.CmsKit.HttpApi.Client.dll",
-        "lib/net8.0/Volo.CmsKit.HttpApi.Client.pdb",
-        "lib/net8.0/Volo.CmsKit.HttpApi.Client.xml",
-        "lib/net9.0/Volo.CmsKit.HttpApi.Client.dll",
-        "lib/net9.0/Volo.CmsKit.HttpApi.Client.pdb",
-        "lib/net9.0/Volo.CmsKit.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.CmsKit.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.CmsKit.HttpApi.Client.pdb",
-        "lib/netstandard2.0/Volo.CmsKit.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.CmsKit.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.CmsKit.HttpApi.Client.pdb",
-        "lib/netstandard2.1/Volo.CmsKit.HttpApi.Client.xml",
-        "volo.cmskit.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.cmskit.httpapi.client.nuspec"
       ]
     },
     "Volo.CmsKit.Pro.Admin.Application.Contracts/9.0.1": {
@@ -21344,61 +19546,6 @@
         "volo.cmskit.pro.admin.blazor.server.nuspec"
       ]
     },
-    "Volo.CmsKit.Pro.Admin.Blazor.WebAssembly/9.0.1": {
-      "sha512": "d8FFcQg26hRVy3O3OZBRmN+gqbOqyFK0LxACc53FxZJTm3GEicNUz3hejShD8s0AkMiBWshSiWImR+ejbDIgIg==",
-      "type": "package",
-      "path": "volo.cmskit.pro.admin.blazor.webassembly/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.CmsKit.Pro.Admin.Blazor.WebAssembly.abppkg",
-        "content/Volo.CmsKit.Pro.Admin.Blazor.WebAssembly.abppkg.analyze.json",
-        "contentFiles/any/net9.0/Volo.CmsKit.Pro.Admin.Blazor.WebAssembly.abppkg.analyze.json",
-        "lib/net9.0/Volo.CmsKit.Pro.Admin.Blazor.WebAssembly.dll",
-        "lib/net9.0/Volo.CmsKit.Pro.Admin.Blazor.WebAssembly.xml",
-        "volo.cmskit.pro.admin.blazor.webassembly.9.0.1.nupkg.sha512",
-        "volo.cmskit.pro.admin.blazor.webassembly.nuspec"
-      ]
-    },
-    "Volo.CmsKit.Pro.Admin.HttpApi.Client/9.0.1": {
-      "sha512": "Luh/v0hYq1lpUnN4TUz+rDNQvaM/m0YWak8/pB9Mcu+ZDWIAWN80dIU38qFBIAVSbUyxYRs0ROq1UpUVrRZV/A==",
-      "type": "package",
-      "path": "volo.cmskit.pro.admin.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.CmsKit.Pro.Admin.HttpApi.Client.abppkg",
-        "content/Volo.CmsKit.Pro.Admin.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.CmsKit.Pro.Admin.HttpApi.Client.dll",
-        "lib/net8.0/Volo.CmsKit.Pro.Admin.HttpApi.Client.xml",
-        "lib/net9.0/Volo.CmsKit.Pro.Admin.HttpApi.Client.dll",
-        "lib/net9.0/Volo.CmsKit.Pro.Admin.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.CmsKit.Pro.Admin.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.CmsKit.Pro.Admin.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.CmsKit.Pro.Admin.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.CmsKit.Pro.Admin.HttpApi.Client.xml",
-        "volo.cmskit.pro.admin.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.cmskit.pro.admin.httpapi.client.nuspec"
-      ]
-    },
-    "Volo.CmsKit.Pro.Application.Contracts/9.0.1": {
-      "sha512": "6m/yLIiKaPnxVZUc+7JGCpSHXWdV/t93/iJnymF+z0+FZwrc2rkUKf5jQNzicLEqHll/tsmlmfJ4FTJVKoz7Cw==",
-      "type": "package",
-      "path": "volo.cmskit.pro.application.contracts/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.CmsKit.Pro.Application.Contracts.abppkg",
-        "content/Volo.CmsKit.Pro.Application.Contracts.abppkg.analyze.json",
-        "lib/net8.0/Volo.CmsKit.Pro.Application.Contracts.dll",
-        "lib/net8.0/Volo.CmsKit.Pro.Application.Contracts.xml",
-        "lib/net9.0/Volo.CmsKit.Pro.Application.Contracts.dll",
-        "lib/net9.0/Volo.CmsKit.Pro.Application.Contracts.xml",
-        "lib/netstandard2.0/Volo.CmsKit.Pro.Application.Contracts.dll",
-        "lib/netstandard2.0/Volo.CmsKit.Pro.Application.Contracts.xml",
-        "lib/netstandard2.1/Volo.CmsKit.Pro.Application.Contracts.dll",
-        "lib/netstandard2.1/Volo.CmsKit.Pro.Application.Contracts.xml",
-        "volo.cmskit.pro.application.contracts.9.0.1.nupkg.sha512",
-        "volo.cmskit.pro.application.contracts.nuspec"
-      ]
-    },
     "Volo.CmsKit.Pro.Common.Application.Contracts/9.0.1": {
       "sha512": "mgULM2XcwI85bfNpKQM4yw8oZYTaPcC5AjlVUpnvzRJw5bFOA4/VRsPFfhOeRCvBc5Ik8ezjV/DK7ncKDL59zA==",
       "type": "package",
@@ -21416,25 +19563,6 @@
         "lib/netstandard2.1/Volo.CmsKit.Pro.Common.Application.Contracts.xml",
         "volo.cmskit.pro.common.application.contracts.9.0.1.nupkg.sha512",
         "volo.cmskit.pro.common.application.contracts.nuspec"
-      ]
-    },
-    "Volo.CmsKit.Pro.Common.HttpApi.Client/9.0.1": {
-      "sha512": "04pZ6q8OKG8bmw+KtezGZFua1r2DrmIsEy483bTvUBWBLEGEVbzvb4aW8hZE+1vIfngA9Do/xFvIGvJwhyF1SA==",
-      "type": "package",
-      "path": "volo.cmskit.pro.common.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.CmsKit.Pro.Common.HttpApi.Client.abppkg",
-        "lib/net8.0/Volo.CmsKit.Pro.Common.HttpApi.Client.dll",
-        "lib/net8.0/Volo.CmsKit.Pro.Common.HttpApi.Client.xml",
-        "lib/net9.0/Volo.CmsKit.Pro.Common.HttpApi.Client.dll",
-        "lib/net9.0/Volo.CmsKit.Pro.Common.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.CmsKit.Pro.Common.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.CmsKit.Pro.Common.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.CmsKit.Pro.Common.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.CmsKit.Pro.Common.HttpApi.Client.xml",
-        "volo.cmskit.pro.common.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.cmskit.pro.common.httpapi.client.nuspec"
       ]
     },
     "Volo.CmsKit.Pro.Domain.Shared/9.0.1": {
@@ -21455,118 +19583,6 @@
         "lib/netstandard2.1/Volo.CmsKit.Pro.Domain.Shared.xml",
         "volo.cmskit.pro.domain.shared.9.0.1.nupkg.sha512",
         "volo.cmskit.pro.domain.shared.nuspec"
-      ]
-    },
-    "Volo.CmsKit.Pro.HttpApi.Client/9.0.1": {
-      "sha512": "dnNllimVeMo0XmZgT8ANNEodPR13M6MSZLnXAXq4LpxOaCzaLYH27VYrrdce9pTmEoVX3SpsgV0X7a4efW7yCA==",
-      "type": "package",
-      "path": "volo.cmskit.pro.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.CmsKit.Pro.HttpApi.Client.abppkg",
-        "content/Volo.CmsKit.Pro.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.CmsKit.Pro.HttpApi.Client.dll",
-        "lib/net8.0/Volo.CmsKit.Pro.HttpApi.Client.xml",
-        "lib/net9.0/Volo.CmsKit.Pro.HttpApi.Client.dll",
-        "lib/net9.0/Volo.CmsKit.Pro.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.CmsKit.Pro.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.CmsKit.Pro.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.CmsKit.Pro.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.CmsKit.Pro.HttpApi.Client.xml",
-        "volo.cmskit.pro.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.cmskit.pro.httpapi.client.nuspec"
-      ]
-    },
-    "Volo.CmsKit.Pro.Public.Application.Contracts/9.0.1": {
-      "sha512": "keBetx85sLdxxBxzYAgrzJRhevOubcYp4zQVgPc9trpBWbFuxe5750rpw07rGMfyPFUn+4aJXPWPB1hQ4cO8Eg==",
-      "type": "package",
-      "path": "volo.cmskit.pro.public.application.contracts/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.CmsKit.Pro.Public.Application.Contracts.abppkg",
-        "content/Volo.CmsKit.Pro.Public.Application.Contracts.abppkg.analyze.json",
-        "lib/net8.0/Volo.CmsKit.Pro.Public.Application.Contracts.dll",
-        "lib/net8.0/Volo.CmsKit.Pro.Public.Application.Contracts.xml",
-        "lib/net9.0/Volo.CmsKit.Pro.Public.Application.Contracts.dll",
-        "lib/net9.0/Volo.CmsKit.Pro.Public.Application.Contracts.xml",
-        "lib/netstandard2.0/Volo.CmsKit.Pro.Public.Application.Contracts.dll",
-        "lib/netstandard2.0/Volo.CmsKit.Pro.Public.Application.Contracts.xml",
-        "lib/netstandard2.1/Volo.CmsKit.Pro.Public.Application.Contracts.dll",
-        "lib/netstandard2.1/Volo.CmsKit.Pro.Public.Application.Contracts.xml",
-        "volo.cmskit.pro.public.application.contracts.9.0.1.nupkg.sha512",
-        "volo.cmskit.pro.public.application.contracts.nuspec"
-      ]
-    },
-    "Volo.CmsKit.Pro.Public.HttpApi.Client/9.0.1": {
-      "sha512": "4iz/5r/BvXLwJsu6rHFHKsTs3t8LNUsIathy9c58vBIwPGqn/8k3gWYVhJrK1BZZ6WvuO1GJ3O4nI2QXvUxQhw==",
-      "type": "package",
-      "path": "volo.cmskit.pro.public.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.CmsKit.Pro.Public.HttpApi.Client.abppkg",
-        "content/Volo.CmsKit.Pro.Public.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.CmsKit.Pro.Public.HttpApi.Client.dll",
-        "lib/net8.0/Volo.CmsKit.Pro.Public.HttpApi.Client.xml",
-        "lib/net9.0/Volo.CmsKit.Pro.Public.HttpApi.Client.dll",
-        "lib/net9.0/Volo.CmsKit.Pro.Public.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.CmsKit.Pro.Public.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.CmsKit.Pro.Public.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.CmsKit.Pro.Public.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.CmsKit.Pro.Public.HttpApi.Client.xml",
-        "volo.cmskit.pro.public.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.cmskit.pro.public.httpapi.client.nuspec"
-      ]
-    },
-    "Volo.CmsKit.Public.Application.Contracts/9.0.1": {
-      "sha512": "WMgUmS8eDnlTzh3BUylRaSgfgM1beEahORQsXk35Nx6s0vDF0k1JRh1i+WLE600eDExQOnyHKyl8YtWV1vtSAA==",
-      "type": "package",
-      "path": "volo.cmskit.public.application.contracts/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.CmsKit.Public.Application.Contracts.abppkg",
-        "content/Volo.CmsKit.Public.Application.Contracts.abppkg.analyze.json",
-        "lib/net8.0/Volo.CmsKit.Public.Application.Contracts.dll",
-        "lib/net8.0/Volo.CmsKit.Public.Application.Contracts.pdb",
-        "lib/net8.0/Volo.CmsKit.Public.Application.Contracts.xml",
-        "lib/net9.0/Volo.CmsKit.Public.Application.Contracts.dll",
-        "lib/net9.0/Volo.CmsKit.Public.Application.Contracts.pdb",
-        "lib/net9.0/Volo.CmsKit.Public.Application.Contracts.xml",
-        "lib/netstandard2.0/Volo.CmsKit.Public.Application.Contracts.dll",
-        "lib/netstandard2.0/Volo.CmsKit.Public.Application.Contracts.pdb",
-        "lib/netstandard2.0/Volo.CmsKit.Public.Application.Contracts.xml",
-        "lib/netstandard2.1/Volo.CmsKit.Public.Application.Contracts.dll",
-        "lib/netstandard2.1/Volo.CmsKit.Public.Application.Contracts.pdb",
-        "lib/netstandard2.1/Volo.CmsKit.Public.Application.Contracts.xml",
-        "volo.cmskit.public.application.contracts.9.0.1.nupkg.sha512",
-        "volo.cmskit.public.application.contracts.nuspec"
-      ]
-    },
-    "Volo.CmsKit.Public.HttpApi.Client/9.0.1": {
-      "sha512": "D7idsUAhV1I35O7bXQUmtorSlOVlQaA0evwXyucREEjtAqQOAvUrxzhYJM33A8R0YspD7qXbmpc4HKdu5eMqpA==",
-      "type": "package",
-      "path": "volo.cmskit.public.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.CmsKit.Public.HttpApi.Client.abppkg",
-        "content/Volo.CmsKit.Public.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.CmsKit.Public.HttpApi.Client.dll",
-        "lib/net8.0/Volo.CmsKit.Public.HttpApi.Client.pdb",
-        "lib/net8.0/Volo.CmsKit.Public.HttpApi.Client.xml",
-        "lib/net9.0/Volo.CmsKit.Public.HttpApi.Client.dll",
-        "lib/net9.0/Volo.CmsKit.Public.HttpApi.Client.pdb",
-        "lib/net9.0/Volo.CmsKit.Public.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.CmsKit.Public.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.CmsKit.Public.HttpApi.Client.pdb",
-        "lib/netstandard2.0/Volo.CmsKit.Public.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.CmsKit.Public.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.CmsKit.Public.HttpApi.Client.pdb",
-        "lib/netstandard2.1/Volo.CmsKit.Public.HttpApi.Client.xml",
-        "volo.cmskit.public.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.cmskit.public.httpapi.client.nuspec"
       ]
     },
     "Volo.FileManagement.Application.Contracts/9.0.1": {
@@ -21626,21 +19642,6 @@
         "volo.filemanagement.blazor.server.nuspec"
       ]
     },
-    "Volo.FileManagement.Blazor.WebAssembly/9.0.1": {
-      "sha512": "otAOlviFynFHhP65irozIUd5qY72GhSaN/KOEFMNP0ote/3I13tA0bWLWSHeAHpOSYN0pUm/sZ86Lr8DEsPbMA==",
-      "type": "package",
-      "path": "volo.filemanagement.blazor.webassembly/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.FileManagement.Blazor.WebAssembly.abppkg",
-        "content/Volo.FileManagement.Blazor.WebAssembly.abppkg.analyze.json",
-        "contentFiles/any/net9.0/Volo.FileManagement.Blazor.WebAssembly.abppkg.analyze.json",
-        "lib/net9.0/Volo.FileManagement.Blazor.WebAssembly.dll",
-        "lib/net9.0/Volo.FileManagement.Blazor.WebAssembly.xml",
-        "volo.filemanagement.blazor.webassembly.9.0.1.nupkg.sha512",
-        "volo.filemanagement.blazor.webassembly.nuspec"
-      ]
-    },
     "Volo.FileManagement.Domain.Shared/9.0.1": {
       "sha512": "ssGlzleJiqhBbjVr+g+n8iDpLqk8ctZP/WoAYPaI+AQvYPAFrTxIzKfxENxY9/ZcSDgSDGy68tkXYYf9Br6lgQ==",
       "type": "package",
@@ -21659,26 +19660,6 @@
         "lib/netstandard2.1/Volo.FileManagement.Domain.Shared.xml",
         "volo.filemanagement.domain.shared.9.0.1.nupkg.sha512",
         "volo.filemanagement.domain.shared.nuspec"
-      ]
-    },
-    "Volo.FileManagement.HttpApi.Client/9.0.1": {
-      "sha512": "jBCOkFLhCi2O9pZNOloNIA0FzskNHBrRSeU5ULmiJWFizQkXc4E+sKeYMIc0q5+LFB9YPzY5KjEMCL5vVD20sw==",
-      "type": "package",
-      "path": "volo.filemanagement.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.FileManagement.HttpApi.Client.abppkg",
-        "content/Volo.FileManagement.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.FileManagement.HttpApi.Client.dll",
-        "lib/net8.0/Volo.FileManagement.HttpApi.Client.xml",
-        "lib/net9.0/Volo.FileManagement.HttpApi.Client.dll",
-        "lib/net9.0/Volo.FileManagement.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.FileManagement.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.FileManagement.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.FileManagement.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.FileManagement.HttpApi.Client.xml",
-        "volo.filemanagement.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.filemanagement.httpapi.client.nuspec"
       ]
     },
     "Volo.Payment.Application.Contracts/9.0.1": {
@@ -21797,41 +19778,6 @@
         "volo.saas.host.blazor.server.nuspec"
       ]
     },
-    "Volo.Saas.Host.Blazor.WebAssembly/9.0.1": {
-      "sha512": "JOdOnTRgQZ2iWbu1HW7ZW1ixwXViZZ4SSIzH6Coag2lVvPVwxBu/VE8QcGwUv8C/Npbi4VfcljbzoWz3JG/YGg==",
-      "type": "package",
-      "path": "volo.saas.host.blazor.webassembly/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.Saas.Host.Blazor.WebAssembly.abppkg",
-        "content/Volo.Saas.Host.Blazor.WebAssembly.abppkg.analyze.json",
-        "contentFiles/any/net9.0/Volo.Saas.Host.Blazor.WebAssembly.abppkg.analyze.json",
-        "lib/net9.0/Volo.Saas.Host.Blazor.WebAssembly.dll",
-        "lib/net9.0/Volo.Saas.Host.Blazor.WebAssembly.xml",
-        "volo.saas.host.blazor.webassembly.9.0.1.nupkg.sha512",
-        "volo.saas.host.blazor.webassembly.nuspec"
-      ]
-    },
-    "Volo.Saas.Host.HttpApi.Client/9.0.1": {
-      "sha512": "u0HBFx3s6e4jMzg1cDUlqmNUolwZ4mIl4IIFnc0Qp9yN8MblPg70Uvr9/Ikh/2gyXD4cArXgeQl+xanXngw/AA==",
-      "type": "package",
-      "path": "volo.saas.host.httpapi.client/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "content/Volo.Saas.Host.HttpApi.Client.abppkg",
-        "content/Volo.Saas.Host.HttpApi.Client.abppkg.analyze.json",
-        "lib/net8.0/Volo.Saas.Host.HttpApi.Client.dll",
-        "lib/net8.0/Volo.Saas.Host.HttpApi.Client.xml",
-        "lib/net9.0/Volo.Saas.Host.HttpApi.Client.dll",
-        "lib/net9.0/Volo.Saas.Host.HttpApi.Client.xml",
-        "lib/netstandard2.0/Volo.Saas.Host.HttpApi.Client.dll",
-        "lib/netstandard2.0/Volo.Saas.Host.HttpApi.Client.xml",
-        "lib/netstandard2.1/Volo.Saas.Host.HttpApi.Client.dll",
-        "lib/netstandard2.1/Volo.Saas.Host.HttpApi.Client.xml",
-        "volo.saas.host.httpapi.client.9.0.1.nupkg.sha512",
-        "volo.saas.host.httpapi.client.nuspec"
-      ]
-    },
     "YamlDotNet/15.1.2": {
       "sha512": "qeX0XhzOIcQEvnI5JxnPaIwcINwyY4Qy/LXhSfsdHkFrl9F41AT52UFfy2nIE7kgrhMg+cP7xuS+GtPJhmHmTA==",
       "type": "package",
@@ -21868,37 +19814,17 @@
         "zxcvbn-netstandard.1.0.2.nupkg.sha512",
         "zxcvbn-netstandard.nuspec"
       ]
-    },
-    "Alfa5.Application.Contracts/1.0.0": {
-      "type": "project",
-      "path": "../Alfa5.Application.Contracts/Alfa5.Application.Contracts.csproj",
-      "msbuildProject": "../Alfa5.Application.Contracts/Alfa5.Application.Contracts.csproj"
-    },
-    "Alfa5.Blazor.Client/1.0.0": {
-      "type": "project",
-      "path": "../Alfa5.Blazor.Client/Alfa5.Blazor.Client.csproj",
-      "msbuildProject": "../Alfa5.Blazor.Client/Alfa5.Blazor.Client.csproj"
-    },
-    "Alfa5.Domain.Shared/1.0.0": {
-      "type": "project",
-      "path": "../Alfa5.Domain.Shared/Alfa5.Domain.Shared.csproj",
-      "msbuildProject": "../Alfa5.Domain.Shared/Alfa5.Domain.Shared.csproj"
-    },
-    "Alfa5.HttpApi.Client/1.0.0": {
-      "type": "project",
-      "path": "../Alfa5.HttpApi.Client/Alfa5.HttpApi.Client.csproj",
-      "msbuildProject": "../Alfa5.HttpApi.Client/Alfa5.HttpApi.Client.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Alfa5.Blazor.Client >= 1.0.0",
-      "Alfa5.HttpApi.Client >= 1.0.0",
       "AspNetCore.HealthChecks.UI >= 8.0.2",
       "AspNetCore.HealthChecks.UI.Client >= 8.0.1",
       "AspNetCore.HealthChecks.UI.InMemory.Storage >= 8.0.1",
       "Blazorise.Bootstrap5 >= 1.6.2",
       "Blazorise.Icons.FontAwesome >= 1.6.2",
+      "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Blazor.Client.csproj",
+      "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.HttpApi.Client.csproj",
       "DistributedLock.Redis >= 1.0.3",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 9.0.0",
       "Microsoft.AspNetCore.DataProtection.StackExchangeRedis >= 9.0.0",
@@ -21967,11 +19893,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor.Client\\Alfa5.Blazor.Client.csproj": {
-              "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor.Client\\Alfa5.Blazor.Client.csproj"
+            "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Blazor.Client.csproj": {
+              "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Blazor.Client.csproj"
             },
-            "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.HttpApi.Client\\Alfa5.HttpApi.Client.csproj": {
-              "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.HttpApi.Client\\Alfa5.HttpApi.Client.csproj"
+            "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.HttpApi.Client.csproj": {
+              "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.HttpApi.Client.csproj"
             }
           }
         }
@@ -22177,6 +20103,24 @@
       "warningLevel": 1,
       "message": "Versão detectada do pacote fora da restrição de dependência: HtmlSanitizer 8.1.870 requer AngleSharp.Css (= 0.17.0), mas a versão AngleSharp.Css 1.0.0-beta.144 foi resolvida.",
       "libraryId": "AngleSharp.Css",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Não é possível encontrar as informações do projeto para 'C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Blazor.Client.csproj'. Se você está usando o Visual Studio, isso pode ocorrer porque o projeto não está carregado ou não faz parte da solução atual. Portanto, execute uma restauração usando a linha de comando. Do contrário, o arquivo de projeto pode ser inválido ou pode haver destinos obrigatórios para a restauração ausentes.",
+      "libraryId": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Blazor.Client.csproj",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Não é possível encontrar as informações do projeto para 'C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.HttpApi.Client.csproj'. Se você está usando o Visual Studio, isso pode ocorrer porque o projeto não está carregado ou não faz parte da solução atual. Portanto, execute uma restauração usando a linha de comando. Do contrário, o arquivo de projeto pode ser inválido ou pode haver destinos obrigatórios para a restauração ausentes.",
+      "libraryId": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.HttpApi.Client.csproj",
       "targetGraphs": [
         "net9.0"
       ]

@@ -27,8 +27,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Alfa5.Blazor.Client\Alfa5.Blazor.Client.csproj" />
-    <ProjectReference Include="..\Alfa5.HttpApi.Client\Alfa5.HttpApi.Client.csproj" />
+    <ProjectReference Include="Alfa5.Blazor.Client.csproj" />
+    <ProjectReference Include="Alfa5.HttpApi.Client.csproj" />
   </ItemGroup>
 
   <ItemGroup>
