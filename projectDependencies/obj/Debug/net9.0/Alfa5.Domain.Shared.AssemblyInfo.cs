@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Alfa5.HttpApi.Client")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Alfa5.Domain.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0644f45aa6210517834f58512d4e49aed7630f1")]
-[assembly: System.Reflection.AssemblyProductAttribute("Alfa5.HttpApi.Client")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Alfa5.HttpApi.Client")]
+[assembly: System.Reflection.AssemblyProductAttribute("Alfa5.Domain.Shared")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Alfa5.Domain.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

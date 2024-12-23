@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Blazor.Client.csproj": {}
+    "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Domain.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Blazor.Client.csproj": {
+    "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Blazor.Client.csproj",
-        "projectName": "Alfa5.Blazor.Client",
-        "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Blazor.Client.csproj",
+        "projectUniqueName": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Domain.Shared.csproj",
+        "projectName": "Alfa5.Domain.Shared",
+        "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Domain.Shared.csproj",
         "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
         "outputPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\obj\\",
         "projectStyle": "PackageReference",
@@ -34,11 +34,7 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {
-              "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.HttpApi.Client.csproj": {
-                "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.HttpApi.Client.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -57,95 +53,71 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Blazorise.Bootstrap5": {
-              "target": "Package",
-              "version": "[1.6.2, )"
-            },
-            "Blazorise.Components": {
-              "target": "Package",
-              "version": "[1.6.2, )"
-            },
-            "Blazorise.Icons.FontAwesome": {
-              "target": "Package",
-              "version": "[1.6.2, )"
-            },
-            "Microsoft.AspNetCore.Components.WebAssembly": {
+            "Microsoft.Extensions.FileProviders.Embedded": {
               "target": "Package",
               "version": "[9.0.0, )"
             },
-            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[9.0.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.NET.Sdk.WebAssembly.Pack": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[9.0.0, )",
-              "autoReferenced": true
-            },
-            "Volo.Abp.Account.Pro.Admin.Blazor.WebAssembly": {
+            "Volo.Abp.AuditLogging.Domain.Shared": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXTheme": {
-              "target": "Package",
-              "version": "[4.0.1, )"
-            },
-            "Volo.Abp.AuditLogging.Blazor.WebAssembly": {
+            "Volo.Abp.BackgroundJobs.Domain.Shared": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Abp.Autofac.WebAssembly": {
+            "Volo.Abp.BlobStoring.Database.Domain.Shared": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Abp.FeatureManagement.Blazor.WebAssembly": {
+            "Volo.Abp.FeatureManagement.Domain.Shared": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Abp.Gdpr.Blazor.WebAssembly": {
+            "Volo.Abp.Gdpr.Domain.Shared": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Abp.Identity.Pro.Blazor.WebAssembly": {
+            "Volo.Abp.GlobalFeatures": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Abp.LanguageManagement.Blazor.WebAssembly": {
+            "Volo.Abp.Identity.Pro.Domain.Shared": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Abp.OpenIddict.Pro.Blazor.WebAssembly": {
+            "Volo.Abp.LanguageManagement.Domain.Shared": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Abp.SettingManagement.Blazor.WebAssembly": {
+            "Volo.Abp.OpenIddict.Pro.Domain.Shared": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Abp.TextTemplateManagement.Blazor.WebAssembly": {
+            "Volo.Abp.PermissionManagement.Domain.Shared": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Chat.Blazor.WebAssembly": {
+            "Volo.Abp.SettingManagement.Domain.Shared": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.CmsKit.Pro.Admin.Blazor.WebAssembly": {
+            "Volo.Abp.TextTemplateManagement.Domain.Shared": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.FileManagement.Blazor.WebAssembly": {
+            "Volo.Chat.Domain.Shared": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Saas.Host.Blazor.WebAssembly": {
+            "Volo.CmsKit.Pro.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.FileManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Saas.Domain.Shared": {
               "target": "Package",
               "version": "[9.0.1, )"
             }
@@ -161,23 +133,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[9.0.0, 9.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "browser-wasm": {
-          "#import": []
         }
       }
     }

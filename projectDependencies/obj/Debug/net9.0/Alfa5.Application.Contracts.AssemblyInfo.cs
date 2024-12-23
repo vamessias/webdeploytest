@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Alfa5.Application.Contracts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06085a6241290e67d53313387569e0945eae2c25")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0644f45aa6210517834f58512d4e49aed7630f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Alfa5.Application.Contracts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Alfa5.Application.Contracts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
