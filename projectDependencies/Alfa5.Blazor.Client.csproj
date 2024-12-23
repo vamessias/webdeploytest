@@ -1,11 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
+	<TargetFrameworks>net9.0</TargetFrameworks>
+	<RuntimeIdentifiers>browser-wasm</RuntimeIdentifiers>
+	
   <Import Project="..\common.props" />
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <BlazorWebAssemblyLoadAllGlobalizationData>true</BlazorWebAssemblyLoadAllGlobalizationData>
+		<WasmBuildNative>true</WasmBuildNative>
   </PropertyGroup>
 
   <ItemGroup>
@@ -41,7 +44,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Alfa5.HttpApi.Client\Alfa5.HttpApi.Client.csproj" />
+    <ProjectReference Include="Alfa5.HttpApi.Client\Alfa5.HttpApi.Client.csproj" />
   </ItemGroup>
 
 </Project>

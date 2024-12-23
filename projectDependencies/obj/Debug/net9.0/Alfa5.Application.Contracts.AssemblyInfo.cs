@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Alfa5.Blazor.Client")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Alfa5.Application.Contracts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7e3f03b63aa44159bf8ceb1533105800b25da1e")]
-[assembly: System.Reflection.AssemblyProductAttribute("Alfa5.Blazor.Client")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Alfa5.Blazor.Client")]
+[assembly: System.Reflection.AssemblyProductAttribute("Alfa5.Application.Contracts")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Alfa5.Application.Contracts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.HttpApi.Client.csproj": {}
+    "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Application.Contracts.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.HttpApi.Client.csproj": {
+    "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.HttpApi.Client.csproj",
-        "projectName": "Alfa5.HttpApi.Client",
-        "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.HttpApi.Client.csproj",
+        "projectUniqueName": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Application.Contracts.csproj",
+        "projectName": "Alfa5.Application.Contracts",
+        "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
         "outputPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\obj\\",
         "projectStyle": "PackageReference",
@@ -35,8 +35,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Application.Contracts\\Alfa5.Application.Contracts.csproj": {
-                "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Application.Contracts\\Alfa5.Application.Contracts.csproj"
+              "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Domain.Shared\\Alfa5.Domain.Shared.csproj": {
+                "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Domain.Shared\\Alfa5.Domain.Shared.csproj"
               }
             }
           }
@@ -57,63 +57,63 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Volo.Abp.Account.Pro.Admin.HttpApi.Client": {
+            "Volo.Abp.Account.Pro.Admin.Application.Contracts": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Abp.Account.Pro.Public.HttpApi.Client": {
+            "Volo.Abp.Account.Pro.Public.Application.Contracts": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Abp.AuditLogging.HttpApi.Client": {
+            "Volo.Abp.AuditLogging.Application.Contracts": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Abp.FeatureManagement.HttpApi.Client": {
+            "Volo.Abp.FeatureManagement.Application.Contracts": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Abp.Gdpr.HttpApi.Client": {
+            "Volo.Abp.Gdpr.Application.Contracts": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Abp.Identity.Pro.HttpApi.Client": {
+            "Volo.Abp.Identity.Pro.Application.Contracts": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Abp.LanguageManagement.HttpApi.Client": {
+            "Volo.Abp.LanguageManagement.Application.Contracts": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Abp.OpenIddict.Pro.HttpApi.Client": {
+            "Volo.Abp.OpenIddict.Pro.Application.Contracts": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Abp.PermissionManagement.HttpApi.Client": {
+            "Volo.Abp.PermissionManagement.Application.Contracts": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Abp.SettingManagement.HttpApi.Client": {
+            "Volo.Abp.SettingManagement.Application.Contracts": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Abp.TextTemplateManagement.HttpApi.Client": {
+            "Volo.Abp.TextTemplateManagement.Application.Contracts": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Chat.HttpApi.Client": {
+            "Volo.Chat.Application.Contracts": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.CmsKit.Pro.HttpApi.Client": {
+            "Volo.CmsKit.Pro.Application.Contracts": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.FileManagement.HttpApi.Client": {
+            "Volo.FileManagement.Application.Contracts": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Volo.Saas.Host.HttpApi.Client": {
+            "Volo.Saas.Host.Application.Contracts": {
               "target": "Package",
               "version": "[9.0.1, )"
             }
