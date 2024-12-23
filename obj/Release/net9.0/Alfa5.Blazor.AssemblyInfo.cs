@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Alfa5.Blazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7e3f03b63aa44159bf8ceb1533105800b25da1e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06085a6241290e67d53313387569e0945eae2c25")]
 [assembly: System.Reflection.AssemblyProductAttribute("Alfa5.Blazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Alfa5.Blazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
