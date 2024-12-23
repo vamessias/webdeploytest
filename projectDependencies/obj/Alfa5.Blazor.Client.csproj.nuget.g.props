@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">False</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Vinicius\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.12.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\Vinicius\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)volo.saas.host.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.Saas.Host.Blazor.WebAssembly.abppkg.analyze.json" Condition="Exists('$(NuGetPackageRoot)volo.saas.host.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.Saas.Host.Blazor.WebAssembly.abppkg.analyze.json')">
+      <NuGetPackageId>Volo.Saas.Host.Blazor.WebAssembly</NuGetPackageId>
+      <NuGetPackageVersion>9.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Volo.Saas.Host.Blazor.WebAssembly.abppkg.analyze.json</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)volo.filemanagement.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.FileManagement.Blazor.WebAssembly.abppkg.analyze.json" Condition="Exists('$(NuGetPackageRoot)volo.filemanagement.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.FileManagement.Blazor.WebAssembly.abppkg.analyze.json')">
+      <NuGetPackageId>Volo.FileManagement.Blazor.WebAssembly</NuGetPackageId>
+      <NuGetPackageVersion>9.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Volo.FileManagement.Blazor.WebAssembly.abppkg.analyze.json</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)volo.cmskit.pro.admin.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.CmsKit.Pro.Admin.Blazor.WebAssembly.abppkg.analyze.json" Condition="Exists('$(NuGetPackageRoot)volo.cmskit.pro.admin.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.CmsKit.Pro.Admin.Blazor.WebAssembly.abppkg.analyze.json')">
+      <NuGetPackageId>Volo.CmsKit.Pro.Admin.Blazor.WebAssembly</NuGetPackageId>
+      <NuGetPackageVersion>9.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Volo.CmsKit.Pro.Admin.Blazor.WebAssembly.abppkg.analyze.json</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)volo.chat.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.Chat.Blazor.WebAssembly.abppkg.analyze.json" Condition="Exists('$(NuGetPackageRoot)volo.chat.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.Chat.Blazor.WebAssembly.abppkg.analyze.json')">
+      <NuGetPackageId>Volo.Chat.Blazor.WebAssembly</NuGetPackageId>
+      <NuGetPackageVersion>9.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Volo.Chat.Blazor.WebAssembly.abppkg.analyze.json</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)volo.abp.texttemplatemanagement.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.Abp.TextTemplateManagement.Blazor.WebAssembly.abppkg.analyze.json" Condition="Exists('$(NuGetPackageRoot)volo.abp.texttemplatemanagement.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.Abp.TextTemplateManagement.Blazor.WebAssembly.abppkg.analyze.json')">
+      <NuGetPackageId>Volo.Abp.TextTemplateManagement.Blazor.WebAssembly</NuGetPackageId>
+      <NuGetPackageVersion>9.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Volo.Abp.TextTemplateManagement.Blazor.WebAssembly.abppkg.analyze.json</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)volo.abp.auditlogging.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.Abp.AuditLogging.Blazor.WebAssembly.abppkg.analyze.json" Condition="Exists('$(NuGetPackageRoot)volo.abp.auditlogging.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.Abp.AuditLogging.Blazor.WebAssembly.abppkg.analyze.json')">
+      <NuGetPackageId>Volo.Abp.AuditLogging.Blazor.WebAssembly</NuGetPackageId>
+      <NuGetPackageVersion>9.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Volo.Abp.AuditLogging.Blazor.WebAssembly.abppkg.analyze.json</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)volo.abp.openiddict.pro.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.Abp.OpenIddict.Pro.Blazor.WebAssembly.abppkg.analyze.json" Condition="Exists('$(NuGetPackageRoot)volo.abp.openiddict.pro.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.Abp.OpenIddict.Pro.Blazor.WebAssembly.abppkg.analyze.json')">
+      <NuGetPackageId>Volo.Abp.OpenIddict.Pro.Blazor.WebAssembly</NuGetPackageId>
+      <NuGetPackageVersion>9.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Volo.Abp.OpenIddict.Pro.Blazor.WebAssembly.abppkg.analyze.json</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)volo.abp.languagemanagement.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.Abp.LanguageManagement.Blazor.WebAssembly.abppkg.analyze.json" Condition="Exists('$(NuGetPackageRoot)volo.abp.languagemanagement.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.Abp.LanguageManagement.Blazor.WebAssembly.abppkg.analyze.json')">
+      <NuGetPackageId>Volo.Abp.LanguageManagement.Blazor.WebAssembly</NuGetPackageId>
+      <NuGetPackageVersion>9.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Volo.Abp.LanguageManagement.Blazor.WebAssembly.abppkg.analyze.json</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)volo.abp.identity.pro.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.Abp.Identity.Pro.Blazor.WebAssembly.abppkg.analyze.json" Condition="Exists('$(NuGetPackageRoot)volo.abp.identity.pro.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.Abp.Identity.Pro.Blazor.WebAssembly.abppkg.analyze.json')">
+      <NuGetPackageId>Volo.Abp.Identity.Pro.Blazor.WebAssembly</NuGetPackageId>
+      <NuGetPackageVersion>9.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Volo.Abp.Identity.Pro.Blazor.WebAssembly.abppkg.analyze.json</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)volo.abp.gdpr.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.Abp.Gdpr.Blazor.WebAssembly.abppkg.analyze.json" Condition="Exists('$(NuGetPackageRoot)volo.abp.gdpr.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.Abp.Gdpr.Blazor.WebAssembly.abppkg.analyze.json')">
+      <NuGetPackageId>Volo.Abp.Gdpr.Blazor.WebAssembly</NuGetPackageId>
+      <NuGetPackageVersion>9.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Volo.Abp.Gdpr.Blazor.WebAssembly.abppkg.analyze.json</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)volo.abp.account.pro.admin.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.Abp.Account.Pro.Admin.Blazor.WebAssembly.abppkg.analyze.json" Condition="Exists('$(NuGetPackageRoot)volo.abp.account.pro.admin.blazor.webassembly\9.0.1\contentFiles\any\net9.0\Volo.Abp.Account.Pro.Admin.Blazor.WebAssembly.abppkg.analyze.json')">
+      <NuGetPackageId>Volo.Abp.Account.Pro.Admin.Blazor.WebAssembly</NuGetPackageId>
+      <NuGetPackageVersion>9.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Volo.Abp.Account.Pro.Admin.Blazor.WebAssembly.abppkg.analyze.json</Link>
+    </Content>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\9.0.0\buildTransitive\net8.0\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\9.0.0\buildTransitive\net8.0\Microsoft.Extensions.Configuration.UserSecrets.props')" />
+    <Import Project="$(NuGetPackageRoot)volo.abp.aspnetcore.components.web\9.0.1\buildTransitive\Volo.Abp.AspNetCore.Components.Web.props" Condition="Exists('$(NuGetPackageRoot)volo.abp.aspnetcore.components.web\9.0.1\buildTransitive\Volo.Abp.AspNetCore.Components.Web.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise\1.6.2\buildTransitive\Blazorise.props" Condition="Exists('$(NuGetPackageRoot)blazorise\1.6.2\buildTransitive\Blazorise.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.snackbar\1.6.2\buildTransitive\Blazorise.Snackbar.props" Condition="Exists('$(NuGetPackageRoot)blazorise.snackbar\1.6.2\buildTransitive\Blazorise.Snackbar.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.datagrid\1.6.2\buildTransitive\Blazorise.DataGrid.props" Condition="Exists('$(NuGetPackageRoot)blazorise.datagrid\1.6.2\buildTransitive\Blazorise.DataGrid.props')" />
+    <Import Project="$(NuGetPackageRoot)volo.abp.blazoriseui\9.0.1\buildTransitive\Volo.Abp.BlazoriseUI.props" Condition="Exists('$(NuGetPackageRoot)volo.abp.blazoriseui\9.0.1\buildTransitive\Volo.Abp.BlazoriseUI.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.charts\1.6.2\buildTransitive\Blazorise.Charts.props" Condition="Exists('$(NuGetPackageRoot)blazorise.charts\1.6.2\buildTransitive\Blazorise.Charts.props')" />
+    <Import Project="$(NuGetPackageRoot)volo.saas.host.blazor\9.0.1\buildTransitive\Volo.Saas.Host.Blazor.props" Condition="Exists('$(NuGetPackageRoot)volo.saas.host.blazor\9.0.1\buildTransitive\Volo.Saas.Host.Blazor.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.authentication\9.0.0\buildTransitive\Microsoft.AspNetCore.Components.WebAssembly.Authentication.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.authentication\9.0.0\buildTransitive\Microsoft.AspNetCore.Components.WebAssembly.Authentication.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\9.0.0\build\net9.0\Microsoft.AspNetCore.Components.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\9.0.0\build\net9.0\Microsoft.AspNetCore.Components.WebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)volo.abp.aspnetcore.components.webassembly.theming\9.0.1\buildTransitive\Volo.Abp.AspNetCore.Components.WebAssembly.Theming.props" Condition="Exists('$(NuGetPackageRoot)volo.abp.aspnetcore.components.webassembly.theming\9.0.1\buildTransitive\Volo.Abp.AspNetCore.Components.WebAssembly.Theming.props')" />
+    <Import Project="$(NuGetPackageRoot)excubo.blazor.treeviews\4.0.15\buildTransitive\Excubo.Blazor.TreeViews.props" Condition="Exists('$(NuGetPackageRoot)excubo.blazor.treeviews\4.0.15\buildTransitive\Excubo.Blazor.TreeViews.props')" />
+    <Import Project="$(NuGetPackageRoot)volo.filemanagement.blazor\9.0.1\buildTransitive\Volo.FileManagement.Blazor.props" Condition="Exists('$(NuGetPackageRoot)volo.filemanagement.blazor\9.0.1\buildTransitive\Volo.FileManagement.Blazor.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.treeview\1.6.2\buildTransitive\Blazorise.TreeView.props" Condition="Exists('$(NuGetPackageRoot)blazorise.treeview\1.6.2\buildTransitive\Blazorise.TreeView.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.markdown\1.6.2\buildTransitive\Blazorise.Markdown.props" Condition="Exists('$(NuGetPackageRoot)blazorise.markdown\1.6.2\buildTransitive\Blazorise.Markdown.props')" />
+    <Import Project="$(NuGetPackageRoot)volo.cmskit.pro.admin.blazor\9.0.1\buildTransitive\Volo.CmsKit.Pro.Admin.Blazor.props" Condition="Exists('$(NuGetPackageRoot)volo.cmskit.pro.admin.blazor\9.0.1\buildTransitive\Volo.CmsKit.Pro.Admin.Blazor.props')" />
+    <Import Project="$(NuGetPackageRoot)volo.chat.blazor\9.0.1\buildTransitive\Volo.Chat.Blazor.props" Condition="Exists('$(NuGetPackageRoot)volo.chat.blazor\9.0.1\buildTransitive\Volo.Chat.Blazor.props')" />
+    <Import Project="$(NuGetPackageRoot)volo.abp.permissionmanagement.blazor\9.0.1\buildTransitive\Volo.Abp.PermissionManagement.Blazor.props" Condition="Exists('$(NuGetPackageRoot)volo.abp.permissionmanagement.blazor\9.0.1\buildTransitive\Volo.Abp.PermissionManagement.Blazor.props')" />
+    <Import Project="$(NuGetPackageRoot)volo.abp.auditlogging.blazor\9.0.1\buildTransitive\Volo.Abp.AuditLogging.Blazor.props" Condition="Exists('$(NuGetPackageRoot)volo.abp.auditlogging.blazor\9.0.1\buildTransitive\Volo.Abp.AuditLogging.Blazor.props')" />
+    <Import Project="$(NuGetPackageRoot)volo.abp.aspnetcore.components.web.leptonxtheme\4.0.1\buildTransitive\Volo.Abp.AspNetCore.Components.Web.LeptonXTheme.props" Condition="Exists('$(NuGetPackageRoot)volo.abp.aspnetcore.components.web.leptonxtheme\4.0.1\buildTransitive\Volo.Abp.AspNetCore.Components.Web.LeptonXTheme.props')" />
+    <Import Project="$(NuGetPackageRoot)volo.abp.aspnetcore.components.webassembly.leptonxtheme\4.0.1\buildTransitive\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXTheme.props" Condition="Exists('$(NuGetPackageRoot)volo.abp.aspnetcore.components.webassembly.leptonxtheme\4.0.1\buildTransitive\Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXTheme.props')" />
+    <Import Project="$(NuGetPackageRoot)volo.abp.account.pro.admin.blazor\9.0.1\buildTransitive\Volo.Abp.Account.Pro.Admin.Blazor.props" Condition="Exists('$(NuGetPackageRoot)volo.abp.account.pro.admin.blazor\9.0.1\buildTransitive\Volo.Abp.Account.Pro.Admin.Blazor.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\9.0.0\build\Microsoft.NET.Sdk.WebAssembly.Pack.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\9.0.0\build\Microsoft.NET.Sdk.WebAssembly.Pack.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.illink.tasks\9.0.0\build\Microsoft.NET.ILLink.Tasks.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.tasks\9.0.0\build\Microsoft.NET.ILLink.Tasks.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.icons.fontawesome\1.6.2\buildTransitive\Blazorise.Icons.FontAwesome.props" Condition="Exists('$(NuGetPackageRoot)blazorise.icons.fontawesome\1.6.2\buildTransitive\Blazorise.Icons.FontAwesome.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.bootstrap5\1.6.2\buildTransitive\Blazorise.Bootstrap5.props" Condition="Exists('$(NuGetPackageRoot)blazorise.bootstrap5\1.6.2\buildTransitive\Blazorise.Bootstrap5.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_NET_Sdk_WebAssembly_Pack Condition=" '$(PkgMicrosoft_NET_Sdk_WebAssembly_Pack)' == '' ">C:\Users\Vinicius\.nuget\packages\microsoft.net.sdk.webassembly.pack\9.0.0</PkgMicrosoft_NET_Sdk_WebAssembly_Pack>
+    <PkgMicrosoft_NET_ILLink_Tasks Condition=" '$(PkgMicrosoft_NET_ILLink_Tasks)' == '' ">C:\Users\Vinicius\.nuget\packages\microsoft.net.illink.tasks\9.0.0</PkgMicrosoft_NET_ILLink_Tasks>
+    <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">C:\Users\Vinicius\.nuget\packages\microsoft.aspnetcore.components.webassembly.devserver\9.0.0</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>
+  </PropertyGroup>
+</Project>

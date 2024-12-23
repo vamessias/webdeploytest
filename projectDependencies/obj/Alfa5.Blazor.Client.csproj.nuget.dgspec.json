@@ -1,0 +1,185 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Blazor.Client.csproj": {}
+  },
+  "projects": {
+    "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Blazor.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Blazor.Client.csproj",
+        "projectName": "Alfa5.Blazor.Client",
+        "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Blazor.Client.csproj",
+        "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Dev\\Alfa5\\Alfa5\\NuGet.Config",
+          "C:\\Users\\Vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.abp.io/5ff67233-4e05-4f13-b752-2610bc79f1e3/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Dev\\Alfa5\\Alfa5\\src\\src\\Alfa5.HttpApi.Client\\Alfa5.HttpApi.Client.csproj": {
+                "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\src\\Alfa5.HttpApi.Client\\Alfa5.HttpApi.Client.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Blazorise.Bootstrap5": {
+              "target": "Package",
+              "version": "[1.6.2, )"
+            },
+            "Blazorise.Components": {
+              "target": "Package",
+              "version": "[1.6.2, )"
+            },
+            "Blazorise.Icons.FontAwesome": {
+              "target": "Package",
+              "version": "[1.6.2, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.Sdk.WebAssembly.Pack": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )",
+              "autoReferenced": true
+            },
+            "Volo.Abp.Account.Pro.Admin.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXTheme": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Volo.Abp.AuditLogging.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Autofac.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.FeatureManagement.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Gdpr.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.Identity.Pro.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.LanguageManagement.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.OpenIddict.Pro.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.SettingManagement.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Abp.TextTemplateManagement.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Chat.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.CmsKit.Pro.Admin.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.FileManagement.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Volo.Saas.Host.Blazor.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[9.0.0, 9.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
