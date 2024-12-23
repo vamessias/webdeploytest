@@ -412,12 +412,10 @@
           }
         },
         "build": {
-          "build/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.props": {},
-          "build/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.targets": {}
+          "build/netstandard2.0/_._": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/Microsoft.Extensions.FileProviders.Embedded.props": {},
-          "buildMultiTargeting/Microsoft.Extensions.FileProviders.Embedded.targets": {}
+          "buildMultiTargeting/_._": {}
         }
       },
       "Microsoft.Extensions.FileProviders.Physical/9.0.0": {
@@ -767,6 +765,22 @@
           "lib/net8.0/Polly.Core.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Scriban/5.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Scriban.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Scriban.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -1195,6 +1209,56 @@
           }
         }
       },
+      "Volo.Abp.Account.Pro.Admin.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Account.Pro.Shared.Application.Contracts": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.Account.Pro.Admin.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.Account.Pro.Admin.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Volo.Abp.Account.Pro.Public.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Account.Pro.Shared.Application.Contracts": "9.0.1",
+          "Volo.Abp.Emailing": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.Account.Pro.Public.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.Account.Pro.Public.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Volo.Abp.Account.Pro.Shared.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "9.0.0",
+          "Volo.Abp.Identity.Pro.Application.Contracts": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.Account.Pro.Shared.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.Account.Pro.Shared.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Volo.Abp.Auditing/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -1233,6 +1297,25 @@
           }
         }
       },
+      "Volo.Abp.AuditLogging.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.AuditLogging.Domain.Shared": "9.0.1",
+          "Volo.Abp.Authorization.Abstractions": "9.0.1",
+          "Volo.Abp.Ddd.Application.Contracts": "9.0.1",
+          "Volo.Abp.Features": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.AuditLogging.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.AuditLogging.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Volo.Abp.AuditLogging.Domain.Shared/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -1247,6 +1330,25 @@
         },
         "runtime": {
           "lib/net9.0/Volo.Abp.AuditLogging.Domain.Shared.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.Abp.Authorization/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Authorization.Abstractions": "9.0.1",
+          "Volo.Abp.Localization": "9.0.1",
+          "Volo.Abp.MultiTenancy": "9.0.1",
+          "Volo.Abp.Security": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.Authorization.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.Authorization.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1268,18 +1370,19 @@
           }
         }
       },
-      "Volo.Abp.BackgroundJobs.Domain.Shared/9.0.1": {
+      "Volo.Abp.BackgroundJobs.Abstractions/9.0.1": {
         "type": "package",
         "dependencies": {
-          "Volo.Abp.Core": "9.0.1"
+          "Volo.Abp.Json": "9.0.1",
+          "Volo.Abp.MultiTenancy.Abstractions": "9.0.1"
         },
         "compile": {
-          "lib/net9.0/Volo.Abp.BackgroundJobs.Domain.Shared.dll": {
+          "lib/net9.0/Volo.Abp.BackgroundJobs.Abstractions.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Volo.Abp.BackgroundJobs.Domain.Shared.dll": {
+          "lib/net9.0/Volo.Abp.BackgroundJobs.Abstractions.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1296,22 +1399,6 @@
         },
         "runtime": {
           "lib/net9.0/Volo.Abp.BackgroundWorkers.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Volo.Abp.BlobStoring.Database.Domain.Shared/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Validation": "9.0.1"
-        },
-        "compile": {
-          "lib/net9.0/Volo.Abp.BlobStoring.Database.Domain.Shared.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Volo.Abp.BlobStoring.Database.Domain.Shared.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1386,6 +1473,24 @@
           }
         }
       },
+      "Volo.Abp.Ddd.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Auditing.Contracts": "9.0.1",
+          "Volo.Abp.Data": "9.0.1",
+          "Volo.Abp.Localization": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.Ddd.Application.Contracts.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.Ddd.Application.Contracts.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Volo.Abp.Ddd.Domain/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -1446,6 +1551,26 @@
           }
         }
       },
+      "Volo.Abp.Emailing/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.BackgroundJobs.Abstractions": "9.0.1",
+          "Volo.Abp.Localization": "9.0.1",
+          "Volo.Abp.Settings": "9.0.1",
+          "Volo.Abp.TextTemplating": "9.0.1",
+          "Volo.Abp.VirtualFileSystem": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.Emailing.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.Emailing.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Volo.Abp.EventBus/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -1501,6 +1626,25 @@
           }
         }
       },
+      "Volo.Abp.FeatureManagement.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Authorization.Abstractions": "9.0.1",
+          "Volo.Abp.Ddd.Application.Contracts": "9.0.1",
+          "Volo.Abp.FeatureManagement.Domain.Shared": "9.0.1",
+          "Volo.Abp.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.FeatureManagement.Application.Contracts.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.FeatureManagement.Application.Contracts.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Volo.Abp.FeatureManagement.Domain.Shared/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -1535,6 +1679,25 @@
         "runtime": {
           "lib/net9.0/Volo.Abp.Features.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.Abp.Gdpr.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "9.0.0",
+          "Volo.Abp.Authorization": "9.0.1",
+          "Volo.Abp.Ddd.Application.Contracts": "9.0.1",
+          "Volo.Abp.Gdpr.Domain.Shared": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.Gdpr.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.Gdpr.Application.Contracts.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -1609,6 +1772,26 @@
           }
         }
       },
+      "Volo.Abp.Identity.Pro.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Authorization": "9.0.1",
+          "Volo.Abp.EventBus.Abstractions": "9.0.1",
+          "Volo.Abp.Identity.Pro.Domain.Shared": "9.0.1",
+          "Volo.Abp.PermissionManagement.Application.Contracts": "9.0.1",
+          "Volo.Abp.Users.Abstractions": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.Identity.Pro.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.Identity.Pro.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Volo.Abp.Identity.Pro.Domain.Shared/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -1675,6 +1858,24 @@
         "runtime": {
           "lib/net9.0/Volo.Abp.Json.SystemTextJson.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.Abp.LanguageManagement.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Authorization.Abstractions": "9.0.1",
+          "Volo.Abp.Ddd.Application.Contracts": "9.0.1",
+          "Volo.Abp.LanguageManagement.Domain.Shared": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.LanguageManagement.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.LanguageManagement.Application.Contracts.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -1838,6 +2039,24 @@
           }
         }
       },
+      "Volo.Abp.OpenIddict.Pro.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Authorization": "9.0.1",
+          "Volo.Abp.Ddd.Application.Contracts": "9.0.1",
+          "Volo.Abp.OpenIddict.Pro.Domain.Shared": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.OpenIddict.Pro.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.OpenIddict.Pro.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Volo.Abp.OpenIddict.Pro.Domain.Shared/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -1852,6 +2071,24 @@
         "runtime": {
           "lib/net9.0/Volo.Abp.OpenIddict.Pro.Domain.Shared.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Volo.Abp.PermissionManagement.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Authorization.Abstractions": "9.0.1",
+          "Volo.Abp.Ddd.Application.Contracts": "9.0.1",
+          "Volo.Abp.PermissionManagement.Domain.Shared": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.PermissionManagement.Application.Contracts.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.PermissionManagement.Application.Contracts.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -1900,6 +2137,24 @@
         },
         "runtime": {
           "lib/net9.0/Volo.Abp.Serialization.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.Abp.SettingManagement.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Authorization.Abstractions": "9.0.1",
+          "Volo.Abp.Ddd.Application.Contracts": "9.0.1",
+          "Volo.Abp.SettingManagement.Domain.Shared": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.SettingManagement.Application.Contracts.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.SettingManagement.Application.Contracts.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1977,6 +2232,25 @@
           }
         }
       },
+      "Volo.Abp.TextTemplateManagement.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "9.0.0",
+          "Volo.Abp.Authorization": "9.0.1",
+          "Volo.Abp.Ddd.Application.Contracts": "9.0.1",
+          "Volo.Abp.TextTemplateManagement.Domain.Shared": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.TextTemplateManagement.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.TextTemplateManagement.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Volo.Abp.TextTemplateManagement.Domain.Shared/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -1992,6 +2266,56 @@
         "runtime": {
           "lib/net9.0/Volo.Abp.TextTemplateManagement.Domain.Shared.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Volo.Abp.TextTemplating/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.TextTemplating.Scriban": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.TextTemplating.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.TextTemplating.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.Abp.TextTemplating.Core/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Localization.Abstractions": "9.0.1",
+          "Volo.Abp.VirtualFileSystem": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.TextTemplating.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.TextTemplating.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.Abp.TextTemplating.Scriban/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Scriban": "5.10.0",
+          "Volo.Abp.TextTemplating.Core": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.TextTemplating.Scriban.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.TextTemplating.Scriban.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -2041,6 +2365,23 @@
         },
         "runtime": {
           "lib/net9.0/Volo.Abp.Uow.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.Abp.Users.Abstractions/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.EventBus": "9.0.1",
+          "Volo.Abp.MultiTenancy": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Abp.Users.Abstractions.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Abp.Users.Abstractions.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -2113,6 +2454,25 @@
           }
         }
       },
+      "Volo.Chat.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "9.0.0",
+          "Volo.Abp.Authorization.Abstractions": "9.0.1",
+          "Volo.Abp.Ddd.Application.Contracts": "9.0.1",
+          "Volo.Chat.Domain.Shared": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Chat.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Chat.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Volo.Chat.Domain.Shared/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -2128,6 +2488,58 @@
         "runtime": {
           "lib/net9.0/Volo.Chat.Domain.Shared.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Volo.CmsKit.Admin.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.CmsKit.Common.Application.Contracts": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.CmsKit.Admin.Application.Contracts.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.CmsKit.Admin.Application.Contracts.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.CmsKit.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.CmsKit.Admin.Application.Contracts": "9.0.1",
+          "Volo.CmsKit.Public.Application.Contracts": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.CmsKit.Application.Contracts.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.CmsKit.Application.Contracts.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.CmsKit.Common.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Authorization": "9.0.1",
+          "Volo.Abp.Caching": "9.0.1",
+          "Volo.Abp.Ddd.Application.Contracts": "9.0.1",
+          "Volo.CmsKit.Domain.Shared": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.CmsKit.Common.Application.Contracts.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.CmsKit.Common.Application.Contracts.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -2150,6 +2562,58 @@
           }
         }
       },
+      "Volo.CmsKit.Pro.Admin.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.CmsKit.Admin.Application.Contracts": "9.0.1",
+          "Volo.CmsKit.Pro.Common.Application.Contracts": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.CmsKit.Pro.Admin.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.CmsKit.Pro.Admin.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Volo.CmsKit.Pro.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.CmsKit.Application.Contracts": "9.0.1",
+          "Volo.CmsKit.Pro.Admin.Application.Contracts": "9.0.1",
+          "Volo.CmsKit.Pro.Public.Application.Contracts": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.CmsKit.Pro.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.CmsKit.Pro.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Volo.CmsKit.Pro.Common.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.CmsKit.Common.Application.Contracts": "9.0.1",
+          "Volo.CmsKit.Pro.Domain.Shared": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.CmsKit.Pro.Common.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.CmsKit.Pro.Common.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Volo.CmsKit.Pro.Domain.Shared/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -2169,6 +2633,60 @@
           }
         }
       },
+      "Volo.CmsKit.Pro.Public.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Caching": "9.0.1",
+          "Volo.CmsKit.Pro.Common.Application.Contracts": "9.0.1",
+          "Volo.CmsKit.Public.Application.Contracts": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.CmsKit.Pro.Public.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.CmsKit.Pro.Public.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Volo.CmsKit.Public.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.EventBus": "9.0.1",
+          "Volo.CmsKit.Common.Application.Contracts": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.CmsKit.Public.Application.Contracts.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.CmsKit.Public.Application.Contracts.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.FileManagement.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "9.0.0",
+          "Volo.Abp.Authorization.Abstractions": "9.0.1",
+          "Volo.Abp.Ddd.Application.Contracts": "9.0.1",
+          "Volo.FileManagement.Domain.Shared": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.FileManagement.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.FileManagement.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Volo.FileManagement.Domain.Shared/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -2183,6 +2701,23 @@
         },
         "runtime": {
           "lib/net9.0/Volo.FileManagement.Domain.Shared.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Volo.Payment.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Ddd.Application.Contracts": "9.0.1",
+          "Volo.Payment.Domain.Shared": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Payment.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Payment.Application.Contracts.dll": {
             "related": ".xml"
           }
         }
@@ -2222,6 +2757,24 @@
         },
         "runtime": {
           "lib/net9.0/Volo.Saas.Domain.Shared.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Volo.Saas.Host.Application.Contracts/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.FeatureManagement.Application.Contracts": "9.0.1",
+          "Volo.Payment.Application.Contracts": "9.0.1",
+          "Volo.Saas.Domain.Shared": "9.0.1"
+        },
+        "compile": {
+          "lib/net9.0/Volo.Saas.Host.Application.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Volo.Saas.Host.Application.Contracts.dll": {
             "related": ".xml"
           }
         }
@@ -3388,6 +3941,195 @@
         "package-readme.md",
         "polly.core.8.4.2.nupkg.sha512",
         "polly.core.nuspec"
+      ]
+    },
+    "Scriban/5.10.0": {
+      "sha512": "qk2W8wQpm7mykWrEi9fhjC7uVapT2bkweMuMqebrF7gaVMt0WjmZzyVVTpom5cUsc3ddMDpo95SkNcTWGo+L6Q==",
+      "type": "package",
+      "path": "scriban/5.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Scriban.props",
+        "build/Scriban.targets",
+        "lib/net7.0/Scriban.dll",
+        "lib/net7.0/Scriban.xml",
+        "lib/netstandard2.0/Scriban.dll",
+        "lib/netstandard2.0/Scriban.xml",
+        "readme.md",
+        "scriban.5.10.0.nupkg.sha512",
+        "scriban.nuspec",
+        "scriban.png",
+        "src/Scriban/.editorconfig",
+        "src/Scriban/Functions/ArrayFunctions.cs",
+        "src/Scriban/Functions/BuiltinFunctions.cs",
+        "src/Scriban/Functions/DateTimeFunctions.cs",
+        "src/Scriban/Functions/HtmlFunctions.cs",
+        "src/Scriban/Functions/IncludeFunction.cs",
+        "src/Scriban/Functions/LiquidBuiltinsFunctions.cs",
+        "src/Scriban/Functions/MathFunctions.cs",
+        "src/Scriban/Functions/ObjectFunctions.cs",
+        "src/Scriban/Functions/RegexFunctions.cs",
+        "src/Scriban/Functions/StringFunctions.cs",
+        "src/Scriban/Functions/TimeSpanFunctions.cs",
+        "src/Scriban/Helpers/BoxHelper.cs",
+        "src/Scriban/Helpers/CharHelper.cs",
+        "src/Scriban/Helpers/FastStack.cs",
+        "src/Scriban/Helpers/InlineList.cs",
+        "src/Scriban/Helpers/ReflectionHelper.cs",
+        "src/Scriban/Helpers/StringHelper.cs",
+        "src/Scriban/Helpers/ThrowHelper.cs",
+        "src/Scriban/LogMessageBag.cs",
+        "src/Scriban/Parsing/Lexer.cs",
+        "src/Scriban/Parsing/LexerOptions.cs",
+        "src/Scriban/Parsing/LogMessage.cs",
+        "src/Scriban/Parsing/Parser.Expressions.cs",
+        "src/Scriban/Parsing/Parser.Statements.Liquid.cs",
+        "src/Scriban/Parsing/Parser.Statements.Scriban.cs",
+        "src/Scriban/Parsing/Parser.Statements.cs",
+        "src/Scriban/Parsing/Parser.Terminals.cs",
+        "src/Scriban/Parsing/Parser.cs",
+        "src/Scriban/Parsing/ParserOptions.cs",
+        "src/Scriban/Parsing/ScriptLang.cs",
+        "src/Scriban/Parsing/ScriptMode.cs",
+        "src/Scriban/Parsing/SourceSpan.cs",
+        "src/Scriban/Parsing/TextPosition.cs",
+        "src/Scriban/Parsing/Token.cs",
+        "src/Scriban/Parsing/TokenTextAttribute.cs",
+        "src/Scriban/Parsing/TokenType.cs",
+        "src/Scriban/Parsing/TokenTypeExtensions.cs",
+        "src/Scriban/Parsing/Util.cs",
+        "src/Scriban/Runtime/Accessors/ArrayAccessor.cs",
+        "src/Scriban/Runtime/Accessors/DictionaryAccessor.cs",
+        "src/Scriban/Runtime/Accessors/ListAccessor.cs",
+        "src/Scriban/Runtime/Accessors/NullAccessor.cs",
+        "src/Scriban/Runtime/Accessors/PrimitiveAccessor.cs",
+        "src/Scriban/Runtime/Accessors/ScriptObjectAccessor.cs",
+        "src/Scriban/Runtime/Accessors/StringAccessor.cs",
+        "src/Scriban/Runtime/Accessors/TypedObjectAccessor.cs",
+        "src/Scriban/Runtime/CustomFunction.Generated.cs",
+        "src/Scriban/Runtime/DelegateCustomFunction.cs",
+        "src/Scriban/Runtime/DynamicCustomFunction.cs",
+        "src/Scriban/Runtime/EmptyScriptObject.cs",
+        "src/Scriban/Runtime/IListAccessor.cs",
+        "src/Scriban/Runtime/IObjectAccessor.cs",
+        "src/Scriban/Runtime/IScriptCustomFunction.cs",
+        "src/Scriban/Runtime/IScriptObject.cs",
+        "src/Scriban/Runtime/IScriptOutput.cs",
+        "src/Scriban/Runtime/IScriptTransformable.cs",
+        "src/Scriban/Runtime/ITemplateLoader.cs",
+        "src/Scriban/Runtime/JsonElementExtensions.cs",
+        "src/Scriban/Runtime/MemberFilterDelegate.cs",
+        "src/Scriban/Runtime/MemberRenamerDelegate.cs",
+        "src/Scriban/Runtime/ScriptArray.cs",
+        "src/Scriban/Runtime/ScriptLazy.cs",
+        "src/Scriban/Runtime/ScriptMemberIgnoreAttribute.cs",
+        "src/Scriban/Runtime/ScriptMemberImportFlags.cs",
+        "src/Scriban/Runtime/ScriptObject.cs",
+        "src/Scriban/Runtime/ScriptObjectExtensions.cs",
+        "src/Scriban/Runtime/ScriptPipeArguments.cs",
+        "src/Scriban/Runtime/ScriptRange.cs",
+        "src/Scriban/Runtime/StandardMemberRenamer.cs",
+        "src/Scriban/Runtime/StringBuilderOutput.cs",
+        "src/Scriban/Runtime/TextWriterOutput.cs",
+        "src/Scriban/ScribanAsync.generated.cs",
+        "src/Scriban/ScribanVisitors.generated.cs",
+        "src/Scriban/ScriptPrinter.cs",
+        "src/Scriban/ScriptPrinterOptions.cs",
+        "src/Scriban/Syntax/Expressions/IScriptTerminal.cs",
+        "src/Scriban/Syntax/Expressions/ScriptAnonymousFunction.cs",
+        "src/Scriban/Syntax/Expressions/ScriptArgumentBinary.cs",
+        "src/Scriban/Syntax/Expressions/ScriptArrayInitializerExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptAssignExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptBinaryExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptBinaryOperator.cs",
+        "src/Scriban/Syntax/Expressions/ScriptConditionalExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptFunctionCall.cs",
+        "src/Scriban/Syntax/Expressions/ScriptIncrementDecrementExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptIndexerExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptInterpolatedExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptIsEmptyExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptLiteral.cs",
+        "src/Scriban/Syntax/Expressions/ScriptMemberExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptNamedArgument.cs",
+        "src/Scriban/Syntax/Expressions/ScriptNestedExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptObjectInitializerExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptObjectMember.cs",
+        "src/Scriban/Syntax/Expressions/ScriptPipeCall.cs",
+        "src/Scriban/Syntax/Expressions/ScriptThisExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptUnaryExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptUnaryOperator.cs",
+        "src/Scriban/Syntax/Expressions/ScriptVariable.cs",
+        "src/Scriban/Syntax/Expressions/ScriptVariableScope.cs",
+        "src/Scriban/Syntax/IScriptConvertibleFrom.cs",
+        "src/Scriban/Syntax/IScriptConvertibleTo.cs",
+        "src/Scriban/Syntax/IScriptCustomBinaryOperation.cs",
+        "src/Scriban/Syntax/IScriptCustomImplicitMultiplyPrecedence.cs",
+        "src/Scriban/Syntax/IScriptCustomType.cs",
+        "src/Scriban/Syntax/IScriptCustomTypeInfo.cs",
+        "src/Scriban/Syntax/IScriptCustomUnaryOperation.cs",
+        "src/Scriban/Syntax/IScriptNamedArgumentContainer.cs",
+        "src/Scriban/Syntax/IScriptVariablePath.cs",
+        "src/Scriban/Syntax/IScriptVisitorContext.cs",
+        "src/Scriban/Syntax/ScientificFunctionCallRewriter.cs",
+        "src/Scriban/Syntax/ScriptArgumentException.cs",
+        "src/Scriban/Syntax/ScriptCloner.cs",
+        "src/Scriban/Syntax/ScriptFormatter.cs",
+        "src/Scriban/Syntax/ScriptFormatterExtensions.cs",
+        "src/Scriban/Syntax/ScriptFormatterFlags.cs",
+        "src/Scriban/Syntax/ScriptFormatterOptions.cs",
+        "src/Scriban/Syntax/ScriptFrontMatter.cs",
+        "src/Scriban/Syntax/ScriptIdentifier.cs",
+        "src/Scriban/Syntax/ScriptKeyword.cs",
+        "src/Scriban/Syntax/ScriptList.cs",
+        "src/Scriban/Syntax/ScriptNode.cs",
+        "src/Scriban/Syntax/ScriptNodeExtensions.cs",
+        "src/Scriban/Syntax/ScriptPage.cs",
+        "src/Scriban/Syntax/ScriptParameterContainerExtensions.cs",
+        "src/Scriban/Syntax/ScriptRewriter.cs",
+        "src/Scriban/Syntax/ScriptRuntimeException.cs",
+        "src/Scriban/Syntax/ScriptStringSlice.cs",
+        "src/Scriban/Syntax/ScriptSyntaxAttribute.cs",
+        "src/Scriban/Syntax/ScriptToken.cs",
+        "src/Scriban/Syntax/ScriptTrivia.cs",
+        "src/Scriban/Syntax/ScriptTriviaType.cs",
+        "src/Scriban/Syntax/ScriptTriviaTypeExtensions.cs",
+        "src/Scriban/Syntax/ScriptTrivias.cs",
+        "src/Scriban/Syntax/ScriptVerbatim.cs",
+        "src/Scriban/Syntax/ScriptVisitor.cs",
+        "src/Scriban/Syntax/Statements/ScriptBlockStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptBreakStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptCaptureStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptCaseStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptConditionStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptContinueStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptElseStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptEndStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptEscapeStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptExpressionStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptFlowState.cs",
+        "src/Scriban/Syntax/Statements/ScriptForStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptFunction.cs",
+        "src/Scriban/Syntax/Statements/ScriptIfStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptImportStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptLoopStatementBase.cs",
+        "src/Scriban/Syntax/Statements/ScriptNopStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptParameter.cs",
+        "src/Scriban/Syntax/Statements/ScriptRawStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptReadOnlyStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptReturnStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptTableRowStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptWhenStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptWhileStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptWhitespaceMode.cs",
+        "src/Scriban/Syntax/Statements/ScriptWithStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptWrapStatement.cs",
+        "src/Scriban/Template.cs",
+        "src/Scriban/TemplateContext.Helpers.cs",
+        "src/Scriban/TemplateContext.Variables.cs",
+        "src/Scriban/TemplateContext.cs"
       ]
     },
     "System.Collections/4.3.0": {
@@ -5011,6 +5753,66 @@
         "timezoneconverter.nuspec"
       ]
     },
+    "Volo.Abp.Account.Pro.Admin.Application.Contracts/9.0.1": {
+      "sha512": "ErmpdlY+2q+7/uKQRdzXOBWnToL7DwR2O0rtmII/nkamlVA6fw2+1nvFfGF+9sSwRU9oDNYadV6nAPvi4kkuUg==",
+      "type": "package",
+      "path": "volo.abp.account.pro.admin.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "content/Volo.Abp.Account.Pro.Admin.Application.Contracts.abppkg",
+        "content/Volo.Abp.Account.Pro.Admin.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.Account.Pro.Admin.Application.Contracts.dll",
+        "lib/net8.0/Volo.Abp.Account.Pro.Admin.Application.Contracts.xml",
+        "lib/net9.0/Volo.Abp.Account.Pro.Admin.Application.Contracts.dll",
+        "lib/net9.0/Volo.Abp.Account.Pro.Admin.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.Abp.Account.Pro.Admin.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.Abp.Account.Pro.Admin.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.Abp.Account.Pro.Admin.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.Abp.Account.Pro.Admin.Application.Contracts.xml",
+        "volo.abp.account.pro.admin.application.contracts.9.0.1.nupkg.sha512",
+        "volo.abp.account.pro.admin.application.contracts.nuspec"
+      ]
+    },
+    "Volo.Abp.Account.Pro.Public.Application.Contracts/9.0.1": {
+      "sha512": "nN4Lb0xmxkZycG/7OT/s8xyP2qmM19aZn5QFD2lIfHOn3AFCVorRwoRvUXQ0GgFs4ewHgFfHDQcxMNRVtT+RfA==",
+      "type": "package",
+      "path": "volo.abp.account.pro.public.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "content/Volo.Abp.Account.Pro.Public.Application.Contracts.abppkg",
+        "content/Volo.Abp.Account.Pro.Public.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.Account.Pro.Public.Application.Contracts.dll",
+        "lib/net8.0/Volo.Abp.Account.Pro.Public.Application.Contracts.xml",
+        "lib/net9.0/Volo.Abp.Account.Pro.Public.Application.Contracts.dll",
+        "lib/net9.0/Volo.Abp.Account.Pro.Public.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.Abp.Account.Pro.Public.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.Abp.Account.Pro.Public.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.Abp.Account.Pro.Public.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.Abp.Account.Pro.Public.Application.Contracts.xml",
+        "volo.abp.account.pro.public.application.contracts.9.0.1.nupkg.sha512",
+        "volo.abp.account.pro.public.application.contracts.nuspec"
+      ]
+    },
+    "Volo.Abp.Account.Pro.Shared.Application.Contracts/9.0.1": {
+      "sha512": "R/9o9CSx+DS5Z5gr/AyZ+YJri8jrTirFef6nip/CZxG2OYqMN6p2C6DkK16NjtnsBb4P9WU5HBZYetTtkNTgxA==",
+      "type": "package",
+      "path": "volo.abp.account.pro.shared.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "content/Volo.Abp.Account.Pro.Shared.Application.Contracts.abppkg",
+        "content/Volo.Abp.Account.Pro.Shared.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.Account.Pro.Shared.Application.Contracts.dll",
+        "lib/net8.0/Volo.Abp.Account.Pro.Shared.Application.Contracts.xml",
+        "lib/net9.0/Volo.Abp.Account.Pro.Shared.Application.Contracts.dll",
+        "lib/net9.0/Volo.Abp.Account.Pro.Shared.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.Abp.Account.Pro.Shared.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.Abp.Account.Pro.Shared.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.Abp.Account.Pro.Shared.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.Abp.Account.Pro.Shared.Application.Contracts.xml",
+        "volo.abp.account.pro.shared.application.contracts.9.0.1.nupkg.sha512",
+        "volo.abp.account.pro.shared.application.contracts.nuspec"
+      ]
+    },
     "Volo.Abp.Auditing/9.0.1": {
       "sha512": "Y0Is7edjWAdxvF+n6ggP5/f4EoinFeUBLiCyjYfVZEMOIZG1Y1nUm1hn2ricy7S19qbvoO5n8B/BeI2DCjyBBA==",
       "type": "package",
@@ -5063,6 +5865,26 @@
         "volo.abp.auditing.contracts.nuspec"
       ]
     },
+    "Volo.Abp.AuditLogging.Application.Contracts/9.0.1": {
+      "sha512": "o0v34erqZW14xeVGkMuN5LYkZ/HPpxNkij9ibt9EZnriiOdkamUp8J+LaOk2wz+LGvlMTsiQnomyM/XuJrJn/g==",
+      "type": "package",
+      "path": "volo.abp.auditlogging.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "content/Volo.Abp.AuditLogging.Application.Contracts.abppkg",
+        "content/Volo.Abp.AuditLogging.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.AuditLogging.Application.Contracts.dll",
+        "lib/net8.0/Volo.Abp.AuditLogging.Application.Contracts.xml",
+        "lib/net9.0/Volo.Abp.AuditLogging.Application.Contracts.dll",
+        "lib/net9.0/Volo.Abp.AuditLogging.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.Abp.AuditLogging.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.Abp.AuditLogging.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.Abp.AuditLogging.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.Abp.AuditLogging.Application.Contracts.xml",
+        "volo.abp.auditlogging.application.contracts.9.0.1.nupkg.sha512",
+        "volo.abp.auditlogging.application.contracts.nuspec"
+      ]
+    },
     "Volo.Abp.AuditLogging.Domain.Shared/9.0.1": {
       "sha512": "QVu7f7PDi9AAV/sVEArFmBquqgVnnQcDiiJjopb05JZhBXMOJrKAIcYsqzyPpUhl+0qyie74GR5tj3l3kC616Q==",
       "type": "package",
@@ -5087,6 +5909,32 @@
         "lib/netstandard2.1/Volo.Abp.AuditLogging.Domain.Shared.xml",
         "volo.abp.auditlogging.domain.shared.9.0.1.nupkg.sha512",
         "volo.abp.auditlogging.domain.shared.nuspec"
+      ]
+    },
+    "Volo.Abp.Authorization/9.0.1": {
+      "sha512": "U8V4aU+2Mp43Ao/U9awYqm1cx4/iP33EKbCSQlqaz7zPjFTmCfAbJ+t3OakP2VkUnA9FHCj5Q+ah9BMnsQ6B5Q==",
+      "type": "package",
+      "path": "volo.abp.authorization/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.Authorization.abppkg",
+        "content/Volo.Abp.Authorization.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.Authorization.dll",
+        "lib/net8.0/Volo.Abp.Authorization.pdb",
+        "lib/net8.0/Volo.Abp.Authorization.xml",
+        "lib/net9.0/Volo.Abp.Authorization.dll",
+        "lib/net9.0/Volo.Abp.Authorization.pdb",
+        "lib/net9.0/Volo.Abp.Authorization.xml",
+        "lib/netstandard2.0/Volo.Abp.Authorization.dll",
+        "lib/netstandard2.0/Volo.Abp.Authorization.pdb",
+        "lib/netstandard2.0/Volo.Abp.Authorization.xml",
+        "lib/netstandard2.1/Volo.Abp.Authorization.dll",
+        "lib/netstandard2.1/Volo.Abp.Authorization.pdb",
+        "lib/netstandard2.1/Volo.Abp.Authorization.xml",
+        "volo.abp.authorization.9.0.1.nupkg.sha512",
+        "volo.abp.authorization.nuspec"
       ]
     },
     "Volo.Abp.Authorization.Abstractions/9.0.1": {
@@ -5115,30 +5963,30 @@
         "volo.abp.authorization.abstractions.nuspec"
       ]
     },
-    "Volo.Abp.BackgroundJobs.Domain.Shared/9.0.1": {
-      "sha512": "nfYVBhZSsNNLNuKMvVrMYIxJWJxLnUqGa7+UngIktqdn/MDMNuTxokWcMv1rleiCzFlWZHV5ciVHotC/fH5qOQ==",
+    "Volo.Abp.BackgroundJobs.Abstractions/9.0.1": {
+      "sha512": "XZvUvL2luTswBaf7IODxQp494g/Blg5THhu2seUocTzmAtaAyp1krkamn4mUC3oCQZ5EHUQD3UVYlLjMGKneAg==",
       "type": "package",
-      "path": "volo.abp.backgroundjobs.domain.shared/9.0.1",
+      "path": "volo.abp.backgroundjobs.abstractions/9.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "NuGet.md",
-        "content/Volo.Abp.BackgroundJobs.Domain.Shared.abppkg",
-        "content/Volo.Abp.BackgroundJobs.Domain.Shared.abppkg.analyze.json",
-        "lib/net8.0/Volo.Abp.BackgroundJobs.Domain.Shared.dll",
-        "lib/net8.0/Volo.Abp.BackgroundJobs.Domain.Shared.pdb",
-        "lib/net8.0/Volo.Abp.BackgroundJobs.Domain.Shared.xml",
-        "lib/net9.0/Volo.Abp.BackgroundJobs.Domain.Shared.dll",
-        "lib/net9.0/Volo.Abp.BackgroundJobs.Domain.Shared.pdb",
-        "lib/net9.0/Volo.Abp.BackgroundJobs.Domain.Shared.xml",
-        "lib/netstandard2.0/Volo.Abp.BackgroundJobs.Domain.Shared.dll",
-        "lib/netstandard2.0/Volo.Abp.BackgroundJobs.Domain.Shared.pdb",
-        "lib/netstandard2.0/Volo.Abp.BackgroundJobs.Domain.Shared.xml",
-        "lib/netstandard2.1/Volo.Abp.BackgroundJobs.Domain.Shared.dll",
-        "lib/netstandard2.1/Volo.Abp.BackgroundJobs.Domain.Shared.pdb",
-        "lib/netstandard2.1/Volo.Abp.BackgroundJobs.Domain.Shared.xml",
-        "volo.abp.backgroundjobs.domain.shared.9.0.1.nupkg.sha512",
-        "volo.abp.backgroundjobs.domain.shared.nuspec"
+        "content/Volo.Abp.BackgroundJobs.Abstractions.abppkg",
+        "content/Volo.Abp.BackgroundJobs.Abstractions.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.BackgroundJobs.Abstractions.dll",
+        "lib/net8.0/Volo.Abp.BackgroundJobs.Abstractions.pdb",
+        "lib/net8.0/Volo.Abp.BackgroundJobs.Abstractions.xml",
+        "lib/net9.0/Volo.Abp.BackgroundJobs.Abstractions.dll",
+        "lib/net9.0/Volo.Abp.BackgroundJobs.Abstractions.pdb",
+        "lib/net9.0/Volo.Abp.BackgroundJobs.Abstractions.xml",
+        "lib/netstandard2.0/Volo.Abp.BackgroundJobs.Abstractions.dll",
+        "lib/netstandard2.0/Volo.Abp.BackgroundJobs.Abstractions.pdb",
+        "lib/netstandard2.0/Volo.Abp.BackgroundJobs.Abstractions.xml",
+        "lib/netstandard2.1/Volo.Abp.BackgroundJobs.Abstractions.dll",
+        "lib/netstandard2.1/Volo.Abp.BackgroundJobs.Abstractions.pdb",
+        "lib/netstandard2.1/Volo.Abp.BackgroundJobs.Abstractions.xml",
+        "volo.abp.backgroundjobs.abstractions.9.0.1.nupkg.sha512",
+        "volo.abp.backgroundjobs.abstractions.nuspec"
       ]
     },
     "Volo.Abp.BackgroundWorkers/9.0.1": {
@@ -5165,32 +6013,6 @@
         "lib/netstandard2.1/Volo.Abp.BackgroundWorkers.xml",
         "volo.abp.backgroundworkers.9.0.1.nupkg.sha512",
         "volo.abp.backgroundworkers.nuspec"
-      ]
-    },
-    "Volo.Abp.BlobStoring.Database.Domain.Shared/9.0.1": {
-      "sha512": "b3/vBhzb1p/UddU9qWO59cTeSAth92dRgFbP2Ga6Ot0VR6ttQXUZk7CKapaGCE1L2pE0TeAdi7RgZZbWmnXT/Q==",
-      "type": "package",
-      "path": "volo.abp.blobstoring.database.domain.shared/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.Abp.BlobStoring.Database.Domain.Shared.abppkg",
-        "content/Volo.Abp.BlobStoring.Database.Domain.Shared.abppkg.analyze.json",
-        "lib/net8.0/Volo.Abp.BlobStoring.Database.Domain.Shared.dll",
-        "lib/net8.0/Volo.Abp.BlobStoring.Database.Domain.Shared.pdb",
-        "lib/net8.0/Volo.Abp.BlobStoring.Database.Domain.Shared.xml",
-        "lib/net9.0/Volo.Abp.BlobStoring.Database.Domain.Shared.dll",
-        "lib/net9.0/Volo.Abp.BlobStoring.Database.Domain.Shared.pdb",
-        "lib/net9.0/Volo.Abp.BlobStoring.Database.Domain.Shared.xml",
-        "lib/netstandard2.0/Volo.Abp.BlobStoring.Database.Domain.Shared.dll",
-        "lib/netstandard2.0/Volo.Abp.BlobStoring.Database.Domain.Shared.pdb",
-        "lib/netstandard2.0/Volo.Abp.BlobStoring.Database.Domain.Shared.xml",
-        "lib/netstandard2.1/Volo.Abp.BlobStoring.Database.Domain.Shared.dll",
-        "lib/netstandard2.1/Volo.Abp.BlobStoring.Database.Domain.Shared.pdb",
-        "lib/netstandard2.1/Volo.Abp.BlobStoring.Database.Domain.Shared.xml",
-        "volo.abp.blobstoring.database.domain.shared.9.0.1.nupkg.sha512",
-        "volo.abp.blobstoring.database.domain.shared.nuspec"
       ]
     },
     "Volo.Abp.Caching/9.0.1": {
@@ -5271,6 +6093,32 @@
         "volo.abp.data.nuspec"
       ]
     },
+    "Volo.Abp.Ddd.Application.Contracts/9.0.1": {
+      "sha512": "/BwF1Y1ALK5eA5NQdwUkxqa2WPislbbrgF6g2t7cEiOLsAoKDszXku4+tp42OhRuFl1+BOaCWmybkkW408TzvQ==",
+      "type": "package",
+      "path": "volo.abp.ddd.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.Ddd.Application.Contracts.abppkg",
+        "content/Volo.Abp.Ddd.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.Ddd.Application.Contracts.dll",
+        "lib/net8.0/Volo.Abp.Ddd.Application.Contracts.pdb",
+        "lib/net8.0/Volo.Abp.Ddd.Application.Contracts.xml",
+        "lib/net9.0/Volo.Abp.Ddd.Application.Contracts.dll",
+        "lib/net9.0/Volo.Abp.Ddd.Application.Contracts.pdb",
+        "lib/net9.0/Volo.Abp.Ddd.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.Abp.Ddd.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.Abp.Ddd.Application.Contracts.pdb",
+        "lib/netstandard2.0/Volo.Abp.Ddd.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.Abp.Ddd.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.Abp.Ddd.Application.Contracts.pdb",
+        "lib/netstandard2.1/Volo.Abp.Ddd.Application.Contracts.xml",
+        "volo.abp.ddd.application.contracts.9.0.1.nupkg.sha512",
+        "volo.abp.ddd.application.contracts.nuspec"
+      ]
+    },
     "Volo.Abp.Ddd.Domain/9.0.1": {
       "sha512": "BWl2YTJdTa6Yo5WwBYs3HIm3v1GinVPZRMjfhlOSpSlQOXxiQ/sEqdU2ZJ24E0QqPTq0iJ6+U9FDAAhnySY3ug==",
       "type": "package",
@@ -5345,6 +6193,32 @@
         "lib/netstandard2.1/Volo.Abp.DistributedLocking.Abstractions.xml",
         "volo.abp.distributedlocking.abstractions.9.0.1.nupkg.sha512",
         "volo.abp.distributedlocking.abstractions.nuspec"
+      ]
+    },
+    "Volo.Abp.Emailing/9.0.1": {
+      "sha512": "hMsPih/9T3ykYdTEAMqv0svzCma/CDOVLGD+ZGrcTZwZ92k9YsAWf5yfZIxuOJfoNbbtvRqtP1xo2LFrKuMlmA==",
+      "type": "package",
+      "path": "volo.abp.emailing/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.Emailing.abppkg",
+        "content/Volo.Abp.Emailing.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.Emailing.dll",
+        "lib/net8.0/Volo.Abp.Emailing.pdb",
+        "lib/net8.0/Volo.Abp.Emailing.xml",
+        "lib/net9.0/Volo.Abp.Emailing.dll",
+        "lib/net9.0/Volo.Abp.Emailing.pdb",
+        "lib/net9.0/Volo.Abp.Emailing.xml",
+        "lib/netstandard2.0/Volo.Abp.Emailing.dll",
+        "lib/netstandard2.0/Volo.Abp.Emailing.pdb",
+        "lib/netstandard2.0/Volo.Abp.Emailing.xml",
+        "lib/netstandard2.1/Volo.Abp.Emailing.dll",
+        "lib/netstandard2.1/Volo.Abp.Emailing.pdb",
+        "lib/netstandard2.1/Volo.Abp.Emailing.xml",
+        "volo.abp.emailing.9.0.1.nupkg.sha512",
+        "volo.abp.emailing.nuspec"
       ]
     },
     "Volo.Abp.EventBus/9.0.1": {
@@ -5425,6 +6299,32 @@
         "volo.abp.exceptionhandling.nuspec"
       ]
     },
+    "Volo.Abp.FeatureManagement.Application.Contracts/9.0.1": {
+      "sha512": "miTsz6kz8qfTuYpMf8/hSW3/yIHomKlVCYV32GzQLmPp9MmhCzSGB9CClIex/9uIwDiIJi1LmQ7Ujyiq9j0KLQ==",
+      "type": "package",
+      "path": "volo.abp.featuremanagement.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.FeatureManagement.Application.Contracts.abppkg",
+        "content/Volo.Abp.FeatureManagement.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.FeatureManagement.Application.Contracts.dll",
+        "lib/net8.0/Volo.Abp.FeatureManagement.Application.Contracts.pdb",
+        "lib/net8.0/Volo.Abp.FeatureManagement.Application.Contracts.xml",
+        "lib/net9.0/Volo.Abp.FeatureManagement.Application.Contracts.dll",
+        "lib/net9.0/Volo.Abp.FeatureManagement.Application.Contracts.pdb",
+        "lib/net9.0/Volo.Abp.FeatureManagement.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.Abp.FeatureManagement.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.Abp.FeatureManagement.Application.Contracts.pdb",
+        "lib/netstandard2.0/Volo.Abp.FeatureManagement.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.Abp.FeatureManagement.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.Abp.FeatureManagement.Application.Contracts.pdb",
+        "lib/netstandard2.1/Volo.Abp.FeatureManagement.Application.Contracts.xml",
+        "volo.abp.featuremanagement.application.contracts.9.0.1.nupkg.sha512",
+        "volo.abp.featuremanagement.application.contracts.nuspec"
+      ]
+    },
     "Volo.Abp.FeatureManagement.Domain.Shared/9.0.1": {
       "sha512": "Z1+EJpOpg+FXeDuNzt1T5D33WjgjBjSOT1sN8uKU3llyKNqjZfgXg/cdnGR1wpCO/NHAT0rAz7SocGhO+zUTxA==",
       "type": "package",
@@ -5475,6 +6375,26 @@
         "lib/netstandard2.1/Volo.Abp.Features.xml",
         "volo.abp.features.9.0.1.nupkg.sha512",
         "volo.abp.features.nuspec"
+      ]
+    },
+    "Volo.Abp.Gdpr.Application.Contracts/9.0.1": {
+      "sha512": "nJRFeksK4G1f2NqOGqJBsOnqk2tItAi7LUEGgtz7U1RuUiiVOyp0DJRHwTEc6T3r0uhJBWqlOdhlMtScWC+rzA==",
+      "type": "package",
+      "path": "volo.abp.gdpr.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "content/Volo.Abp.Gdpr.Application.Contracts.abppkg",
+        "content/Volo.Abp.Gdpr.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.Gdpr.Application.Contracts.dll",
+        "lib/net8.0/Volo.Abp.Gdpr.Application.Contracts.xml",
+        "lib/net9.0/Volo.Abp.Gdpr.Application.Contracts.dll",
+        "lib/net9.0/Volo.Abp.Gdpr.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.Abp.Gdpr.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.Abp.Gdpr.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.Abp.Gdpr.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.Abp.Gdpr.Application.Contracts.xml",
+        "volo.abp.gdpr.application.contracts.9.0.1.nupkg.sha512",
+        "volo.abp.gdpr.application.contracts.nuspec"
       ]
     },
     "Volo.Abp.Gdpr.Domain.Shared/9.0.1": {
@@ -5575,6 +6495,26 @@
         "volo.abp.identity.domain.shared.nuspec"
       ]
     },
+    "Volo.Abp.Identity.Pro.Application.Contracts/9.0.1": {
+      "sha512": "5kuUxnGPTJIw3iOakJEuVh4TMABkfKiHLSVeb2AQPA9O0Wkl9+b4TcVCMRABvlmD+p29pz5Ce58EzufzSkjKqg==",
+      "type": "package",
+      "path": "volo.abp.identity.pro.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "content/Volo.Abp.Identity.Pro.Application.Contracts.abppkg",
+        "content/Volo.Abp.Identity.Pro.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.Identity.Pro.Application.Contracts.dll",
+        "lib/net8.0/Volo.Abp.Identity.Pro.Application.Contracts.xml",
+        "lib/net9.0/Volo.Abp.Identity.Pro.Application.Contracts.dll",
+        "lib/net9.0/Volo.Abp.Identity.Pro.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.Abp.Identity.Pro.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.Abp.Identity.Pro.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.Abp.Identity.Pro.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.Abp.Identity.Pro.Application.Contracts.xml",
+        "volo.abp.identity.pro.application.contracts.9.0.1.nupkg.sha512",
+        "volo.abp.identity.pro.application.contracts.nuspec"
+      ]
+    },
     "Volo.Abp.Identity.Pro.Domain.Shared/9.0.1": {
       "sha512": "JGKrQ0gGI92g4sk4sSSQ6gK7+Sv+ePimZnEBOGy8JlkLGraWfJdubnl+mDktaM120DLPQ5KsHQveePwcRrKYTw==",
       "type": "package",
@@ -5671,6 +6611,26 @@
         "lib/netstandard2.1/Volo.Abp.Json.SystemTextJson.xml",
         "volo.abp.json.systemtextjson.9.0.1.nupkg.sha512",
         "volo.abp.json.systemtextjson.nuspec"
+      ]
+    },
+    "Volo.Abp.LanguageManagement.Application.Contracts/9.0.1": {
+      "sha512": "u48rCTI8KKx1qUcaEcD2G0VYZdaYdYm50Zolzy0YWt1m/MQLzqIgUFtOf4qwRu2IlUz6DGXQf+1ejY9LJ0zAHA==",
+      "type": "package",
+      "path": "volo.abp.languagemanagement.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "content/Volo.Abp.LanguageManagement.Application.Contracts.abppkg",
+        "content/Volo.Abp.LanguageManagement.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.LanguageManagement.Application.Contracts.dll",
+        "lib/net8.0/Volo.Abp.LanguageManagement.Application.Contracts.xml",
+        "lib/net9.0/Volo.Abp.LanguageManagement.Application.Contracts.dll",
+        "lib/net9.0/Volo.Abp.LanguageManagement.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.Abp.LanguageManagement.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.Abp.LanguageManagement.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.Abp.LanguageManagement.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.Abp.LanguageManagement.Application.Contracts.xml",
+        "volo.abp.languagemanagement.application.contracts.9.0.1.nupkg.sha512",
+        "volo.abp.languagemanagement.application.contracts.nuspec"
       ]
     },
     "Volo.Abp.LanguageManagement.Domain.Shared/9.0.1": {
@@ -5897,6 +6857,26 @@
         "volo.abp.openiddict.domain.shared.nuspec"
       ]
     },
+    "Volo.Abp.OpenIddict.Pro.Application.Contracts/9.0.1": {
+      "sha512": "QcRwDwVP2Seb5fedqRueimzp380yWvcLD0EvH1PZeVSkAypTvAK4aZHxq/eCDFpq+U7K7wAzj0cH/4SdmKcLxA==",
+      "type": "package",
+      "path": "volo.abp.openiddict.pro.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "content/Volo.Abp.OpenIddict.Pro.Application.Contracts.abppkg",
+        "content/Volo.Abp.OpenIddict.Pro.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.OpenIddict.Pro.Application.Contracts.dll",
+        "lib/net8.0/Volo.Abp.OpenIddict.Pro.Application.Contracts.xml",
+        "lib/net9.0/Volo.Abp.OpenIddict.Pro.Application.Contracts.dll",
+        "lib/net9.0/Volo.Abp.OpenIddict.Pro.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.Abp.OpenIddict.Pro.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.Abp.OpenIddict.Pro.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.Abp.OpenIddict.Pro.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.Abp.OpenIddict.Pro.Application.Contracts.xml",
+        "volo.abp.openiddict.pro.application.contracts.9.0.1.nupkg.sha512",
+        "volo.abp.openiddict.pro.application.contracts.nuspec"
+      ]
+    },
     "Volo.Abp.OpenIddict.Pro.Domain.Shared/9.0.1": {
       "sha512": "AVrq6WeZNt4kexIFeJ4EXCxAM1P054UxjAKhB885RtjTGL97cl0SsJ0F0LeEQYDRq74OQpUgWrm/w2uKaYcRhQ==",
       "type": "package",
@@ -5915,6 +6895,32 @@
         "lib/netstandard2.1/Volo.Abp.OpenIddict.Pro.Domain.Shared.xml",
         "volo.abp.openiddict.pro.domain.shared.9.0.1.nupkg.sha512",
         "volo.abp.openiddict.pro.domain.shared.nuspec"
+      ]
+    },
+    "Volo.Abp.PermissionManagement.Application.Contracts/9.0.1": {
+      "sha512": "vYHsvNePYwJPaeXh1DFcVDmGnFWhOmcrqPxVn63nCU0QlvWnYbsNAdGGDSRH/a6G4/uVtCGJgQsBgai8s1rxtg==",
+      "type": "package",
+      "path": "volo.abp.permissionmanagement.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.PermissionManagement.Application.Contracts.abppkg",
+        "content/Volo.Abp.PermissionManagement.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.PermissionManagement.Application.Contracts.dll",
+        "lib/net8.0/Volo.Abp.PermissionManagement.Application.Contracts.pdb",
+        "lib/net8.0/Volo.Abp.PermissionManagement.Application.Contracts.xml",
+        "lib/net9.0/Volo.Abp.PermissionManagement.Application.Contracts.dll",
+        "lib/net9.0/Volo.Abp.PermissionManagement.Application.Contracts.pdb",
+        "lib/net9.0/Volo.Abp.PermissionManagement.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.Abp.PermissionManagement.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.Abp.PermissionManagement.Application.Contracts.pdb",
+        "lib/netstandard2.0/Volo.Abp.PermissionManagement.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.Abp.PermissionManagement.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.Abp.PermissionManagement.Application.Contracts.pdb",
+        "lib/netstandard2.1/Volo.Abp.PermissionManagement.Application.Contracts.xml",
+        "volo.abp.permissionmanagement.application.contracts.9.0.1.nupkg.sha512",
+        "volo.abp.permissionmanagement.application.contracts.nuspec"
       ]
     },
     "Volo.Abp.PermissionManagement.Domain.Shared/9.0.1": {
@@ -5993,6 +6999,32 @@
         "lib/netstandard2.1/Volo.Abp.Serialization.xml",
         "volo.abp.serialization.9.0.1.nupkg.sha512",
         "volo.abp.serialization.nuspec"
+      ]
+    },
+    "Volo.Abp.SettingManagement.Application.Contracts/9.0.1": {
+      "sha512": "qV0wxLbjOL1130G0eCV3tZ/wihTlp/q7EvIshw6nyaZHAoFjFJM0Ua3T+fTyhiw/zasDb2Q2/FQj2CLZc2NB1A==",
+      "type": "package",
+      "path": "volo.abp.settingmanagement.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.SettingManagement.Application.Contracts.abppkg",
+        "content/Volo.Abp.SettingManagement.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.SettingManagement.Application.Contracts.dll",
+        "lib/net8.0/Volo.Abp.SettingManagement.Application.Contracts.pdb",
+        "lib/net8.0/Volo.Abp.SettingManagement.Application.Contracts.xml",
+        "lib/net9.0/Volo.Abp.SettingManagement.Application.Contracts.dll",
+        "lib/net9.0/Volo.Abp.SettingManagement.Application.Contracts.pdb",
+        "lib/net9.0/Volo.Abp.SettingManagement.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.Abp.SettingManagement.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.Abp.SettingManagement.Application.Contracts.pdb",
+        "lib/netstandard2.0/Volo.Abp.SettingManagement.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.Abp.SettingManagement.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.Abp.SettingManagement.Application.Contracts.pdb",
+        "lib/netstandard2.1/Volo.Abp.SettingManagement.Application.Contracts.xml",
+        "volo.abp.settingmanagement.application.contracts.9.0.1.nupkg.sha512",
+        "volo.abp.settingmanagement.application.contracts.nuspec"
       ]
     },
     "Volo.Abp.SettingManagement.Domain/9.0.1": {
@@ -6099,6 +7131,26 @@
         "volo.abp.specifications.nuspec"
       ]
     },
+    "Volo.Abp.TextTemplateManagement.Application.Contracts/9.0.1": {
+      "sha512": "n9bo8mkoYZoqm4G+8tiOvDZjWJMe5Qfkq9N7fwVGV5g873oHcb/I+Y65w+VclfW3VVRNR+WjLx82/RPpJ7biKg==",
+      "type": "package",
+      "path": "volo.abp.texttemplatemanagement.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "content/Volo.Abp.TextTemplateManagement.Application.Contracts.abppkg",
+        "content/Volo.Abp.TextTemplateManagement.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.TextTemplateManagement.Application.Contracts.dll",
+        "lib/net8.0/Volo.Abp.TextTemplateManagement.Application.Contracts.xml",
+        "lib/net9.0/Volo.Abp.TextTemplateManagement.Application.Contracts.dll",
+        "lib/net9.0/Volo.Abp.TextTemplateManagement.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.Abp.TextTemplateManagement.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.Abp.TextTemplateManagement.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.Abp.TextTemplateManagement.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.Abp.TextTemplateManagement.Application.Contracts.xml",
+        "volo.abp.texttemplatemanagement.application.contracts.9.0.1.nupkg.sha512",
+        "volo.abp.texttemplatemanagement.application.contracts.nuspec"
+      ]
+    },
     "Volo.Abp.TextTemplateManagement.Domain.Shared/9.0.1": {
       "sha512": "IdPLeuxhYoUO1iQGnH42IiaTx9VjGysED+Uqs04VRkZiuWoesierEyR5OWQ5rrO4OO+uLC9Znp6GkIwmwZ/knw==",
       "type": "package",
@@ -6117,6 +7169,84 @@
         "lib/netstandard2.1/Volo.Abp.TextTemplateManagement.Domain.Shared.xml",
         "volo.abp.texttemplatemanagement.domain.shared.9.0.1.nupkg.sha512",
         "volo.abp.texttemplatemanagement.domain.shared.nuspec"
+      ]
+    },
+    "Volo.Abp.TextTemplating/9.0.1": {
+      "sha512": "93H7Q1lZHaJxaHCRGzB469quvIGCho0ygrP3Kg6iU0oUfU55n7wDiSqrARHCIOm6OXfg9hfANAr/xppq3eOs6g==",
+      "type": "package",
+      "path": "volo.abp.texttemplating/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.TextTemplating.abppkg",
+        "content/Volo.Abp.TextTemplating.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.TextTemplating.dll",
+        "lib/net8.0/Volo.Abp.TextTemplating.pdb",
+        "lib/net8.0/Volo.Abp.TextTemplating.xml",
+        "lib/net9.0/Volo.Abp.TextTemplating.dll",
+        "lib/net9.0/Volo.Abp.TextTemplating.pdb",
+        "lib/net9.0/Volo.Abp.TextTemplating.xml",
+        "lib/netstandard2.0/Volo.Abp.TextTemplating.dll",
+        "lib/netstandard2.0/Volo.Abp.TextTemplating.pdb",
+        "lib/netstandard2.0/Volo.Abp.TextTemplating.xml",
+        "lib/netstandard2.1/Volo.Abp.TextTemplating.dll",
+        "lib/netstandard2.1/Volo.Abp.TextTemplating.pdb",
+        "lib/netstandard2.1/Volo.Abp.TextTemplating.xml",
+        "volo.abp.texttemplating.9.0.1.nupkg.sha512",
+        "volo.abp.texttemplating.nuspec"
+      ]
+    },
+    "Volo.Abp.TextTemplating.Core/9.0.1": {
+      "sha512": "MIvvKMITQoJhXpVEbSlpk2RrFTrMn+BEn0PXa9TWKjqctfWJB5iT1MhFyzJDQNILg41Vk0tqxviIS2m48AgRwQ==",
+      "type": "package",
+      "path": "volo.abp.texttemplating.core/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.TextTemplating.Core.abppkg",
+        "content/Volo.Abp.TextTemplating.Core.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.TextTemplating.Core.dll",
+        "lib/net8.0/Volo.Abp.TextTemplating.Core.pdb",
+        "lib/net8.0/Volo.Abp.TextTemplating.Core.xml",
+        "lib/net9.0/Volo.Abp.TextTemplating.Core.dll",
+        "lib/net9.0/Volo.Abp.TextTemplating.Core.pdb",
+        "lib/net9.0/Volo.Abp.TextTemplating.Core.xml",
+        "lib/netstandard2.0/Volo.Abp.TextTemplating.Core.dll",
+        "lib/netstandard2.0/Volo.Abp.TextTemplating.Core.pdb",
+        "lib/netstandard2.0/Volo.Abp.TextTemplating.Core.xml",
+        "lib/netstandard2.1/Volo.Abp.TextTemplating.Core.dll",
+        "lib/netstandard2.1/Volo.Abp.TextTemplating.Core.pdb",
+        "lib/netstandard2.1/Volo.Abp.TextTemplating.Core.xml",
+        "volo.abp.texttemplating.core.9.0.1.nupkg.sha512",
+        "volo.abp.texttemplating.core.nuspec"
+      ]
+    },
+    "Volo.Abp.TextTemplating.Scriban/9.0.1": {
+      "sha512": "pGcyXbOlZiZN/K+qQfHq4vqkur+PGb6Nrtniwd6ytwGVixThmhapEY3FOiTV7izkC3DRviosLpx9msgT1PIpKw==",
+      "type": "package",
+      "path": "volo.abp.texttemplating.scriban/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.TextTemplating.Scriban.abppkg",
+        "content/Volo.Abp.TextTemplating.Scriban.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.TextTemplating.Scriban.dll",
+        "lib/net8.0/Volo.Abp.TextTemplating.Scriban.pdb",
+        "lib/net8.0/Volo.Abp.TextTemplating.Scriban.xml",
+        "lib/net9.0/Volo.Abp.TextTemplating.Scriban.dll",
+        "lib/net9.0/Volo.Abp.TextTemplating.Scriban.pdb",
+        "lib/net9.0/Volo.Abp.TextTemplating.Scriban.xml",
+        "lib/netstandard2.0/Volo.Abp.TextTemplating.Scriban.dll",
+        "lib/netstandard2.0/Volo.Abp.TextTemplating.Scriban.pdb",
+        "lib/netstandard2.0/Volo.Abp.TextTemplating.Scriban.xml",
+        "lib/netstandard2.1/Volo.Abp.TextTemplating.Scriban.dll",
+        "lib/netstandard2.1/Volo.Abp.TextTemplating.Scriban.pdb",
+        "lib/netstandard2.1/Volo.Abp.TextTemplating.Scriban.xml",
+        "volo.abp.texttemplating.scriban.9.0.1.nupkg.sha512",
+        "volo.abp.texttemplating.scriban.nuspec"
       ]
     },
     "Volo.Abp.Threading/9.0.1": {
@@ -6195,6 +7325,32 @@
         "lib/netstandard2.1/Volo.Abp.Uow.xml",
         "volo.abp.uow.9.0.1.nupkg.sha512",
         "volo.abp.uow.nuspec"
+      ]
+    },
+    "Volo.Abp.Users.Abstractions/9.0.1": {
+      "sha512": "0I6BlHIP43yAq140/rFDFx7agJk75LvLalQ0XCVd08Y2asmqDwMyNkKBCGeTLdLmApPsuD1Reo/bIMNbeZVTYg==",
+      "type": "package",
+      "path": "volo.abp.users.abstractions/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.Users.Abstractions.abppkg",
+        "content/Volo.Abp.Users.Abstractions.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.Users.Abstractions.dll",
+        "lib/net8.0/Volo.Abp.Users.Abstractions.pdb",
+        "lib/net8.0/Volo.Abp.Users.Abstractions.xml",
+        "lib/net9.0/Volo.Abp.Users.Abstractions.dll",
+        "lib/net9.0/Volo.Abp.Users.Abstractions.pdb",
+        "lib/net9.0/Volo.Abp.Users.Abstractions.xml",
+        "lib/netstandard2.0/Volo.Abp.Users.Abstractions.dll",
+        "lib/netstandard2.0/Volo.Abp.Users.Abstractions.pdb",
+        "lib/netstandard2.0/Volo.Abp.Users.Abstractions.xml",
+        "lib/netstandard2.1/Volo.Abp.Users.Abstractions.dll",
+        "lib/netstandard2.1/Volo.Abp.Users.Abstractions.pdb",
+        "lib/netstandard2.1/Volo.Abp.Users.Abstractions.xml",
+        "volo.abp.users.abstractions.9.0.1.nupkg.sha512",
+        "volo.abp.users.abstractions.nuspec"
       ]
     },
     "Volo.Abp.Users.Domain.Shared/9.0.1": {
@@ -6301,6 +7457,26 @@
         "volo.abp.virtualfilesystem.nuspec"
       ]
     },
+    "Volo.Chat.Application.Contracts/9.0.1": {
+      "sha512": "BN0Ue4tUiZNcF7GCTaeLmsbfOu6xOcBiiQVaSj7a3AVKogZ0eVr2UjB99+c15jor0XwkQnh5K7nxLF9DHSm1Hg==",
+      "type": "package",
+      "path": "volo.chat.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "content/Volo.Chat.Application.Contracts.abppkg",
+        "content/Volo.Chat.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.Chat.Application.Contracts.dll",
+        "lib/net8.0/Volo.Chat.Application.Contracts.xml",
+        "lib/net9.0/Volo.Chat.Application.Contracts.dll",
+        "lib/net9.0/Volo.Chat.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.Chat.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.Chat.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.Chat.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.Chat.Application.Contracts.xml",
+        "volo.chat.application.contracts.9.0.1.nupkg.sha512",
+        "volo.chat.application.contracts.nuspec"
+      ]
+    },
     "Volo.Chat.Domain.Shared/9.0.1": {
       "sha512": "kfKsKnX1ypb2oFK8YoZ/c7LyW5QIiNyMwkHQusasWtReG+8WyGQZnlhO7mVVJsZwQrsHhcWgBXwC9GBiL7OKyA==",
       "type": "package",
@@ -6319,6 +7495,84 @@
         "lib/netstandard2.1/Volo.Chat.Domain.Shared.xml",
         "volo.chat.domain.shared.9.0.1.nupkg.sha512",
         "volo.chat.domain.shared.nuspec"
+      ]
+    },
+    "Volo.CmsKit.Admin.Application.Contracts/9.0.1": {
+      "sha512": "kM4PjWmnSwlhr7/bJNvs89kJskRUDYYLzLXHJwRYgRgqmQgtavUuxyJOIID8TGoP20hpA+dhg1OWkHBU4jyXwA==",
+      "type": "package",
+      "path": "volo.cmskit.admin.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.CmsKit.Admin.Application.Contracts.abppkg",
+        "content/Volo.CmsKit.Admin.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.CmsKit.Admin.Application.Contracts.dll",
+        "lib/net8.0/Volo.CmsKit.Admin.Application.Contracts.pdb",
+        "lib/net8.0/Volo.CmsKit.Admin.Application.Contracts.xml",
+        "lib/net9.0/Volo.CmsKit.Admin.Application.Contracts.dll",
+        "lib/net9.0/Volo.CmsKit.Admin.Application.Contracts.pdb",
+        "lib/net9.0/Volo.CmsKit.Admin.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.CmsKit.Admin.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.CmsKit.Admin.Application.Contracts.pdb",
+        "lib/netstandard2.0/Volo.CmsKit.Admin.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.CmsKit.Admin.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.CmsKit.Admin.Application.Contracts.pdb",
+        "lib/netstandard2.1/Volo.CmsKit.Admin.Application.Contracts.xml",
+        "volo.cmskit.admin.application.contracts.9.0.1.nupkg.sha512",
+        "volo.cmskit.admin.application.contracts.nuspec"
+      ]
+    },
+    "Volo.CmsKit.Application.Contracts/9.0.1": {
+      "sha512": "ouozo9SN/NI9pSZtJa9wG69tXpTXUnwdwVb8POxJgnHiRZplu/4giHNmyGnp8eObTm9gdH2/CNd+4avLwVTZVA==",
+      "type": "package",
+      "path": "volo.cmskit.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.CmsKit.Application.Contracts.abppkg",
+        "content/Volo.CmsKit.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.CmsKit.Application.Contracts.dll",
+        "lib/net8.0/Volo.CmsKit.Application.Contracts.pdb",
+        "lib/net8.0/Volo.CmsKit.Application.Contracts.xml",
+        "lib/net9.0/Volo.CmsKit.Application.Contracts.dll",
+        "lib/net9.0/Volo.CmsKit.Application.Contracts.pdb",
+        "lib/net9.0/Volo.CmsKit.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.CmsKit.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.CmsKit.Application.Contracts.pdb",
+        "lib/netstandard2.0/Volo.CmsKit.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.CmsKit.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.CmsKit.Application.Contracts.pdb",
+        "lib/netstandard2.1/Volo.CmsKit.Application.Contracts.xml",
+        "volo.cmskit.application.contracts.9.0.1.nupkg.sha512",
+        "volo.cmskit.application.contracts.nuspec"
+      ]
+    },
+    "Volo.CmsKit.Common.Application.Contracts/9.0.1": {
+      "sha512": "mMOhTLci1YaS89CkIdFIqM8RYWkmM016yZN5lC86VHb7JnBci+g9FDjEgkrALzNFEpdnrETkyOlm6TayIbEl2w==",
+      "type": "package",
+      "path": "volo.cmskit.common.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.CmsKit.Common.Application.Contracts.abppkg",
+        "content/Volo.CmsKit.Common.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.CmsKit.Common.Application.Contracts.dll",
+        "lib/net8.0/Volo.CmsKit.Common.Application.Contracts.pdb",
+        "lib/net8.0/Volo.CmsKit.Common.Application.Contracts.xml",
+        "lib/net9.0/Volo.CmsKit.Common.Application.Contracts.dll",
+        "lib/net9.0/Volo.CmsKit.Common.Application.Contracts.pdb",
+        "lib/net9.0/Volo.CmsKit.Common.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.CmsKit.Common.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.CmsKit.Common.Application.Contracts.pdb",
+        "lib/netstandard2.0/Volo.CmsKit.Common.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.CmsKit.Common.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.CmsKit.Common.Application.Contracts.pdb",
+        "lib/netstandard2.1/Volo.CmsKit.Common.Application.Contracts.xml",
+        "volo.cmskit.common.application.contracts.9.0.1.nupkg.sha512",
+        "volo.cmskit.common.application.contracts.nuspec"
       ]
     },
     "Volo.CmsKit.Domain.Shared/9.0.1": {
@@ -6347,6 +7601,65 @@
         "volo.cmskit.domain.shared.nuspec"
       ]
     },
+    "Volo.CmsKit.Pro.Admin.Application.Contracts/9.0.1": {
+      "sha512": "wd2enbie3XNjkObu9Bpk8Qx4rXrFtxdpZoOgPPqHRgbXzsh5boaTYQRjdFpUd0rP8m4MYaaFa7jEYxhpz/OWEg==",
+      "type": "package",
+      "path": "volo.cmskit.pro.admin.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "content/Volo.CmsKit.Pro.Admin.Application.Contracts.abppkg",
+        "content/Volo.CmsKit.Pro.Admin.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.CmsKit.Pro.Admin.Application.Contracts.dll",
+        "lib/net8.0/Volo.CmsKit.Pro.Admin.Application.Contracts.xml",
+        "lib/net9.0/Volo.CmsKit.Pro.Admin.Application.Contracts.dll",
+        "lib/net9.0/Volo.CmsKit.Pro.Admin.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.CmsKit.Pro.Admin.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.CmsKit.Pro.Admin.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.CmsKit.Pro.Admin.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.CmsKit.Pro.Admin.Application.Contracts.xml",
+        "volo.cmskit.pro.admin.application.contracts.9.0.1.nupkg.sha512",
+        "volo.cmskit.pro.admin.application.contracts.nuspec"
+      ]
+    },
+    "Volo.CmsKit.Pro.Application.Contracts/9.0.1": {
+      "sha512": "6m/yLIiKaPnxVZUc+7JGCpSHXWdV/t93/iJnymF+z0+FZwrc2rkUKf5jQNzicLEqHll/tsmlmfJ4FTJVKoz7Cw==",
+      "type": "package",
+      "path": "volo.cmskit.pro.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "content/Volo.CmsKit.Pro.Application.Contracts.abppkg",
+        "content/Volo.CmsKit.Pro.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.CmsKit.Pro.Application.Contracts.dll",
+        "lib/net8.0/Volo.CmsKit.Pro.Application.Contracts.xml",
+        "lib/net9.0/Volo.CmsKit.Pro.Application.Contracts.dll",
+        "lib/net9.0/Volo.CmsKit.Pro.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.CmsKit.Pro.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.CmsKit.Pro.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.CmsKit.Pro.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.CmsKit.Pro.Application.Contracts.xml",
+        "volo.cmskit.pro.application.contracts.9.0.1.nupkg.sha512",
+        "volo.cmskit.pro.application.contracts.nuspec"
+      ]
+    },
+    "Volo.CmsKit.Pro.Common.Application.Contracts/9.0.1": {
+      "sha512": "mgULM2XcwI85bfNpKQM4yw8oZYTaPcC5AjlVUpnvzRJw5bFOA4/VRsPFfhOeRCvBc5Ik8ezjV/DK7ncKDL59zA==",
+      "type": "package",
+      "path": "volo.cmskit.pro.common.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "content/Volo.CmsKit.Pro.Common.Application.Contracts.abppkg",
+        "lib/net8.0/Volo.CmsKit.Pro.Common.Application.Contracts.dll",
+        "lib/net8.0/Volo.CmsKit.Pro.Common.Application.Contracts.xml",
+        "lib/net9.0/Volo.CmsKit.Pro.Common.Application.Contracts.dll",
+        "lib/net9.0/Volo.CmsKit.Pro.Common.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.CmsKit.Pro.Common.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.CmsKit.Pro.Common.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.CmsKit.Pro.Common.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.CmsKit.Pro.Common.Application.Contracts.xml",
+        "volo.cmskit.pro.common.application.contracts.9.0.1.nupkg.sha512",
+        "volo.cmskit.pro.common.application.contracts.nuspec"
+      ]
+    },
     "Volo.CmsKit.Pro.Domain.Shared/9.0.1": {
       "sha512": "rLpw+XcuxV0womflG+C0YxsOcoIjsTv0mXZOgAwmPc9HcUtLTr80o6DxakfDoBY1zTxXBehUW7Ih8IHSbsSx3A==",
       "type": "package",
@@ -6367,6 +7680,72 @@
         "volo.cmskit.pro.domain.shared.nuspec"
       ]
     },
+    "Volo.CmsKit.Pro.Public.Application.Contracts/9.0.1": {
+      "sha512": "keBetx85sLdxxBxzYAgrzJRhevOubcYp4zQVgPc9trpBWbFuxe5750rpw07rGMfyPFUn+4aJXPWPB1hQ4cO8Eg==",
+      "type": "package",
+      "path": "volo.cmskit.pro.public.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "content/Volo.CmsKit.Pro.Public.Application.Contracts.abppkg",
+        "content/Volo.CmsKit.Pro.Public.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.CmsKit.Pro.Public.Application.Contracts.dll",
+        "lib/net8.0/Volo.CmsKit.Pro.Public.Application.Contracts.xml",
+        "lib/net9.0/Volo.CmsKit.Pro.Public.Application.Contracts.dll",
+        "lib/net9.0/Volo.CmsKit.Pro.Public.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.CmsKit.Pro.Public.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.CmsKit.Pro.Public.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.CmsKit.Pro.Public.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.CmsKit.Pro.Public.Application.Contracts.xml",
+        "volo.cmskit.pro.public.application.contracts.9.0.1.nupkg.sha512",
+        "volo.cmskit.pro.public.application.contracts.nuspec"
+      ]
+    },
+    "Volo.CmsKit.Public.Application.Contracts/9.0.1": {
+      "sha512": "WMgUmS8eDnlTzh3BUylRaSgfgM1beEahORQsXk35Nx6s0vDF0k1JRh1i+WLE600eDExQOnyHKyl8YtWV1vtSAA==",
+      "type": "package",
+      "path": "volo.cmskit.public.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.CmsKit.Public.Application.Contracts.abppkg",
+        "content/Volo.CmsKit.Public.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.CmsKit.Public.Application.Contracts.dll",
+        "lib/net8.0/Volo.CmsKit.Public.Application.Contracts.pdb",
+        "lib/net8.0/Volo.CmsKit.Public.Application.Contracts.xml",
+        "lib/net9.0/Volo.CmsKit.Public.Application.Contracts.dll",
+        "lib/net9.0/Volo.CmsKit.Public.Application.Contracts.pdb",
+        "lib/net9.0/Volo.CmsKit.Public.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.CmsKit.Public.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.CmsKit.Public.Application.Contracts.pdb",
+        "lib/netstandard2.0/Volo.CmsKit.Public.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.CmsKit.Public.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.CmsKit.Public.Application.Contracts.pdb",
+        "lib/netstandard2.1/Volo.CmsKit.Public.Application.Contracts.xml",
+        "volo.cmskit.public.application.contracts.9.0.1.nupkg.sha512",
+        "volo.cmskit.public.application.contracts.nuspec"
+      ]
+    },
+    "Volo.FileManagement.Application.Contracts/9.0.1": {
+      "sha512": "KbmnqUQpg5aFSkhvzMVIaeiwQxV9Jxk8AHRduwORF+qfO7xibeyaMs/oYptGVY3SQbuUf7BeShAuZX/ofXkyRA==",
+      "type": "package",
+      "path": "volo.filemanagement.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "content/Volo.FileManagement.Application.Contracts.abppkg",
+        "content/Volo.FileManagement.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.FileManagement.Application.Contracts.dll",
+        "lib/net8.0/Volo.FileManagement.Application.Contracts.xml",
+        "lib/net9.0/Volo.FileManagement.Application.Contracts.dll",
+        "lib/net9.0/Volo.FileManagement.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.FileManagement.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.FileManagement.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.FileManagement.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.FileManagement.Application.Contracts.xml",
+        "volo.filemanagement.application.contracts.9.0.1.nupkg.sha512",
+        "volo.filemanagement.application.contracts.nuspec"
+      ]
+    },
     "Volo.FileManagement.Domain.Shared/9.0.1": {
       "sha512": "ssGlzleJiqhBbjVr+g+n8iDpLqk8ctZP/WoAYPaI+AQvYPAFrTxIzKfxENxY9/ZcSDgSDGy68tkXYYf9Br6lgQ==",
       "type": "package",
@@ -6385,6 +7764,26 @@
         "lib/netstandard2.1/Volo.FileManagement.Domain.Shared.xml",
         "volo.filemanagement.domain.shared.9.0.1.nupkg.sha512",
         "volo.filemanagement.domain.shared.nuspec"
+      ]
+    },
+    "Volo.Payment.Application.Contracts/9.0.1": {
+      "sha512": "p5nX0GQTiwCSTofvvbZ9sm9udCofUjfRFkH1ZedSV82bKiLAIEybuubwfW2Uj+bYDr5zplHYf5+CwKrM9PJBzw==",
+      "type": "package",
+      "path": "volo.payment.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "content/Volo.Payment.Application.Contracts.abppkg",
+        "content/Volo.Payment.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.Payment.Application.Contracts.dll",
+        "lib/net8.0/Volo.Payment.Application.Contracts.xml",
+        "lib/net9.0/Volo.Payment.Application.Contracts.dll",
+        "lib/net9.0/Volo.Payment.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.Payment.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.Payment.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.Payment.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.Payment.Application.Contracts.xml",
+        "volo.payment.application.contracts.9.0.1.nupkg.sha512",
+        "volo.payment.application.contracts.nuspec"
       ]
     },
     "Volo.Payment.Domain.Shared/9.0.1": {
@@ -6426,27 +7825,46 @@
         "volo.saas.domain.shared.9.0.1.nupkg.sha512",
         "volo.saas.domain.shared.nuspec"
       ]
+    },
+    "Volo.Saas.Host.Application.Contracts/9.0.1": {
+      "sha512": "MVLzHadgmxAT8Y0exY8Twt9MQFpJFu5Z6fB7zcnlTwh6/I8KDqLUAZAokZ7ke8Pp3V/vTrB7nekRxeRHGqxXcA==",
+      "type": "package",
+      "path": "volo.saas.host.application.contracts/9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "content/Volo.Saas.Host.Application.Contracts.abppkg",
+        "content/Volo.Saas.Host.Application.Contracts.abppkg.analyze.json",
+        "lib/net8.0/Volo.Saas.Host.Application.Contracts.dll",
+        "lib/net8.0/Volo.Saas.Host.Application.Contracts.xml",
+        "lib/net9.0/Volo.Saas.Host.Application.Contracts.dll",
+        "lib/net9.0/Volo.Saas.Host.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.Saas.Host.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.Saas.Host.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.Saas.Host.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.Saas.Host.Application.Contracts.xml",
+        "volo.saas.host.application.contracts.9.0.1.nupkg.sha512",
+        "volo.saas.host.application.contracts.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.Extensions.FileProviders.Embedded >= 9.0.0",
-      "Volo.Abp.AuditLogging.Domain.Shared >= 9.0.1",
-      "Volo.Abp.BackgroundJobs.Domain.Shared >= 9.0.1",
-      "Volo.Abp.BlobStoring.Database.Domain.Shared >= 9.0.1",
-      "Volo.Abp.FeatureManagement.Domain.Shared >= 9.0.1",
-      "Volo.Abp.Gdpr.Domain.Shared >= 9.0.1",
-      "Volo.Abp.GlobalFeatures >= 9.0.1",
-      "Volo.Abp.Identity.Pro.Domain.Shared >= 9.0.1",
-      "Volo.Abp.LanguageManagement.Domain.Shared >= 9.0.1",
-      "Volo.Abp.OpenIddict.Pro.Domain.Shared >= 9.0.1",
-      "Volo.Abp.PermissionManagement.Domain.Shared >= 9.0.1",
-      "Volo.Abp.SettingManagement.Domain.Shared >= 9.0.1",
-      "Volo.Abp.TextTemplateManagement.Domain.Shared >= 9.0.1",
-      "Volo.Chat.Domain.Shared >= 9.0.1",
-      "Volo.CmsKit.Pro.Domain.Shared >= 9.0.1",
-      "Volo.FileManagement.Domain.Shared >= 9.0.1",
-      "Volo.Saas.Domain.Shared >= 9.0.1"
+      "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Domain.Shared.csproj",
+      "Volo.Abp.Account.Pro.Admin.Application.Contracts >= 9.0.1",
+      "Volo.Abp.Account.Pro.Public.Application.Contracts >= 9.0.1",
+      "Volo.Abp.AuditLogging.Application.Contracts >= 9.0.1",
+      "Volo.Abp.FeatureManagement.Application.Contracts >= 9.0.1",
+      "Volo.Abp.Gdpr.Application.Contracts >= 9.0.1",
+      "Volo.Abp.Identity.Pro.Application.Contracts >= 9.0.1",
+      "Volo.Abp.LanguageManagement.Application.Contracts >= 9.0.1",
+      "Volo.Abp.OpenIddict.Pro.Application.Contracts >= 9.0.1",
+      "Volo.Abp.PermissionManagement.Application.Contracts >= 9.0.1",
+      "Volo.Abp.SettingManagement.Application.Contracts >= 9.0.1",
+      "Volo.Abp.TextTemplateManagement.Application.Contracts >= 9.0.1",
+      "Volo.Chat.Application.Contracts >= 9.0.1",
+      "Volo.CmsKit.Pro.Application.Contracts >= 9.0.1",
+      "Volo.FileManagement.Application.Contracts >= 9.0.1",
+      "Volo.Saas.Host.Application.Contracts >= 9.0.1"
     ]
   },
   "packageFolders": {
@@ -6456,9 +7874,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Domain.Shared.csproj",
-      "projectName": "Alfa5.Domain.Shared",
-      "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Domain.Shared.csproj",
+      "projectUniqueName": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Application.Contracts.csproj",
+      "projectName": "Alfa5.Application.Contracts",
+      "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Application.Contracts.csproj",
       "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
       "outputPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\obj\\",
       "projectStyle": "PackageReference",
@@ -6483,7 +7901,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Domain.Shared.csproj": {
+              "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Domain.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -6502,71 +7924,63 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Embedded": {
-            "target": "Package",
-            "version": "[9.0.0, )"
-          },
-          "Volo.Abp.AuditLogging.Domain.Shared": {
+          "Volo.Abp.Account.Pro.Admin.Application.Contracts": {
             "target": "Package",
             "version": "[9.0.1, )"
           },
-          "Volo.Abp.BackgroundJobs.Domain.Shared": {
+          "Volo.Abp.Account.Pro.Public.Application.Contracts": {
             "target": "Package",
             "version": "[9.0.1, )"
           },
-          "Volo.Abp.BlobStoring.Database.Domain.Shared": {
+          "Volo.Abp.AuditLogging.Application.Contracts": {
             "target": "Package",
             "version": "[9.0.1, )"
           },
-          "Volo.Abp.FeatureManagement.Domain.Shared": {
+          "Volo.Abp.FeatureManagement.Application.Contracts": {
             "target": "Package",
             "version": "[9.0.1, )"
           },
-          "Volo.Abp.Gdpr.Domain.Shared": {
+          "Volo.Abp.Gdpr.Application.Contracts": {
             "target": "Package",
             "version": "[9.0.1, )"
           },
-          "Volo.Abp.GlobalFeatures": {
+          "Volo.Abp.Identity.Pro.Application.Contracts": {
             "target": "Package",
             "version": "[9.0.1, )"
           },
-          "Volo.Abp.Identity.Pro.Domain.Shared": {
+          "Volo.Abp.LanguageManagement.Application.Contracts": {
             "target": "Package",
             "version": "[9.0.1, )"
           },
-          "Volo.Abp.LanguageManagement.Domain.Shared": {
+          "Volo.Abp.OpenIddict.Pro.Application.Contracts": {
             "target": "Package",
             "version": "[9.0.1, )"
           },
-          "Volo.Abp.OpenIddict.Pro.Domain.Shared": {
+          "Volo.Abp.PermissionManagement.Application.Contracts": {
             "target": "Package",
             "version": "[9.0.1, )"
           },
-          "Volo.Abp.PermissionManagement.Domain.Shared": {
+          "Volo.Abp.SettingManagement.Application.Contracts": {
             "target": "Package",
             "version": "[9.0.1, )"
           },
-          "Volo.Abp.SettingManagement.Domain.Shared": {
+          "Volo.Abp.TextTemplateManagement.Application.Contracts": {
             "target": "Package",
             "version": "[9.0.1, )"
           },
-          "Volo.Abp.TextTemplateManagement.Domain.Shared": {
+          "Volo.Chat.Application.Contracts": {
             "target": "Package",
             "version": "[9.0.1, )"
           },
-          "Volo.Chat.Domain.Shared": {
+          "Volo.CmsKit.Pro.Application.Contracts": {
             "target": "Package",
             "version": "[9.0.1, )"
           },
-          "Volo.CmsKit.Pro.Domain.Shared": {
+          "Volo.FileManagement.Application.Contracts": {
             "target": "Package",
             "version": "[9.0.1, )"
           },
-          "Volo.FileManagement.Domain.Shared": {
-            "target": "Package",
-            "version": "[9.0.1, )"
-          },
-          "Volo.Saas.Domain.Shared": {
+          "Volo.Saas.Host.Application.Contracts": {
             "target": "Package",
             "version": "[9.0.1, )"
           }
@@ -6590,5 +8004,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Não é possível encontrar as informações do projeto para 'C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Domain.Shared.csproj'. Se você está usando o Visual Studio, isso pode ocorrer porque o projeto não está carregado ou não faz parte da solução atual. Portanto, execute uma restauração usando a linha de comando. Do contrário, o arquivo de projeto pode ser inválido ou pode haver destinos obrigatórios para a restauração ausentes.",
+      "libraryId": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Domain.Shared.csproj",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }
