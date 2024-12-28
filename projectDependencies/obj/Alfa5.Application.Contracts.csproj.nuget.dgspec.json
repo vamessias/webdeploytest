@@ -35,8 +35,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Domain.Shared.csproj": {
-                "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Domain.Shared.csproj"
+              "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Domain.Shared.csproj": {
+                "projectPath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Domain.Shared.csproj"
               }
             }
           }
