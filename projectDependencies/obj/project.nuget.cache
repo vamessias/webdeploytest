@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ViA5yY1yEF0=",
+  "dgSpecHash": "CEa8qsMYhPA=",
   "success": false,
   "projectFilePath": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Application.Contracts.csproj",
   "expectedPackageFiles": [
@@ -165,10 +165,10 @@
   ],
   "logs": [
     {
-      "code": "NU1104",
+      "code": "NU1105",
       "level": "Error",
-      "message": "Não é possível encontrar o projeto 'C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Domain.Shared.csproj'. Verifique se a referência do projeto é válida e se o arquivo de projeto existe.",
-      "libraryId": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\Alfa5.Domain.Shared.csproj",
+      "message": "Não é possível encontrar as informações do projeto para 'C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Domain.Shared.csproj'. Se você está usando o Visual Studio, isso pode ocorrer porque o projeto não está carregado ou não faz parte da solução atual. Portanto, execute uma restauração usando a linha de comando. Do contrário, o arquivo de projeto pode ser inválido ou pode haver destinos obrigatórios para a restauração ausentes.",
+      "libraryId": "C:\\Dev\\Alfa5\\Alfa5\\src\\Alfa5.Blazor\\projectDependencies\\Alfa5.Domain.Shared.csproj",
       "targetGraphs": [
         "net9.0"
       ]
